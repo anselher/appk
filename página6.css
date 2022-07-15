@@ -1,0 +1,43 @@
+.grifo{background-color:#008cba;border-radius:2px;border:2px;color:#fff;padding:16px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;margin:4px 2px;transition-duration:.4s;cursor:pointer}.button2{background-color:#fff;color:#000;border:2px solid #008cba}.button2:hover{background-color:#008cba;color:#fff}.grifo{background-color:#008cba;border-radius:2px;border:2px;color:#fff;padding:16px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;margin:4px 2px;transition-duration:.4s;cursor:pointer}.button2{background-color:#fff;color:#000;border:2px solid #008cba}.button2:hover{background-color:#008cba;color:#fff}body
+{
+   background-color: transparent;
+   color: #000000;
+   font-family: "Barlow Condensed";
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #F2F2F2;
+   text-decoration: none;
+}
+a:visited
+{
+   color: #FFFFFF;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: none;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#preloader
+{
+   background: #FFFFFF url("images/windmill.gif") no-repeat center center;
+   bottom: 0;
+   opacity: 0.39;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99999;
+}
