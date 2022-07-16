@@ -45,7 +45,7 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isP
                 <li><a href="javascript:void(0);" onclick="javascript:window.open('thehistory-2', '_top'); "><img src="https://telefullenvivo.com/logos/history2.png?w=100&h=60&crop=1"><h5> THE HISTORY 2<h5></a></li>
                 <li><a href="javascript:void(0);" onclick="javascript:window.open('discoverychannel', '_top'); "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyMA2VMKZ1IUYtOzP2aTC7Fnl6KRfVCSycaGCF_Z7g9rn1HPxb2ZyV4rqmcCXCaxiIU8A&usqp=CAU?w=100&h=60&crop=1"><h5> DISCOVERY CHANNEL<h5></a></li>
                 <li><a href="javascript:void(0);" onclick="javascript:window.open('nationalgeographic', '_top'); "><img src="https://img.interempresas.net/fotos/2729372.png?w=100&h=60&crop=1"><h5> NATIONAL GEOGRAPHIC<h5></a></li>
-                <li><a href="javascript:void(0);" onclick="javascript:window.open('dmax', '_top'); "><img src="https://th.bing.com/th/id/R.ade98c75d28a459511e30f56f1c4e683?rik=TC6rroO7A0CEWQ&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fa%2fa3%2fDmax.png?w=100&h=60&crop=1"><h5> DMAX<h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('dmax', '_top'); "><img src="https://i.ytimg.com/vi/YSwEHQSWJfk/maxresdefault.jpg"><h5> DMAX<h5></a></li>
                 <li><a href="javascript:void(0);" onclick="javascript:window.open('discoveryhomeandhealth', '_top'); "><img src="https://www.totalmedios.com/img/noticias/2020/02/5e57a80383fcf__838x390.jpg"><h5> DISCOVERY H&H<h5></a></li>
             </ul>
         </div>
