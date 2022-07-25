@@ -1,7 +1,59 @@
- <!-- <script src="blockadblock-blocker.tapermonkey.js"></script>  --> <!-- Here is the <div> for the player -->
+ <!-- <script src="blockadblock-blocker.tapermonkey.js"></script>  --> <div id="maincontainer" class="container-fluid mrt20 mrb20 clearfix maincontainer"> <!-- start header div 1, will end in footer -->
+	<div id="content" class="container"> <!-- start header div 2, will end in footer -->
+		<div class="row"> <!-- start header div 3, will end in footer -->
+		
 
-<iframe allow="encrypted-media" allow="popups" allow="same-origin" width="100%" height="100%" src='https://telefullenvivo.com/canales/history2/' name="iframe" frameborder="0" scrolling="no" allowfullscreen></iframe>
- <!-- Here is the <div> for the player -->
+<div class="col-md-12">
+	<div class="left-content sngl-pg" >
+	<div id="post-165" class="clearfix single-posst post-165 page type-page status-publish hentry" itemscope itemtype="http://schema.org/CreativeWork">
+	<div class="content-first">
+				
+					<div class="content-second">
+				<h1 class="the-title entry-title" itemprop="headline"></h1>
+			</div>
+						
+		<div class="content-third" itemprop="text">
+					
+			<div class="entry-content">
+
+				
+				
+			<script type='text/javascript' src='https://maindigitalstream.com/jwplayer/jwplayer.js?2.2.3.5'></script>
+<script>jwplayer.key="8gDDWtjPpyFgSWsZPjDk4MV6CVI0wEVf2xp7vS7FZUw=";</script><div id='MediaPlayerOverview'>Loading&#8230;</div>
+<script type='text/javascript'>
+  jwplayer('MediaPlayerOverview').setup({
+ sources: [
+     {file: "https://cvi.cdn.rcs.net.ar/mnp/h2_hls/playlist.m3u8"},
+   {file: "https://cvi.cdn.rcs.net.ar/mnp/h2_hls/playlist.m3u8"}
+    ],
+ rtmp: {
+  bufferlength: 3,
+ },
+ 'autostart': 'true',
+ 'width': '100%',
+ 'aspectratio': '16:9',
+ 'height': '100%',
+ 'fallback': false,
+ 'androidhls': true,
+ 'primary': 'html5',
+ logo: {
+  file: '', //watermark image path
+  link: '', //link url on watermark image
+  position: 'top-left' //position of watermark on player
+  },
+ });
+</script>
+<!--CusAds0-->
+			</div>						
+		</div>					
+	</div>
+</div>
+	</div>
+</div>	
+		</div> <!-- end header div 3 -->
+	</div> <!-- end header div 2 -->
+</div> <!-- end header div 1 -->
+ 
 <!doctype html>
 <html>
 <head>
