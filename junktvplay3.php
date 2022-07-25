@@ -42,7 +42,7 @@ $(window).on('load', function()
     preload="auto"
     width="640"
     height="360"
-    poster="https://ginesrom.es/wp-content/uploads/2021/06/Live-Streaming-AWS-IVS-with-OBS-or-VMIX.jpg"
+    poster="https://www.retroplustv.com/wp-content/uploads/2022/03/logo_1.png"
     data-setup="{}"
   >
        <source src="https://59f1cbe63db89.streamlock.net:1443/retroplussenal3/_definst_/retroplussenal3/playlist.m3u8" type="application/x-mpegURL">

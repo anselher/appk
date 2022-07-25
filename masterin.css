@@ -6,13 +6,13 @@ div#space
 {
    width: 1px;
    height: 50%;
-   margin-bottom: -303px;
+   margin-bottom: -356px;
    float:left
 }
 div#container
 {
    width: 872px;
-   height: 606px;
+   height: 712px;
    margin: 0 auto;
    position: relative;
    clear: left;
@@ -80,8 +80,8 @@ input:focus, textarea:focus, select:focus
       "section2 espaciocentro section1"
       "screencontrol espaciocentro section1"
       "section4 espaciocentro section1"
-      "banerads espaciocentro section1"
-      "banerads espaciocentro section1"
+      "bannerad espaciocentro section1"
+      "bannerad espaciocentro section1"
       "espaciofoot espaciocentro espaciofoot2"
       "section6 section6 section6"
       "section3 section3 section3";
@@ -364,10 +364,10 @@ input:focus, textarea:focus, select:focus
    -webkit-align-content: center;
    align-content: center;
 }
-#FlexGrid1 .banerads
+#FlexGrid1 .bannerad
 {
    display: flex;
-   grid-area: banerads;
+   grid-area: bannerad;
    background-clip: padding-box;
    background-color: transparent;
    background-image: url('bannerfoot1xhdpi.svg');
@@ -470,7 +470,7 @@ input:focus, textarea:focus, select:focus
    -webkit-align-content: center;
    align-content: center;
 }
-#InlineFrameBannerAd
+#InlineFrameBannerAds
 {
    border: 0px solid #C0C0C0;
    border-radius: 0px;
@@ -478,7 +478,7 @@ input:focus, textarea:focus, select:focus
    -webkit-animation: animate-fade-in 2000ms linear 0ms 1 normal both;
    animation: animate-fade-in 2000ms linear 0ms 1 normal both;
 }
-#InlineFrameBannerAd
+#InlineFrameBannerAds
 {
    display: block;
    float: left;

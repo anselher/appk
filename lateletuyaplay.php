@@ -19,33 +19,23 @@ $(window).on('load', function()
    $('#preloader').remove();
 });
 </script>
-<link href="https://vjs.zencdn.net/7.19.2/video-js.css" rel="stylesheet" />
+<script src="https://player2.h-cdn.com/hola_player.js?customer=demo"></script>
+
 </head>
 <body>
 <div id="FlexGrid1">
 <div class="header">
+<!-- http://canal-i.com/?page_id=9054 -->
 <div id="Html1" style="display:inline-block;width:628px;height:358px;z-index:0">
-<video
-    id="my-video"
-    class="video-js"
-    controls
-    preload="auto"
-    width="630"
-    height="360"
-    poster="https://pbs.twimg.com/ext_tw_video_thumb/1542736496448397312/pu/img/uDTh59k1ufjj8gfI.jpg"
-    data-setup="{}"
-  >
-    <source src="https://vcp4.myplaytv.com/tlt-2/tlt-28052022/playlist.m3u8" type="application/x-mpegURL" />
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a
-      web browser that
-      <a href="https://videojs.com/html5-video-support/" target="_blank"
-        >supports HTML5 video</a
-      >
-    </p>
-  </video>
+<video preload="auto" autoplay="1" class="video-js vjs-default-skin" width="630" height="360" controls>
+    <source src="https://vcp4.myplaytv.com/tlt-2/tlt-28052022/playlist.m3u8" type="application/x-mpegurl">
+</video>
 
-  <script src="https://vjs.zencdn.net/7.19.2/video.min.js"></script></div>
+<script>
+    (function(){
+        window.hola_player();
+    })();
+</script></div>
 </div>
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:628px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
