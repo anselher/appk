@@ -1,0 +1,78 @@
+body
+{
+   background-color: transparent;
+   color: #000000;
+   font-family: "Barlow Condensed";
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #F2F2F2;
+   text-decoration: none;
+}
+a:visited
+{
+   color: #FFFFFF;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: none;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#NavigationBar1 ul.navbar
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#NavigationBar1 ul.navbar li
+{
+   height: 24px;
+   float: left;
+   margin: 0 2px 0 0;
+}
+#NavigationBar1 ul.navbar li a
+{
+   display: block;
+   position: relative;
+}
+#NavigationBar1 ul.navbar li a img
+{
+   position: absolute;
+   left: 0;
+   z-index: 1;
+   border-width: 0;
+}
+#NavigationBar1 ul.navbar li span
+{
+   display: block;
+   height: 24px;
+   position: absolute;
+   z-index: 2;
+}
+#NavigationBar1_item0 { width: 58px; }
+#NavigationBar1_item1 { width: 60px; }
+#NavigationBar1 a .hover
+{
+   visibility: hidden;
+}
+#NavigationBar1 a:hover .hover
+{
+   visibility: visible;
+}
+#NavigationBar1 a:hover span
+{
+   visibility: hidden;
+}

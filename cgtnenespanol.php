@@ -2,13 +2,13 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>365TV | DISCOVERY HOME & HEALTH</title>
+<title>365TV | CGTN EN ESPAÑOL</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
 <link href="365tv1.22.css" rel="stylesheet">
-<link href="dmax.css" rel="stylesheet">
+<link href="cgtnenespanol.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script src="wwb17.min.js"></script>
 <script>
@@ -21,13 +21,11 @@ $(document).ready(function()
    });
 });
 </script>
-
-
 </head>
-<body onload="window.open('dmaxplay','InlineFrameScreen');return false;">
+<body onload="window.open('cgtnenespanolplay','InlineFrameScreen');window.open('cgtnenespanolmenu','InlineFrameCon');return false;">
 <div id="space"><br></div>
 <div id="container">
-<div id="wb_EmbeddedPageVepaco" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:14;">
+<div id="wb_EmbeddedPage1DW" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:14;">
 <div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:4;">
 <div id="FlexGrid1">
 <div class="header">
@@ -75,9 +73,9 @@ $(document).ready(function()
 <div id="wb_Breadcrumb1" style="position:absolute;left:1px;top:82px;width:629px;height:20px;z-index:6;vertical-align:top;">
 <ul id="Breadcrumb1">
 <li><a href="./index.php" title="Inicio"><i class="fa fa-plus-square-o">&nbsp;</i></a></li>
-<li><a href="./noticias.php">NOTICIAS</a></li>
+<li class="active" aria-current="page">NOTICIAS</li>
 <li><a href="./variedades.php">VARIEDADES</a></li>
-<li class="active" aria-current="page">DOCUMENTALES</li>
+<li><a href="./documentales.php">DOCUMENTALES</a></li>
 <li><a href="./series.php">SERIES</a></li>
 <li><a href="./movies.php">PELICULAS</a></li>
 </ul>
@@ -92,17 +90,17 @@ $(document).ready(function()
 </div>
 
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" style="position:absolute;left:631px;top:183px;width:238px;height:389px;z-index:12;" src="./menu_doc.php" scrolling="no"></iframe>
-<iframe name="InlineFrameScreen" id="InlineFrameScreen" style="position:absolute;left:0px;top:103px;width:628px;height:358px;z-index:13;" src="./page1.php" scrolling="no"></iframe>
+<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" style="position:absolute;left:631px;top:183px;width:238px;height:389px;z-index:12;" src="./menu_not.php" scrolling="no"></iframe>
+<iframe name="InlineFrameScreen" id="InlineFrameScreen" style="position:absolute;left:0px;top:103px;width:628px;height:356px;z-index:13;" src="./page1.php" scrolling="no"></iframe>
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <!-- INFOCHANNEL -->
-<div id="Html2ppp" style="position:absolute;left:0px;top:0px;width:31px;height:32px;z-index:16">
-<img src="https://www.bing.com/th?id=A49c9519395356a66e7cfa4a32b1a948a&w=110&h=110&c=7&rs=1&qlt=80&o=6&pid=SANGAM" class="logochannel" >
-<img src="https://images.emojiterra.com/twitter/v13.1/512px/1f1fb-1f1ea.png" class="flagcountry" >
-<h5><p>DMAX<br>Canal de Entretenimiento<br>LATINO/INGLES</p></h5>
+<div id="Html2" style="position:absolute;left:0px;top:0px;width:31px;height:32px;z-index:16">
+<img src="https://yt3.ggpht.com/ytc/AKedOLSXIRWhtSKEwzKxkePxrrwDUwvnFE-oV2Ti8E4joQ=s900-c-k-c0x00ffffff-no-rj" class="logochannel" >
+<img src="https://images.emojiterra.com/twitter/v14.0/128px/1f1e8-1f1f3.png" class="flagcountry" >
+<h5><p>CGTN<br>Canal de Noticias<br>ASIA</p></h5>
 <h5 class="status_live">LIVE</h5>
-<h5><p2>DISCOVERY MAX</p2></h5></div>
+<h5><p2>CGTN EN ESPAÑOL</p2></h5></div>
 </div>
 </body>
 </html>

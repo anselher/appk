@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>365TV | TLT La Tele Tuya</title>
+<title>365TV | CANAL I</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="font-awesome.min.css" rel="stylesheet">
@@ -21,14 +21,13 @@ $(document).ready(function()
    });
 });
 </script>
-
-
-
 </head>
-<body onload="window.open('lateletuyaplay','InlineFrameScreen');return false;">
+<body onload="window.open('canaliplay','InlineFrameScreen');return false;" 
+>
 <div id="space"><br></div>
 <div id="container">
-<div id="wb_EmbeddedPagePromar" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:15;">
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<div id="wb_EmbeddedPageTVES" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:16;">
 <div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:4;">
 <div id="FlexGrid1">
 <div class="header">
@@ -58,8 +57,8 @@ $(document).ready(function()
 </div>
 <div class="section4">
 </div>
-<div class="banerads">
-<iframe name="InlineFrameBannerAd" id="InlineFrameBannerAd" src="./bannerads.html" scrolling="no"></iframe>
+<div class="bannerad">
+<iframe name="InlineFrameBannerAds" id="InlineFrameBannerAds" src="./banner.php" scrolling="no"></iframe>
 </div>
 <div class="espaciofoot">
 </div>
@@ -98,15 +97,15 @@ $(document).ready(function()
 <iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" style="position:absolute;left:631px;top:183px;width:238px;height:389px;z-index:13;" src="./menu_var.php" scrolling="no"></iframe>
 <iframe name="InlineFrameScreen" id="InlineFrameScreen" style="position:absolute;left:0px;top:103px;width:628px;height:356px;z-index:14;" src="./page1.php" scrolling="no"></iframe>
 </div>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<!-- INFO CANAL -->
-<div id="Html3" style="position:absolute;left:0px;top:0px;width:42px;height:25px;z-index:17">
-<img class="logochannel" src=""  >
-<img class="flagcountry" src="https://images.emojiterra.com/twitter/v14.0/128px/1f1fb-1f1ea.png"  >
-<h5><p>CANAL I<br>Variedades<br>Venezuela</p></h5>
+<!-- cortesiax -->
+<div id="Html3" style="position:absolute;left:0px;top:0px;width:49px;height:42px;z-index:17">
+<img class="logochannel" src="https://yt3.ggpht.com/ytc/AKedOLQunMcr3YT7qL-vfwg7UOE8r7KpqfBNEA72J-BJvQ=s900-c-k-c0x00ffffff-no-rj">
+<img class="flagcountry" src="https://images.emojiterra.com/twitter/v13.1/512px/1f1fb-1f1ea.png">
+<div id="wb_status_live_vod" style="">
 <h5 class="status_live">LIVE</h5>
+<h5><p>CANAL I<br>canal de variedades<br>VENEZUELA</p></h5>
 
-<h5><p2>PROGRAMACIÓN HABITUAL</p2></h5></div>
+<h5><p2>CANAL I</p2></h5></div>
 </div>
 </body>
 </html>
