@@ -25,7 +25,7 @@ $(document).ready(function()
 
 
 </head>
-<body onload="window.open('panavisionplay','InlineFrameScreen');return false;">
+<body onload="window.open('panavisionplay','InlineFrameScreen');window.open('panavisionmenu','InlineFrameCon');return false;">
 <div id="space"><br></div>
 <div id="container">
 <div id="wb_EmbeddedPagePromar" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:15;">
@@ -58,8 +58,8 @@ $(document).ready(function()
 </div>
 <div class="section4">
 </div>
-<div class="banerads">
-<iframe name="InlineFrameBannerAd" id="InlineFrameBannerAd" src="./bannerads.html" scrolling="no"></iframe>
+<div class="bannerad">
+<iframe name="InlineFrameBannerAds" id="InlineFrameBannerAds" src="./banner.php" scrolling="no"></iframe>
 </div>
 <div class="espaciofoot">
 </div>
@@ -101,7 +101,7 @@ $(document).ready(function()
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <!-- INFO CANAL -->
 <div id="Html3" style="position:absolute;left:0px;top:0px;width:42px;height:25px;z-index:17">
-<img class="logochannel" src="http://www.panavision.tv/img/logo_large.png"  >
+<img class="logochannel" src="https://pbs.twimg.com/profile_images/1400514686974578691/Xd3msQu2_400x400.jpg"  >
 <img class="flagcountry" src="https://images.emojiterra.com/twitter/v14.0/512px/1f1f5-1f1e6.png"  >
 <h5><p>PANAVISIÓN TV<br>Canal Musical<br>Panamá</p></h5>
 <h5 class="status_live">LIVE</h5>

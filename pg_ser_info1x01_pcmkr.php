@@ -22,7 +22,7 @@ $(document).ready(function()
 });
 </script>
   </head>
-<body onload="window.open('pg_ser_pcmkr1x01','InlineFrameScreen');window.open('menu_temp1_pcmkr_','InlineFrameSidebar2');return false;">
+<body onload="window.open('pg_ser_pcmkr1x01','InlineFrameScreen');window.open('pg_cntr_temp_pcmkr','InlineFrameCon');return false;">
 <div id="space"><br></div>
 <div id="container">
 <div id="wb_EmbeddedPagePCMKR" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:14;">
@@ -55,8 +55,8 @@ $(document).ready(function()
 </div>
 <div class="section4">
 </div>
-<div class="banerads">
-<iframe name="InlineFrameBannerAd" id="InlineFrameBannerAd" src="./bannerads.html" scrolling="no"></iframe>
+<div class="bannerad">
+<iframe name="InlineFrameBannerAds" id="InlineFrameBannerAds" src="./banner.php" scrolling="no"></iframe>
 </div>
 <div class="espaciofoot">
 </div>

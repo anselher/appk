@@ -2,13 +2,13 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>365 TV | PROYECTO ADAM</title>
+<title>365TV | PROMAR TV</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
 <link href="365tv1.22.css" rel="stylesheet">
-<link href="pg_ser_info1x01_ejdc.css" rel="stylesheet">
+<link href="promartv.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script src="wwb17.min.js"></script>
 <script>
@@ -21,11 +21,14 @@ $(document).ready(function()
    });
 });
 </script>
-  </head>
-<body onload="window.open('pagep3','InlineFrameScreen');return false;">
+
+
+
+</head>
+<body onload="window.open('promartvplay','InlineFrameScreen');window.open('promartvmenu','InlineFrameCon');return false;">
 <div id="space"><br></div>
 <div id="container">
-<div id="wb_EmbeddedPageEJDC1" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:14;">
+<div id="wb_EmbeddedPagePromar" style="position:absolute;left:0px;top:0px;width:872px;height:607px;z-index:15;">
 <div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:4;">
 <div id="FlexGrid1">
 <div class="header">
@@ -74,9 +77,9 @@ $(document).ready(function()
 <ul id="Breadcrumb1">
 <li><a href="./index.php" title="Inicio"><i class="fa fa-plus-square-o">&nbsp;</i></a></li>
 <li><a href="./noticias.php">NOTICIAS</a></li>
-<li><a href="./variedades.php">VARIEDADES</a></li>
+<li class="active" aria-current="page">VARIEDADES</li>
 <li><a href="./documentales.php">DOCUMENTALES</a></li>
-<li class="active" aria-current="page">SERIES</li>
+<li><a href="./series.php">SERIES</a></li>
 <li><a href="./movies.php">PELICULAS</a></li>
 </ul>
 </div>
@@ -90,17 +93,20 @@ $(document).ready(function()
 </div>
 
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" style="position:absolute;left:631px;top:183px;width:238px;height:389px;z-index:12;" src="./menu_ser.php" scrolling="no"></iframe>
-<iframe name="InlineFrameScreen" id="InlineFrameScreen" style="position:absolute;left:0px;top:103px;width:628px;height:358px;z-index:13;" src="./page1.php" scrolling="no"></iframe>
+<div id="wb_Shape1" style="position:absolute;left:851px;top:61px;width:16px;height:15px;z-index:12;">
+<a href="./masterin.php"><img class="hover" src="images/img0001_hover.png" alt="" width="16" height="15" style="border-width:0;width:16px;height:15px;"><span class="default"><img src="images/img0001.png" id="Shape1" alt="" width="16" height="15" style="width:16px;height:15px;"></span></a></div>
+<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" style="position:absolute;left:631px;top:183px;width:238px;height:389px;z-index:13;" src="./menu_var.php" scrolling="no"></iframe>
+<iframe name="InlineFrameScreen" id="InlineFrameScreen" style="position:absolute;left:0px;top:103px;width:628px;height:356px;z-index:14;" src="./page1.php" scrolling="no"></iframe>
 </div>
-<div id="cajainfoserie" style="position:absolute;left:0px;top:0px;width:39px;height:33px;z-index:15">
-<img class="logoserie" src="https://www.bing.com/th?id=Afbe77d3c5ee3be6559c1eee5231251f4&w=124&h=168&c=7&o=6&pid=SANGAM">
-<img class="flagcountry" src="https://images.emojiterra.com/twitter/v13.1/512px/1f1fa-1f1f8.png">
-<div id="wb_status_live_vod" style="">
-<h5 class="status_vod">VOD</h5>
-<h5><p>Squid Game<br>Temporada 1<br>Episodio 1</p></h5>
-<h5><p2>Luz Roja, Luz Verde</p2></h5></div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<!-- INFO CANAL -->
+<div id="Html3" style="position:absolute;left:0px;top:0px;width:42px;height:25px;z-index:17">
+<img src="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/b141e293ab2a3165a38ecfc3116068b8.webp" class="logochannel" >
+<img src="https://images.emojiterra.com/twitter/v13.1/512px/1f1fb-1f1ea.png" class="flagcountry" >
+<h5><p>PROMAR TV<br>canal de variedades<br>VENEZUELA</p></h5>
+<h5 class="status_live">LIVE</h5>
+
+<h5><p2>PROMAR TELEVISIÓN</p2></h5></div>
 </div>
 </body>
 </html>

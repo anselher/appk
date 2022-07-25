@@ -31,3 +31,23 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
+#preloader
+{
+   background: #FFFFFF url("images/box.gif") no-repeat center center;
+   bottom: 0;
+   opacity: 0.73;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99999;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Shape2
+{
+   border-width: 0;
+   vertical-align: top;
+}
