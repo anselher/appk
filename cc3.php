@@ -38,8 +38,8 @@
 <script type='text/javascript'>
   jwplayer('MediaPlayerOverview').setup({
  sources: [
-     {file: "https://vcp.myplaytv.com/explosioncreativa/explosioncreativa/playlist.m3u8?PlaylistM3UCL"},
-   {file: "https://vcp.myplaytv.com/explosioncreativa/explosioncreativa/playlist.m3u8"}
+     {file: "https://cvi.cdn.rcs.net.ar/mnp/comedy_hls/playlist.m3u8"},
+   {file: "https://cvi.cdn.rcs.net.ar/mnp/comedy_hls/playlist.m3u8"}
     ],
  rtmp: {
   bufferlength: 3,
