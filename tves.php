@@ -22,7 +22,7 @@ $(document).ready(function()
 });
 </script>
 </head>
-<body onload="window.open('tvesplay','InlineFrameScreen');return false;" 
+<body onload="window.open('tvesplay','InlineFrameScreen');window.open('tvesplaymenu','InlineFrameCon');return false;" 
 >
 <div id="space"><br></div>
 <div id="container">
@@ -57,8 +57,8 @@ $(document).ready(function()
 </div>
 <div class="section4">
 </div>
-<div class="banerads">
-<iframe name="InlineFrameBannerAd" id="InlineFrameBannerAd" src="./bannerads.html" scrolling="no"></iframe>
+<div class="bannerad">
+<iframe name="InlineFrameBannerAds" id="InlineFrameBannerAds" src="./banner.php" scrolling="no"></iframe>
 </div>
 <div class="espaciofoot">
 </div>

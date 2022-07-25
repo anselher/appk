@@ -57,8 +57,8 @@ $(document).ready(function()
 </div>
 <div class="section4">
 </div>
-<div class="banerads">
-<iframe name="InlineFrameBannerAd" id="InlineFrameBannerAd" src="./bannerads.html" scrolling="no"></iframe>
+<div class="bannerad">
+<iframe name="InlineFrameBannerAds" id="InlineFrameBannerAds" src="./banner.php" scrolling="no"></iframe>
 </div>
 <div class="espaciofoot">
 </div>
@@ -102,7 +102,7 @@ $(document).ready(function()
 <div id="Html2" style="position:absolute;left:0px;top:0px;width:31px;height:32px;z-index:17">
 <img src="https://th.bing.com/th/id/OIP.CB3xtPURm1dVKXFv3hpIlwAAAA?pid=ImgDet&w=180&h=180&rs=1" class="logochannel" >
 <img src="https://images.emojiterra.com/twitter/v13.1/512px/1f1fb-1f1ea.png" class="flagcountry" >
-<h5><p>UNIVERSAL<br>canal de series<br>BILINGUE</p></h5>
+<h5><p>UNIVERSAL<br>canal de series<br>LATINOAMERICA</p></h5>
 <h5 class="status_live">LIVE</h5>
 <h5><p2>UNIVERSAL CHANNEL</p2></h5></div>
 </div>

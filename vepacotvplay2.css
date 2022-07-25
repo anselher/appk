@@ -31,3 +31,13 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
+#preloader
+{
+   background: #FFFFFF url("images/windmill.gif") no-repeat center center;
+   bottom: 0;
+   opacity: 0.39;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99999;
+}

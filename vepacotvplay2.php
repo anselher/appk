@@ -1,7 +1,4 @@
- <!-- Here is the <div> for the player -->
-
-<iframe allow="encrypted-media" allow="popups" allow="same-origin" width="100%" height="100%" src='https://telefullenvivo.com/canales/tnt2/op2.php' name="iframe" frameborder="0" scrolling="no" allowfullscreen></iframe>
- <!-- Here is the <div> for the player -->
+<iframe src="http://play.myplaytv.com/embed.php?id=41" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:630px; height:360px;" allow="autoplay" allowTransparency="true" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" oallowfullscreen="true" msallowfullscreen="true"></iframe>
 <!doctype html>
 <html>
 <head>
@@ -10,7 +7,7 @@
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
 <link href="365tv1.22.css" rel="stylesheet">
-<link href="tntseriesplay.css" rel="stylesheet">
+<link href="vepacotvplay2.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function()
@@ -22,13 +19,9 @@ $(window).on('load', function()
    $('#preloader').remove();
 });
 </script>
-<script src="https://kit.fontawesome.com/38f7dffd19.js" crossorigin="anonymous"></script>
-
-
-
 </head>
 <body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:630px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:628px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 
 <div id="preloader"></div>
 </body>
