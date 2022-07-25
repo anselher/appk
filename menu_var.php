@@ -39,12 +39,19 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isP
     <div id="wrapper">
         <div id="scroller">
             <ul>
-                <li><a href="javascript:void(0);" onclick="javascript:window.open('pageinfo2', '_top'); "><img src="https://i.ytimg.com/vi/xvSLuXFWUGQ/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjSpnQW9bIODYLrlhtGS2bHglPLA"/><h5> VENEVISIÓN</h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('venevision', '_top'); "><img src="https://i.ytimg.com/vi/xvSLuXFWUGQ/hqdefault_live.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCjSpnQW9bIODYLrlhtGS2bHglPLA"/><h5> VENEVISIÓN</h5></a></li>
                 <li><a href="javascript:void(0);" onclick="javascript:window.open('pageinfo18', '_top'); "><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftecache.cl%2Fwp-content%2Fuploads%2F2020%2F04%2Fhola-chile.jpg&f=1&nofb=1"><h5> LA RED<h5></a></li>
-                <li><a href="javascript:void(0);" onclick="javascript:window.open('pageinfo19', '_top'); "><img src="http://corpoweb.net.ve/promar/images/programas/brujula/img3.jpg"><h5> PROMAR TV<h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('promartv', '_top'); "><img src="http://corpoweb.net.ve/promar/images/programas/brujula/img3.jpg"><h5> PROMAR TV<h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('canali', '_top'); "><img src="https://i.ytimg.com/vi/mV2G_CYsDHo/hqdefault.jpg"><h5> CANAL I<h5></a></li>
                 <li><a href="javascript:void(0);" onclick="javascript:window.open('vepacotv', '_top'); "><img src="https://vepaco.com/wp-content/uploads/2020/11/vepacotv2.jpg"><h5> VEPACO TV<h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('catatumbotv', '_top'); "><img src="https://www.televisiongratis.tv/components/com_televisiongratis/images/catatumbo-televisin-1551.jpg"><h5> CATATUMBO TV<h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('tvo', '_top'); "><img src="https://i.ytimg.com/vi/jUsG3PzpUtk/mqdefault.jpg"><h5> TVO<h5></a></li>
                 <li><a href="javascript:void(0);" onclick="javascript:window.open('pageinfo7', '_top'); "><img src="https://s1.dmcdn.net/v/SZNmq1Ve3YFARIK5d/x240"><h5> VTV</h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('exctv', '_top'); "><img src="https://i.ytimg.com/vi/PEUNmbFmm50/mqdefault.jpg"><h5> EXC TV MANAGEMENT</h5></a></li>
                 <li><a href="javascript:void(0);" onclick="javascript:window.open('tves', '_top'); "><img src="https://www.vtv.gob.ve/wp-content/uploads/2021/05/tvez1-800x445.jpg"><h5> TVES</h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('canalonce', '_top'); "><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ3iW4qpc2jGemVYtKFthvZgXfu4Rz8zqjbA&usqp=CAU"><h5> CANAL 11</h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('anzoateguitv', '_top'); "><img src="https://i.ytimg.com/vi/15RrnWGpvCw/maxresdefault.jpg"><h5> ANZOATEGUI TELEVISION</h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('chivacoatv', '_top'); "><img src="https://i.ytimg.com/vi/VJ4I_qAxeA4/maxresdefault.jpg"><h5> CHIVACOA TV</h5></a></li>
                 <li><a href="javascript:void(0);" onclick="javascript:window.open('multivision', '_top'); "><img src="https://tse1.mm.bing.net/th?&id=OVP.dKAZeKyqHgls6uqKmRWe0wHgFo&w=330&h=186&c=7&pid=1.7&rs=1"/><h5> MULTIVISION</h5></a></li>
                 <li><a href="javascript:void(0);" onclick="javascript:window.open('4kvideo', '_top'); "><img src="https://i.ytimg.com/vi/CmFQcbkxmnE/hq720_live.jpg?sqp=CKDgu5MG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCJhTQtWuB811G785HwEHDEAvnOvw"><h5> 4K VIDEO NATURE<h5></a></li>
                 <li><a href="javascript:void(0);" onclick="javascript:window.open('musicc', '_top'); "><img src="https://i.ytimg.com/vi/LVbUNRwpXzw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNJgpRWvE79kTdyCIHUmYZ7vwViQ"><h5> MUSIC CONCENTRATION<h5></a></li>

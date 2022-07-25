@@ -77,8 +77,8 @@ function launchFullScreen(element) {
 </div>
 <div class="section4">
 </div>
-<div class="banerads">
-<iframe name="InlineFrameBannerAd" id="InlineFrameBannerAd" src="./bannerads.html" scrolling="no"></iframe>
+<div class="bannerad">
+<iframe name="InlineFrameBannerAds" id="InlineFrameBannerAds" src="./banner.php" scrolling="no"></iframe>
 </div>
 <div class="espaciofoot">
 </div>

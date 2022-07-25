@@ -68,7 +68,7 @@ function launchFullScreen(element) {
 </script>
 
 </head>
-<body onload="window.open('rpi','InlineFrameScreen');return false;">
+<body onload="window.open('notiplay','InlineFrameScreen');return false;">
 <div id="space"><br></div>
 <div id="container">
 <div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:4;">
@@ -100,8 +100,8 @@ function launchFullScreen(element) {
 </div>
 <div class="section4">
 </div>
-<div class="banerads">
-<iframe name="InlineFrameBannerAd" id="InlineFrameBannerAd" src="./bannerads.html" scrolling="no"></iframe>
+<div class="bannerad">
+<iframe name="InlineFrameBannerAds" id="InlineFrameBannerAds" src="./banner.php" scrolling="no"></iframe>
 </div>
 <div class="espaciofoot">
 </div>
