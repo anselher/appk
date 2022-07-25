@@ -25,7 +25,8 @@ $(document).ready(function()
 <body onload="window.open('telesurtvplay','InlineFrameScreen');window.open('telesurtvmenu','InlineFrameCon');return false;">
 <div id="space"><br></div>
 <div id="container">
-<div id="wb_EmbeddedPagetelesur" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:14;">
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<div id="wb_EmbeddedPagetelesur" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:15;">
 <div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:4;">
 <div id="FlexGrid1">
 <div class="header">
@@ -93,7 +94,6 @@ $(document).ready(function()
 <iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" style="position:absolute;left:631px;top:183px;width:238px;height:389px;z-index:12;" src="./menu_not.php" scrolling="no"></iframe>
 <iframe name="InlineFrameScreen" id="InlineFrameScreen" style="position:absolute;left:0px;top:103px;width:628px;height:356px;z-index:13;" src="./page1.php" scrolling="no"></iframe>
 </div>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:239px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <!-- INFOCHANNEL -->
 <div id="Html2" style="position:absolute;left:0px;top:0px;width:31px;height:32px;z-index:16">
 <img src="https://yt3.ggpht.com/jHFuyHjvTXkmWxxHLlhXfdxVXzpNIvSg9Hb0QTVjnCXAd6HFqM8WQ8ewUD0IHYwgV4vfr-C4=s176-c-k-c0x00ffffff-no-rj-mo" class="logochannel" >
