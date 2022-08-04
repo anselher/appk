@@ -1,21 +1,9 @@
-html, body
-{
-   height: 100%;
-}
-div#space
-{
-   width: 1px;
-   height: 50%;
-   margin-bottom: -550px;
-   float:left
-}
 div#container
 {
    width: 872px;
-   height: 1100px;
-   margin: 0 auto;
    position: relative;
-   clear: left;
+   margin: 0 auto 0 auto;
+   text-align: left;
 }
 body
 {
@@ -31,7 +19,7 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   padding: 0;
+   text-align: center;
 }
 a
 {
@@ -645,7 +633,7 @@ input:focus, textarea:focus, select:focus
    list-style: none;
    background-color: transparent;
    background-image: none;
-   border: 0px solid #CCFF33;
+   border: 0px solid #C0C0C0;
    border-radius: 4px;
    font-family: "Barlow Condensed";
    font-weight: 500;
@@ -661,7 +649,7 @@ input:focus, textarea:focus, select:focus
 }
 #Breadcrumb1 a
 {
-   color: #808080;
+   color: #FFFF00;
    text-decoration: none;
 }
 #Breadcrumb1 a:hover
@@ -671,7 +659,7 @@ input:focus, textarea:focus, select:focus
 }
 #Breadcrumb1 > .active
 {
-   color: #CCFF33;
+   color: #00FA9A;
 }
 #Breadcrumb1 > .active a
 {

@@ -39,7 +39,7 @@ input:focus, textarea:focus, select:focus
 }
 #NavigationBar1 ul.navbar li
 {
-   height: 24px;
+   height: 22px;
    float: left;
    margin: 0 2px 0 0;
 }
@@ -58,14 +58,12 @@ input:focus, textarea:focus, select:focus
 #NavigationBar1 ul.navbar li span
 {
    display: block;
-   height: 24px;
+   height: 22px;
    position: absolute;
    z-index: 2;
 }
-#NavigationBar1_item0 { width: 58px; }
-#NavigationBar1_item1 { width: 60px; }
-#NavigationBar1_item2 { width: 60px; }
-#NavigationBar1_item3 { width: 61px; }
+#NavigationBar1_item0 { width: 64px; }
+#NavigationBar1_item1 { width: 66px; }
 #NavigationBar1 a .hover
 {
    visibility: hidden;

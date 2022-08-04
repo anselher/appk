@@ -19,12 +19,11 @@ div#container
 }
 body
 {
-   background-color: #FFFFFF;
-   background-image: url('images/logot-black.jpg');
+   background-color: #DCDCDC;
+   background-image: url('images/3876.jpg');
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
-   background-size: 100% 100%;
    color: #000000;
    font-family: "Barlow Condensed";
    font-weight: 500;
@@ -636,7 +635,7 @@ input:focus, textarea:focus, select:focus
    display: block;
    float: left;
    width: calc(100% - 2px);
-   height: 354px;
+   height: 353px;
    vertical-align: top;
 }
 #Breadcrumb1

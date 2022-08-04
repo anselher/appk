@@ -1,26 +1,14 @@
-html, body
-{
-   height: 100%;
-}
-div#space
-{
-   width: 1px;
-   height: 50%;
-   margin-bottom: -550px;
-   float:left
-}
 div#container
 {
    width: 872px;
-   height: 1100px;
-   margin: 0 auto;
    position: relative;
-   clear: left;
+   margin: 0 auto 0 auto;
+   text-align: left;
 }
 body
 {
    background-color: #FFFFFF;
-   background-image: url('images/logot-black.jpg');
+   background-image: url('images/3876.jpg');
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
@@ -31,7 +19,7 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   padding: 0;
+   text-align: center;
 }
 a
 {
@@ -636,7 +624,7 @@ input:focus, textarea:focus, select:focus
    display: block;
    float: left;
    width: calc(100% - 2px);
-   height: 354px;
+   height: 353px;
    vertical-align: top;
 }
 #Breadcrumb1

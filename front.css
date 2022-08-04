@@ -500,6 +500,36 @@ input:focus, textarea:focus, select:focus
    height: 28px;
    vertical-align: top;
 }
+#InlineFrameSidebar2
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 1px 1px 1px 1px;
+   -webkit-animation: animate-fade-in 2000ms linear 0ms 1 normal both;
+   animation: animate-fade-in 2000ms linear 0ms 1 normal both;
+}
+#InlineFrameSidebar2
+{
+   display: block;
+   float: left;
+   width: calc(100% - 2px);
+   height: 389px;
+   vertical-align: top;
+}
+#InlineFrameScreen
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 1px 1px 1px 1px;
+}
+#InlineFrameScreen
+{
+   display: block;
+   float: left;
+   width: calc(100% - 2px);
+   height: 358px;
+   vertical-align: top;
+}
 #Breadcrumb1
 {
    padding: 2px 15px 3px 15px;
