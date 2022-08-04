@@ -6,25 +6,25 @@ div#space
 {
    width: 1px;
    height: 50%;
-   margin-bottom: -303px;
+   margin-bottom: -550px;
    float:left
 }
 div#container
 {
    width: 872px;
-   height: 606px;
+   height: 1100px;
    margin: 0 auto;
    position: relative;
    clear: left;
 }
 body
 {
-   background-color: #FFFFFF;
-   background-image: url('images/cooliris_bg.jpg');
+   background-color: #DCDCDC;
+   background-image: url('https://actualidad.rt.com/static/img/og/logo-rt-black.jpg');
    background-attachment: fixed;
    background-position: center center;
    background-repeat: no-repeat;
-   background-size: 100% 100%;
+   background-size: cover;
    color: #000000;
    font-family: "Barlow Condensed";
    font-weight: 500;
@@ -44,11 +44,11 @@ a:visited
 }
 a:active
 {
-   color: #FF0000;
+   color: #FFFF00;
 }
 a:hover
 {
-   color: #0000FF;
+   color: #00FF00;
    text-decoration: none;
 }
 input:focus, textarea:focus, select:focus
@@ -58,16 +58,19 @@ input:focus, textarea:focus, select:focus
 #FlexGrid1
 {
    display: grid;
+   height: 1160px;
    background-clip: padding-box;
-   background-image: linear-gradient(135deg, rgba(228,228,228,0.08) 0%, rgba(126,133,150,0.08) 14%, rgba(228,228,228,0.04) 52%, rgba(126,133,151,0.08) 68%, rgba(255,255,255,0.00) 100%);
+   background-color: transparent;
+   background-image: none;
    border: 0px solid rgba(204,204,204,0.00);
    box-sizing: border-box;
    margin: 0;
    padding: 0;
    font-size: 0px;
    grid-template-columns: 630px 1px 240px;
-   grid-template-rows: 80px 1px 20px 1px 59px 1px 20px 1px 279px 1px 30px 1px 40px 40px 1px 30px 1px;
+   grid-template-rows: 30px 80px 1px 20px 1px 59px 1px 20px 1px 274px 1px 30px 1px 40px 40px 1px 1px 30px 1px 403px 1px 60px;
    grid-template-areas:
+      "cabeza cabeza cabeza"
       "header header header"
       "espacio1 espaciocentro espaciosidebar"
       "navmenu espaciocentro infocanal"
@@ -80,21 +83,22 @@ input:focus, textarea:focus, select:focus
       "section2 espaciocentro section1"
       "screencontrol espaciocentro section1"
       "section4 espaciocentro section1"
-      "banerads espaciocentro section1"
-      "banerads espaciocentro section1"
+      "roller espaciocentro section1"
+      "roller espaciocentro section1"
       "espaciofoot espaciocentro espaciofoot2"
+      "section3 section3 section3"
       "section6 section6 section6"
-      "section3 section3 section3";
+      "section5 section5 section5"
+      "blogger blogger blogger"
+      "section7 section7 section7"
+      "footer footer footer";
 }
-#FlexGrid1 .header
+#FlexGrid1 .cabeza
 {
    display: flex;
-   grid-area: header;
-   background-clip: padding-box;
+   grid-area: cabeza;
    background-color: transparent;
-   background-image: url('header365_4xhdpi.svg');
-   background-repeat: repeat-y;
-   background-position: left top;
+   background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    padding: 0;
@@ -104,6 +108,29 @@ input:focus, textarea:focus, select:focus
    flex-wrap: wrap;
    -webkit-justify-content: space-around;
    justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .header
+{
+   display: flex;
+   grid-area: header;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('images/HEADER.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
    -webkit-align-items: center;
    align-items: center;
    -webkit-align-content: center;
@@ -175,7 +202,7 @@ input:focus, textarea:focus, select:focus
    grid-area: navmenu;
    background-clip: padding-box;
    background-color: transparent;
-   background-image: url('MAINMENUxhdpi.svg');
+   background-image: url('images/MENU.png');
    background-repeat: no-repeat;
    background-position: left top;
    border: 0px solid #FFFFFF;
@@ -198,7 +225,7 @@ input:focus, textarea:focus, select:focus
    grid-area: infocanal;
    background-clip: padding-box;
    background-color: transparent;
-   background-image: url('sideBar_1_2xhdpi.svg');
+   background-image: url('images/SIDEBARINFO1.png');
    background-repeat: no-repeat;
    background-position: left top;
    border: 0px solid #FFFFFF;
@@ -241,9 +268,10 @@ input:focus, textarea:focus, select:focus
    grid-area: screentv;
    background-clip: padding-box;
    background-color: transparent;
-   background-image: url('screnner365tv.svg');
+   background-image: url('images/SCREENTV.png');
    background-repeat: repeat-y;
-   background-position: left top;
+   background-position: right bottom;
+   background-size: 100% 100%;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    padding: 0;
@@ -284,7 +312,7 @@ input:focus, textarea:focus, select:focus
    grid-area: section1;
    background-clip: padding-box;
    background-color: transparent;
-   background-image: url('sidebar3xhdpi.svg');
+   background-image: url('images/SIDEBARMENU.png');
    background-repeat: no-repeat;
    background-position: left top;
    border: 0px solid #FFFFFF;
@@ -327,7 +355,7 @@ input:focus, textarea:focus, select:focus
    grid-area: screencontrol;
    background-clip: padding-box;
    background-color: transparent;
-   background-image: url('screencontrolxhdpi.svg');
+   background-image: url('images/CONTROL_PLAYER.png');
    background-repeat: no-repeat;
    background-position: left top;
    border: 0px solid #FFFFFF;
@@ -364,14 +392,14 @@ input:focus, textarea:focus, select:focus
    -webkit-align-content: center;
    align-content: center;
 }
-#FlexGrid1 .banerads
+#FlexGrid1 .roller
 {
    display: flex;
-   grid-area: banerads;
+   grid-area: roller;
    background-clip: padding-box;
    background-color: transparent;
-   background-image: url('bannerfoot1xhdpi.svg');
-   background-repeat: no-repeat;
+   background-image: url('images/ROLL.png');
+   background-repeat: repeat-y;
    background-position: left top;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
@@ -427,29 +455,6 @@ input:focus, textarea:focus, select:focus
    -webkit-align-content: center;
    align-content: center;
 }
-#FlexGrid1 .section6
-{
-   display: flex;
-   grid-area: section6;
-   background-clip: padding-box;
-   background-color: transparent;
-   background-image: url('footer1xhdpi.svg');
-   background-repeat: no-repeat;
-   background-position: left top;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
 #FlexGrid1 .section3
 {
    display: flex;
@@ -470,7 +475,113 @@ input:focus, textarea:focus, select:focus
    -webkit-align-content: center;
    align-content: center;
 }
-#InlineFrameBannerAd
+#FlexGrid1 .section6
+{
+   display: flex;
+   grid-area: section6;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('images/control-blog.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .section5
+{
+   display: flex;
+   grid-area: section5;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .blogger
+{
+   display: flex;
+   grid-area: blogger;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('images/Capa_1.png');
+   background-repeat: no-repeat;
+   background-position: center top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   -webkit-align-items: flex-end;
+   align-items: flex-end;
+   -webkit-align-content: flex-end;
+   align-content: flex-end;
+}
+#FlexGrid1 .section7
+{
+   display: flex;
+   grid-area: section7;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .footer
+{
+   display: flex;
+   grid-area: footer;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#InlineFrameBannerAds
 {
    border: 0px solid #C0C0C0;
    border-radius: 0px;
@@ -478,7 +589,7 @@ input:focus, textarea:focus, select:focus
    -webkit-animation: animate-fade-in 2000ms linear 0ms 1 normal both;
    animation: animate-fade-in 2000ms linear 0ms 1 normal both;
 }
-#InlineFrameBannerAd
+#InlineFrameBannerAds
 {
    display: block;
    float: left;
@@ -500,13 +611,41 @@ input:focus, textarea:focus, select:focus
    height: 28px;
    vertical-align: top;
 }
+#InlineFrameSidebar2
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 1px 1px 1px 1px;
+}
+#InlineFrameSidebar2
+{
+   display: block;
+   float: left;
+   width: calc(100% - 2px);
+   height: 385px;
+   vertical-align: top;
+}
+#InlineFrameScreen
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 1px 1px 1px 1px;
+}
+#InlineFrameScreen
+{
+   display: block;
+   float: left;
+   width: calc(100% - 2px);
+   height: 354px;
+   vertical-align: top;
+}
 #Breadcrumb1
 {
    padding: 2px 15px 3px 15px;
    list-style: none;
    background-color: transparent;
    background-image: none;
-   border: 0px solid #C0C0C0;
+   border: 0px solid #CCFF33;
    border-radius: 4px;
    font-family: "Barlow Condensed";
    font-weight: 500;
@@ -522,7 +661,7 @@ input:focus, textarea:focus, select:focus
 }
 #Breadcrumb1 a
 {
-   color: #FFFF00;
+   color: #808080;
    text-decoration: none;
 }
 #Breadcrumb1 a:hover
@@ -532,7 +671,7 @@ input:focus, textarea:focus, select:focus
 }
 #Breadcrumb1 > .active
 {
-   color: #00FA9A;
+   color: #CCFF33;
 }
 #Breadcrumb1 > .active a
 {
@@ -549,39 +688,4 @@ input:focus, textarea:focus, select:focus
 {
    font-size: 13px;
    width: 15px;
-}
-#Layer1
-{
-   background-color: transparent;
-   background-image: none;
-   border-radius: 0px;
-}
-#wb_Image3
-{
-   vertical-align: top;
-}
-#Image3
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#InlineFrameSidebar2
-{
-   border: 0px solid #C0C0C0;
-   border-radius: 0px;
-   margin: 1px 1px 1px 1px;
-   -webkit-animation: animate-fade-in 2000ms linear 0ms 1 normal both;
-   animation: animate-fade-in 2000ms linear 0ms 1 normal both;
-}
-#InlineFrameScreen
-{
-   border: 0px solid #C0C0C0;
-   border-radius: 0px;
-   margin: 1px 1px 1px 1px;
 }
