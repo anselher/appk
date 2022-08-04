@@ -4,9 +4,8 @@
 <meta charset="utf-8">
 <title>page19</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv1.22.css" rel="stylesheet">
+<link href="365tv2.22.css" rel="stylesheet">
 <link href="hqpopplay.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script>
@@ -19,15 +18,44 @@ $(window).on('load', function()
    $('#preloader').remove();
 });
 </script>
+<script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/level-selector@latest/dist/level-selector.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/clappr-chromecast-plugin@latest/dist/clappr-chromecast-plugin.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/clappr-pip@latest/dist/clappr-pip.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/dash-shaka-playback@latest/dist/dash-shaka-playback.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/clappr-playback-rate-plugin@latest/dist/clappr-playback-rate-plugin.min.js"></script>
+
 </head>
 <body>
-<div id="FlexGrid1">
-<div class="header">
-<div id="Html1" style="display:inline-block;width:628px;height:358px;z-index:0">
-<iframe src="https://yowi.tv/embed/pophqm/?autoplay=true" width="630" height="360" frameborder="0"/></div>
-</div>
-</div>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:628px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:630px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<div id="player"></div>
+    <script>
+      var player = new Clappr.Player(
+        {
+          source: 'https://livelist01.yowi.tv/lista/7b69fc60c67962d703e9c95b60cb17c56b921b75/master.m3u8',
+          parentId: '#player',
+          plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback, Clappr.MediaControl],
+          events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},},
+          height: 354,
+          width: 630,
+          autoPlay: 'true',
+          shakaConfiguration: {
+          manifest: {retryParameters: {maxAttempts: Infinity}},
+          streaming: {retryParameters: {maxAttempts: Infinity}},
+          drm: {retryParameters: {maxAttempts: Infinity}},
+          preferredAudioLanguage: 'es-VE',
+          },
+          shakaOnBeforeLoad: function(shaka_player) {
+            // shaka_player.getNetworkingEngine().registerRequestFilter() ...
+          },
+          parentId: '#player'
+        });
+    </script>
 <div id="preloader"></div>
 </body>
 </html>

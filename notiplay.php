@@ -1,18 +1,67 @@
-<script src="https://player2.h-cdn.com/hola_player.js?customer=demo"></script>  <video preload="auto" autoplay="1" class="video-js vjs-default-skin" width="630" height="360" controls>
-    <source src="credigree2.m3u8" type="application/x-mpegurl">
-  </video>
-  <script>
-    (function(){
-        window.hola_player();
-    })();
-  </script><!doctype html>
+<script src="https://player2.h-cdn.com/hola_player.js?customer=demo"></script><div id="maincontainer" class="container-fluid mrt20 mrb20 clearfix maincontainer"> <!-- start header div 1, will end in footer -->
+	<div id="content" class="container"> <!-- start header div 2, will end in footer -->
+		<div class="row"> <!-- start header div 3, will end in footer -->
+		
+
+<div class="col-md-12">
+	<div class="left-content sngl-pg" >
+	<div id="post-165" class="clearfix single-posst post-165 page type-page status-publish hentry" itemscope itemtype="http://schema.org/CreativeWork">
+	<div class="content-first">
+				
+					<div class="content-second">
+				<h1 class="the-title entry-title" itemprop="headline"></h1>
+			</div>
+						
+		<div class="content-third" itemprop="text">
+					
+			<div class="entry-content">
+
+				
+				
+			<script type='text/javascript' src='https://maindigitalstream.com/jwplayer/jwplayer.js?2.2.3.5'></script>
+<script>jwplayer.key="8gDDWtjPpyFgSWsZPjDk4MV6CVI0wEVf2xp7vS7FZUw=";</script><div id='MediaPlayerOverview'>Loading&#8230;</div>
+<script type='text/javascript'>
+  jwplayer('MediaPlayerOverview').setup({
+ sources: [
+     {file: "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-flash-ono/playlist.m3u8"},
+   {file: "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-flash-ono/playlist.m3u8"}
+    ],
+ rtmp: {
+  bufferlength: 3,
+ },
+ 'autostart': 'true',
+ 'width': '100%',
+ 'aspectratio': '',
+ 'height': '100%',
+ 'fallback': false,
+ 'androidhls': true,
+ 'primary': 'html5',
+ logo: {
+  file: '', //watermark image path
+  link: '', //link url on watermark image
+  position: 'top-left' //position of watermark on player
+  },
+ });
+</script>
+<!--CusAds0-->
+			</div>						
+		</div>					
+	</div>
+</div>
+	</div>
+</div>	
+		</div> <!-- end header div 3 -->
+	</div> <!-- end header div 2 -->
+</div> <!-- end header div 1 -->
+ 
+<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>page19</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv1.22.css" rel="stylesheet">
+<link href="365tv2.22.css" rel="stylesheet">
 <link href="notiplay.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script>

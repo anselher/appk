@@ -6,7 +6,7 @@
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv1.22.css" rel="stylesheet">
+<link href="365tv2.22.css" rel="stylesheet">
 <link href="menu_var.css" rel="stylesheet">
 <title>iScroll demo: key bindings</title>
 <script src="./build/iscroll.js"></script>
@@ -31,8 +31,9 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isP
 <div id="LayoutGrid1">
 <div class="row">
 <div class="col-1">
+
 <!-- menu_variedades -->
-<div id="Html2" style="display:inline-block;width:182px;height:389px;z-index:0">
+<div id="Html2" style="display:inline-block;width:182px;height:386px;z-index:1">
 <body onload="loaded()">
     <div id="headermenu"><a href="javascript:myScroll.scrollToElement(document.querySelector('#scroller li:nth-child(1)'), null, null, true)">&#9650;</a></div>
     
@@ -71,7 +72,6 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isP
     <div id="footermenu"><a href="javascript:myScroll.scrollToElement(document.querySelector('#scroller li:nth-child(10)'), null, null, true)">&#9660;</a></div>
     
 </body></div>
-
 </div>
 </div>
 </div>

@@ -6,7 +6,7 @@
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv1.22.css" rel="stylesheet">
+<link href="365tv2.22.css" rel="stylesheet">
 <link href="masterinfo.css" rel="stylesheet">
 <link href="https://vjs.zencdn.net/7.19.2/video-js.css" rel="stylesheet" />
 {"statusCode":200,"status":"success","errorMessage":null}

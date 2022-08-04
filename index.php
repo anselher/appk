@@ -7,20 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv1.22.css" rel="stylesheet">
+<link href="365tv2.22.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
-<script src="jquery-3.6.0.min.js"></script>
-<script src="wwb17.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("a[href*='#FlexGrid1']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#FlexGrid1').offset().top }, 600, 'linear');
-   });
-});
-</script>
+<link href="estilos.css" rel="stylesheet">
 <script>
  
 function launchFullScreen(element) {
@@ -45,11 +34,13 @@ function launchFullScreen(element) {
 </script>
 
 </head>
-<body>
-<div id="space"><br></div>
+<body onload="window.open('notiplay','InlineFrameScreen');return false;"
+>
 <div id="container">
-<div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:4;">
+<div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:0px;width:872px;height:1160px;z-index:6;">
 <div id="FlexGrid1">
+<div class="cabeza">
+</div>
 <div class="header">
 </div>
 <div class="espacio1">
@@ -65,10 +56,12 @@ function launchFullScreen(element) {
 <div class="espacio2">
 </div>
 <div class="screentv">
+<iframe name="InlineFrameScreen" id="InlineFrameScreen" src="./images/imagenes.html" scrolling="no"></iframe>
 </div>
 <div class="separador5">
 </div>
 <div class="section1">
+<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" src="./menu_plan_basico.php" scrolling="no"></iframe>
 </div>
 <div class="section2">
 </div>
@@ -77,22 +70,30 @@ function launchFullScreen(element) {
 </div>
 <div class="section4">
 </div>
-<div class="bannerad">
+<div class="roller">
 <iframe name="InlineFrameBannerAds" id="InlineFrameBannerAds" src="./banner.php" scrolling="no"></iframe>
 </div>
 <div class="espaciofoot">
 </div>
 <div class="espaciofoot2">
 </div>
-<div class="section6">
-</div>
 <div class="section3">
 </div>
+<div class="section6">
+</div>
+<div class="section5">
+</div>
+<div class="blogger">
+</div>
+<div class="section7">
+</div>
+<div class="footer">
+</div>
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<div id="wb_Breadcrumb1" style="position:absolute;left:1px;top:82px;width:629px;height:20px;z-index:6;vertical-align:top;">
+<div id="wb_Breadcrumb1" style="position:absolute;left:0px;top:111px;width:629px;height:20px;z-index:8;vertical-align:top;">
 <ul id="Breadcrumb1">
 <li class="active" aria-current="page"><i class="fa fa-plus-square-o">&nbsp;</i></li>
 <li><a href="./noticias.php">NOTICIAS</a></li>
@@ -102,26 +103,15 @@ function launchFullScreen(element) {
 <li><a href="./movies.php">PELICULAS</a></li>
 </ul>
 </div>
-<div id="Layer1" style="position:absolute;text-align:left;left:508px;top:423px;width:121px;height:39px;z-index:7;" ondblclick="ShowObject('InlineFrame2', 1);return false;">
-</div>
-<div id="wb_Image3" style="position:absolute;left:736px;top:140px;width:15px;height:15px;z-index:8;">
-<img src="images/reloj.png" id="Image3" alt="" width="15" height="15"></div>
 <div id="Html1" style="position:absolute;left:0px;top:0px;width:33px;height:16px;z-index:9">
 <h6 id="viendo_ahora">VIENDO AHORA: </h6>
 
 </div>
+<div id="Html2" style="position:absolute;left:0px;top:0px;width:50px;height:30px;z-index:10">
+
+<img src="images/images/LOGO.png" class="logoweb" ></div>
 
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<div id="wb_Shape1" style="position:absolute;left:601px;top:85px;width:22px;height:19px;z-index:12;">
-<a href="./masterin.php"><img class="hover" src="images/img0002_hover.png" alt="" width="22" height="19" style="border-width:0;width:22px;height:19px;"><span class="default"><img src="images/img0002.png" id="Shape1" alt="" width="22" height="19" style="width:22px;height:19px;"></span></a></div>
-<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" style="position:absolute;left:631px;top:183px;width:238px;height:389px;z-index:13;" src="./menu_intro.html" scrolling="no"></iframe>
-<iframe name="InlineFrameScreen" id="InlineFrameScreen" style="position:absolute;left:0px;top:103px;width:628px;height:358px;z-index:14;" src="./images/imagenes.html" scrolling="no"></iframe>
-<div id="wb_CssMenu2" style="position:absolute;left:845px;top:55px;width:26px;height:18px;z-index:15;">
-<ul id="CssMenu2" role="menubar" class="nav">
-<li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="" target="_self" rel="nofollow" onclick="launchFullScreen(document.documentElement);cancelFullScreen();return false;"><i class="fa fa-television">&nbsp;</i></a>
-</li>
-</ul>
-</div>
 </div>
 
 </body>
