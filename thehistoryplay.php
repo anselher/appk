@@ -5,8 +5,8 @@
 <title>DW en Español</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv1.22.css" rel="stylesheet">
-<link href="thehistorychannelplay.css" rel="stylesheet">
+<link href="365tv2.22.css" rel="stylesheet">
+<link href="thehistoryplay.css" rel="stylesheet">
 <script src="https://player2.h-cdn.com/hola_player.js?customer=demo"></script>
 
 </head>

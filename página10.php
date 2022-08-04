@@ -2,6 +2,12 @@
 <iframe allow="encrypted-media" allow="popups" allow="same-origin" width="630px" height="360px" src='https://todovieneok.ga/embed3/history2/' name="iframe" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
  <!-- Here is the <div> for the player -->
+ 
+ 
+ <!-- Here is the <div> for the player -->
+
+<iframe allow="encrypted-media" allow="popups" allow="same-origin" width="100%" height="100%" src='https://telefullenvivo.com/canales/history2/' name="iframe" frameborder="0" scrolling="no" allowfullscreen></iframe>
+ <!-- Here is the <div> for the player -->
 <!doctype html>
 <html>
 <head>
@@ -9,7 +15,7 @@
 <title>page19</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv1.22.css" rel="stylesheet">
+<link href="365tv2.22.css" rel="stylesheet">
 <link href="página10.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script>

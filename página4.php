@@ -8,7 +8,7 @@
 <link href="plyr.css" rel="stylesheet">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv1.22.css" rel="stylesheet">
+<link href="365tv2.22.css" rel="stylesheet">
 <link href="página4.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script src="plyr.min.js"></script>
