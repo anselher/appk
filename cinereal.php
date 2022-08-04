@@ -6,15 +6,15 @@
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
 <link href="365tv2.22.css" rel="stylesheet">
-<link href="dwenespanolplay.css" rel="stylesheet">
+<link href="cinereal.css" rel="stylesheet">
 <script src="https://player2.h-cdn.com/hola_player.js?customer=demo"></script>
 
 </head>
 <body>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:639px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <div id="Html1" style="position:absolute;left:0px;top:0px;width:630px;height:360px;z-index:1">
-<video preload="auto" autoplay="1" class="video-js vjs-default-skin" width="630" height="360" controls>
-    <source src="https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8" type="application/x-mpegurl">
+<video preload="auto" autoplay="1" class="video-js vjs-default-skin" width="630" height="354" controls>
+    <source src="https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cinereallatam-ono/playlist.m3u8" type="application/x-mpegurl">
 </video>
 
 <script>

@@ -1,17 +1,3 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>DW en Español</title>
-<meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv2.22.css" rel="stylesheet">
-<link href="aguacatetvplay2.css" rel="stylesheet">
-<script src="https://player2.h-cdn.com/hola_player.js?customer=demo"></script>
-
-</head>
-<body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:639px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <div id="maincontainer" class="container-fluid mrt20 mrb20 clearfix maincontainer"> <!-- start header div 1, will end in footer -->
 	<div id="content" class="container"> <!-- start header div 2, will end in footer -->
 		<div class="row"> <!-- start header div 3, will end in footer -->
@@ -37,8 +23,8 @@
 <script type='text/javascript'>
   jwplayer('MediaPlayerOverview').setup({
  sources: [
-     {file: "https://5790d294af2dc.streamlock.net:443/8186/8186/playlist.m3u8"},
-   {file: "rtmps://5790d294af2dc.streamlock.net:443/8186/8186"}
+     {file: "https://cvi.cdn.rcs.net.ar/mnp/discovery_hls/playlist.m3u8"},
+   {file: "https://cvi.cdn.rcs.net.ar/mnp/discovery_hls/playlist.m3u8"}
     ],
  rtmp: {
   bufferlength: 3,
@@ -51,9 +37,9 @@
  'androidhls': true,
  'primary': 'html5',
  logo: {
-  file: 'images/images/t9n1f-9rhkg.png', //watermark image path
-  link: 'https://aguacatetv.com/', //link url on watermark image
-  position: 'top-rigth' //position of watermark on player
+  file: '', //watermark image path
+  link: '', //link url on watermark image
+  position: 'top-left' //position of watermark on player
   },
  });
 </script>
@@ -67,7 +53,35 @@
 		</div> <!-- end header div 3 -->
 	</div> <!-- end header div 2 -->
 </div> <!-- end header div 1 -->
+ 
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>page19</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
+<link href="365tv2.22.css" rel="stylesheet">
+<link href="discoverychannelplay2.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
+});
+$(window).on('load', function()
+{
+   $('#preloader').remove();
+});
+</script>
+<script src="https://kit.fontawesome.com/38f7dffd19.js" crossorigin="anonymous"></script>
 
 
+
+</head>
+<body>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:630px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+
+<div id="preloader"></div>
 </body>
 </html>

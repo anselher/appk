@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv1.22.css" rel="stylesheet">
+<link href="365tv2.22.css" rel="stylesheet">
 <link href="front.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script src="wwb17.min.js"></script>
@@ -21,6 +21,7 @@ $(document).ready(function()
    });
 });
 </script>
+<link href="estilos.css" rel="stylesheet">
 <script>
  
 function launchFullScreen(element) {
@@ -48,7 +49,7 @@ function launchFullScreen(element) {
 <body>
 <div id="space"><br></div>
 <div id="container">
-<div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:4;">
+<div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:6;">
 <div id="FlexGrid1">
 <div class="header">
 </div>
@@ -65,10 +66,12 @@ function launchFullScreen(element) {
 <div class="espacio2">
 </div>
 <div class="screentv">
+<iframe name="InlineFrameScreen" id="InlineFrameScreen" src="./images/imagenes.html" scrolling="no"></iframe>
 </div>
 <div class="separador5">
 </div>
 <div class="section1">
+<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" src="./menu_intro.html" scrolling="no"></iframe>
 </div>
 <div class="section2">
 </div>
@@ -92,7 +95,7 @@ function launchFullScreen(element) {
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<div id="wb_Breadcrumb1" style="position:absolute;left:1px;top:82px;width:629px;height:20px;z-index:6;vertical-align:top;">
+<div id="wb_Breadcrumb1" style="position:absolute;left:1px;top:82px;width:629px;height:20px;z-index:8;vertical-align:top;">
 <ul id="Breadcrumb1">
 <li><a href="./index.php" title="Inicio"><i class="fa fa-plus-square-o">&nbsp;</i></a></li>
 <li><a href="./noticias.php">NOTICIAS</a></li>
@@ -102,17 +105,17 @@ function launchFullScreen(element) {
 <li><a href="./movies.php">PELICULAS</a></li>
 </ul>
 </div>
-<div id="Layer1" style="position:absolute;text-align:left;left:508px;top:423px;width:121px;height:39px;z-index:7;" ondblclick="ShowObject('InlineFrame2', 1);return false;">
+<div id="Layer1" style="position:absolute;text-align:left;left:508px;top:423px;width:121px;height:39px;z-index:9;" ondblclick="ShowObject('InlineFrame2', 1);return false;">
 </div>
-<div id="wb_Image3" style="position:absolute;left:736px;top:140px;width:15px;height:15px;z-index:8;">
+<div id="wb_Image3" style="position:absolute;left:736px;top:140px;width:15px;height:15px;z-index:10;">
 <img src="images/reloj.png" id="Image3" alt="" width="15" height="15"></div>
-<div id="Html1" style="position:absolute;left:0px;top:0px;width:33px;height:16px;z-index:9">
+<div id="Html1" style="position:absolute;left:0px;top:0px;width:33px;height:16px;z-index:11">
 <h6 id="viendo_ahora">VIENDO AHORA: </h6>
 
 </div>
 
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:872px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<div id="wb_Shape1" style="position:absolute;left:608px;top:110px;width:22px;height:19px;z-index:12;">
+<div id="wb_Shape1" style="position:absolute;left:608px;top:110px;width:22px;height:19px;z-index:14;">
 <a href="./masterin.php"><img class="hover" src="images/img0004_hover.png" alt="" width="22" height="19" style="border-width:0;width:22px;height:19px;"><span class="default"><img src="images/img0004.png" id="Shape1" alt="" width="22" height="19" style="width:22px;height:19px;"></span></a></div>
 </div>
 

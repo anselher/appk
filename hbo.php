@@ -2,21 +2,19 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>365TV | CORTO FILMS</title>
+<title>365TV | HBO</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
 <link href="365tv2.22.css" rel="stylesheet">
-<link href="4kvideo.css" rel="stylesheet">
+<link href="hbo.css" rel="stylesheet">
 <link href="estilos.css" rel="stylesheet">
-
-
 </head>
-<body onload="window.open('4kvideoplay','InlineFrameScreen');return false;">
-<div id="space"><br></div>
+<body body onload="window.open('hboplay','InlineFrameScreen');return false;"
+>
 <div id="container">
-<div id="wb_EmbeddedPagePromar" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:12;">
+<div id="wb_EmbeddedPageNtn24" style="position:absolute;left:0px;top:0px;width:872px;height:1160px;z-index:12;">
 <div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:0px;width:872px;height:1160px;z-index:6;">
 <div id="FlexGrid1">
 <div class="cabeza">
@@ -41,7 +39,7 @@
 <div class="separador5">
 </div>
 <div class="section1">
-<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" src="./menu_var.php" scrolling="no"></iframe>
+<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" src="./menu_not.php" scrolling="no"></iframe>
 </div>
 <div class="section2">
 </div>
@@ -73,16 +71,14 @@
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<div id="Html1" style="position:absolute;left:0px;top:0px;width:52px;height:30px;z-index:8">
-<img src="images/images/LOGO.png" class="logoweb" >
+<div id="Html1" style="position:absolute;left:0px;top:0px;width:50px;height:30px;z-index:8">
 <h6 id="viendo_ahora">VIENDO AHORA: </h6>
-
-</div>
+<img src="images/images/LOGO.png" class="logoweb" ></div>
 <div id="wb_Breadcrumb1" style="position:absolute;left:0px;top:111px;width:629px;height:20px;z-index:9;vertical-align:top;">
 <ul id="Breadcrumb1">
 <li><a href="./index.php" title="Inicio"><i class="fa fa-plus-square-o">&nbsp;</i></a></li>
-<li><a href="./noticias.php">NOTICIAS</a></li>
-<li class="active" aria-current="page">VARIEDADES</li>
+<li class="active" aria-current="page">NOTICIAS</li>
+<li><a href="./variedades.php">VARIEDADES</a></li>
 <li><a href="./documentales.php">DOCUMENTALES</a></li>
 <li><a href="./series.php">SERIES</a></li>
 <li><a href="./movies.php">PELICULAS</a></li>
@@ -92,14 +88,15 @@
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<!-- INFO CANAL -->
-<div id="Html3" style="position:absolute;left:0px;top:0px;width:42px;height:25px;z-index:14">
-<img class="logochannel" src="https://yt3.ggpht.com/h7b6wa8_7dFMZRr9qeyD2qPPRbKDryKCI7ks0PKKpoS98IefZd5tl5Xm1pq-uRzDVmklfQKBWEw=s88-c-k-c0x00ffffff-no-rj"  >
-<img class="flagcountry" src="https://images.emojiterra.com/twitter/v13.1/512px/1f1fa-1f1f8.png"  >
-<h5><p>4 K VIDEO NATURE<br>Canal Musical<br>EEUU</p></h5>
-<h5 class="status_live">LIVE</h5>
+<div id="Html2" style="position:absolute;left:0px;top:0px;width:100px;height:29px;z-index:14">
 
-<h5><p2>4k VIDEO NATURE</p2></h5></div>
+<img src="https://yt3.ggpht.com/ytc/AKedOLT7ZtmDrxATplotX1fl8x53PDsRyYeU0rlQlgpInm0=s48-c-k-c0x00ffffff-no-rj" class="logochannel" >
+<img src="https://images.emojiterra.com/twitter/v13.1/512px/1f1e8-1f1f4.png" class="flagcountry" >
+<div id="wb_status_live_vod" style="">
+<h5 class="status_live">LIVE</h5>
+<h5><p>NOTICIAS 24<br>canal de Noticias<br>Colombia</p></h5>
+
+<h5><p2>NTN 24</p2></h5></div>
 </div>
 </body>
 </html>

@@ -7,29 +7,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv1.22.css" rel="stylesheet">
+<link href="365tv2.22.css" rel="stylesheet">
 <link href="dmax.css" rel="stylesheet">
-<script src="jquery-3.6.0.min.js"></script>
-<script src="wwb17.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("a[href*='#FlexGrid1']").click(function(event)
-   {
-      event.preventDefault();
-      $('html, body').stop().animate({ scrollTop: $('#FlexGrid1').offset().top }, 600, 'linear');
-   });
-});
-</script>
+<link href="estilos.css" rel="stylesheet">
 
 
 </head>
 <body onload="window.open('dmaxplay','InlineFrameScreen');return false;">
 <div id="space"><br></div>
 <div id="container">
-<div id="wb_EmbeddedPageVepaco" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:14;">
-<div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:4;">
+<div id="wb_EmbeddedPageVepaco" style="position:absolute;left:0px;top:0px;width:872px;height:606px;z-index:12;">
+<div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:0px;width:872px;height:1160px;z-index:6;">
 <div id="FlexGrid1">
+<div class="cabeza">
+</div>
 <div class="header">
 </div>
 <div class="espacio1">
@@ -45,10 +36,12 @@ $(document).ready(function()
 <div class="espacio2">
 </div>
 <div class="screentv">
+<iframe name="InlineFrameScreen" id="InlineFrameScreen" src="./images/imagenes.html" scrolling="no"></iframe>
 </div>
 <div class="separador5">
 </div>
 <div class="section1">
+<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" src="./menu_doc.php" scrolling="no"></iframe>
 </div>
 <div class="section2">
 </div>
@@ -57,22 +50,35 @@ $(document).ready(function()
 </div>
 <div class="section4">
 </div>
-<div class="bannerad">
+<div class="roller">
 <iframe name="InlineFrameBannerAds" id="InlineFrameBannerAds" src="./banner.php" scrolling="no"></iframe>
 </div>
 <div class="espaciofoot">
 </div>
 <div class="espaciofoot2">
 </div>
-<div class="section6">
-</div>
 <div class="section3">
 </div>
+<div class="section6">
+</div>
+<div class="section5">
+</div>
+<div class="blogger">
+</div>
+<div class="section7">
+</div>
+<div class="footer">
+</div>
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<div id="wb_Breadcrumb1" style="position:absolute;left:1px;top:82px;width:629px;height:20px;z-index:6;vertical-align:top;">
+<div id="Html1" style="position:absolute;left:0px;top:0px;width:52px;height:30px;z-index:8">
+<img src="images/images/LOGO.png" class="logoweb" >
+<h6 id="viendo_ahora">VIENDO AHORA: </h6>
+
+</div>
+<div id="wb_Breadcrumb1" style="position:absolute;left:0px;top:111px;width:629px;height:20px;z-index:9;vertical-align:top;">
 <ul id="Breadcrumb1">
 <li><a href="./index.php" title="Inicio"><i class="fa fa-plus-square-o">&nbsp;</i></a></li>
 <li><a href="./noticias.php">NOTICIAS</a></li>
@@ -82,22 +88,12 @@ $(document).ready(function()
 <li><a href="./movies.php">PELICULAS</a></li>
 </ul>
 </div>
-<div id="Layer1" style="position:absolute;text-align:left;left:508px;top:423px;width:121px;height:39px;z-index:7;" ondblclick="ShowObject('InlineFrame2', 1);return false;">
-</div>
-<div id="wb_Image3" style="position:absolute;left:736px;top:140px;width:15px;height:15px;z-index:8;">
-<img src="images/reloj.png" id="Image3" alt="" width="15" height="15"></div>
-<div id="Html1" style="position:absolute;left:0px;top:0px;width:33px;height:16px;z-index:9">
-<h6 id="viendo_ahora">VIENDO AHORA: </h6>
-
-</div>
 
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" style="position:absolute;left:631px;top:183px;width:238px;height:389px;z-index:12;" src="./menu_doc.php" scrolling="no"></iframe>
-<iframe name="InlineFrameScreen" id="InlineFrameScreen" style="position:absolute;left:0px;top:103px;width:628px;height:358px;z-index:13;" src="./page1.php" scrolling="no"></iframe>
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <!-- INFOCHANNEL -->
-<div id="Html2ppp" style="position:absolute;left:0px;top:0px;width:31px;height:32px;z-index:16">
+<div id="Html2ppp" style="position:absolute;left:0px;top:0px;width:31px;height:32px;z-index:14">
 <img src="https://www.bing.com/th?id=A49c9519395356a66e7cfa4a32b1a948a&w=110&h=110&c=7&rs=1&qlt=80&o=6&pid=SANGAM" class="logochannel" >
 <img src="https://images.emojiterra.com/twitter/v13.1/512px/1f1fb-1f1ea.png" class="flagcountry" >
 <h5><p>DMAX<br>Canal de Entretenimiento<br>LATINO/INGLES</p></h5>
