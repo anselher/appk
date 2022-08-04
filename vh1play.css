@@ -1,0 +1,44 @@
+body
+{
+   background-color: transparent;
+   color: #000000;
+   font-family: "Barlow Condensed";
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #F2F2F2;
+   text-decoration: none;
+}
+a:visited
+{
+   color: #FFFFFF;
+}
+a:active
+{
+   color: #FFFF00;
+}
+a:hover
+{
+   color: #00FF00;
+   text-decoration: none;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#preloader
+{
+   background: #FFFFFF url("images/windmill.gif") no-repeat center center;
+   bottom: 0;
+   opacity: 0.39;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99999;
+}
+<style class="clappr-style">[object Object]<style class="clappr-style">.chromecast-playback{height:100%;width:100%}.chromecast-playback .chromecast-playback-background,.chromecast-playback .chromecast-playback-overlay{position:absolute;height:100%;width:100%}.chromecast-playback .chromecast-playback-background{background-size:contain}.chromecast-playback .chromecast-playback-overlay{background-color:#000;opacity:.4}.chromecast-button{background:transparent;border:0;width:32px;height:32px;font-size:22px;line-height:32px;letter-spacing:0;margin:0 6px;color:#fff;opacity:.5;vertical-align:middle;text-align:left;cursor:pointer;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;transition:all .1s ease}.chromecast-button:hover{opacity:.75;text-shadow:hsla(0,0%,100%,.8) 0 0 5px}.chromecast-button:focus{outline:none}.chromecast-button svg{width:24px;height:24px}.chromecast-button svg #cast,.chromecast-button svg #cast-on,.chromecast-button svg #Path{fill:#fff;stroke:#fff;stroke-width:.5px}
