@@ -20,11 +20,11 @@ a:visited
 }
 a:active
 {
-   color: #FF0000;
+   color: #FFFF00;
 }
 a:hover
 {
-   color: #0000FF;
+   color: #00FF00;
    text-decoration: none;
 }
 input:focus, textarea:focus, select:focus
@@ -75,4 +75,14 @@ input:focus, textarea:focus, select:focus
    align-items: center;
    -webkit-align-content: center;
    align-content: center;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Shape2
+{
+   border-width: 0;
+   vertical-align: top;
 }

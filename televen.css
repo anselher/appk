@@ -6,20 +6,25 @@ div#space
 {
    width: 1px;
    height: 50%;
-   margin-bottom: -550px;
+   margin-bottom: -580px;
    float:left
 }
 div#container
 {
    width: 872px;
-   height: 1100px;
+   height: 1160px;
    margin: 0 auto;
    position: relative;
    clear: left;
 }
 body
 {
-   background-color: transparent;
+   background-color: #FFFFFF;
+   background-image: url('images/logot-black.jpg');
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
    color: #000000;
    font-family: "Barlow Condensed";
    font-weight: 500;
@@ -684,12 +689,3 @@ input:focus, textarea:focus, select:focus
    font-size: 13px;
    width: 15px;
 }
-    img.logomovie{width: 20px; height: 40px;
-    border-radius: 5px;
-    border-bottom: 1px solid #ccc;
-    border-top: 1px solid #4d4d4d;
-    border-left: 1px solid #808080;
-    border-right: 1px solid #808080;
-}
-    img.flagcountry{width: 18px; height: 16px;}
-  

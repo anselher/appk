@@ -41,3 +41,22 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    z-index: 99999;
 }
+<style class="vjs-styles-defaults">
+      .video-js {
+        width: 300px;
+        height: 150px;
+      }
+
+      .vjs-fluid:not(.vjs-audio-only-mode) {
+        padding-top: 56.25%
+      }
+    <style class="vjs-styles-dimensions">
+      .videoJS-dimensions {
+        width: 100px;
+        height: 100px;
+      }
+
+      .videoJS-dimensions.vjs-fluid:not(.vjs-audio-only-mode) {
+        padding-top: 56.25%;
+      }
+    

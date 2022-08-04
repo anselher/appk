@@ -1,6 +1,6 @@
 body
 {
-   background-color: #FFFFFF;
+   background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
    font-weight: 500;
@@ -20,11 +20,11 @@ a:visited
 }
 a:active
 {
-   color: #FF0000;
+   color: #FFFF00;
 }
 a:hover
 {
-   color: #0000FF;
+   color: #00FF00;
    text-decoration: none;
 }
 input:focus, textarea:focus, select:focus

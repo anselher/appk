@@ -1,11 +1,6 @@
 body
 {
-   background-color: #FFFFFF;
-   background-image: url('images/cooliris_bg.jpg');
-   background-attachment: fixed;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
+   background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
    font-weight: 500;
@@ -25,11 +20,11 @@ a:visited
 }
 a:active
 {
-   color: #FF0000;
+   color: #FFFF00;
 }
 a:hover
 {
-   color: #0000FF;
+   color: #00FF00;
    text-decoration: none;
 }
 input:focus, textarea:focus, select:focus
@@ -79,7 +74,7 @@ input:focus, textarea:focus, select:focus
 }
 #NavigationBar1 ul.navbar li
 {
-   height: 22px;
+   height: 0px;
    width: 631px;
    float: left;
    margin: 0 4px 0 0;
@@ -99,7 +94,7 @@ input:focus, textarea:focus, select:focus
 #NavigationBar1 ul.navbar li span
 {
    display: block;
-   height: 22px;
+   height: 0px;
    width: 631px;
    position: absolute;
    z-index: 2;
