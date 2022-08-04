@@ -6,7 +6,7 @@
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
 <link href="365tv2.22.css" rel="stylesheet">
-<link href="tr.css" rel="stylesheet">
+<link href="universalchannelplayx.css" rel="stylesheet">
 <script src="https://player2.h-cdn.com/hola_player.js?customer=demo"></script>
 
 </head>
@@ -37,8 +37,8 @@
 <script type='text/javascript'>
   jwplayer('MediaPlayerOverview').setup({
  sources: [
-     {file: "tr.m3u8"},
-   {file: "tr.m3u8"}
+     {file: "https://cvi.cdn.rcs.net.ar/mnp/universal_hls/playlist.m3u8"},
+   {file: "https://cvi.cdn.rcs.net.ar/mnp/universal_hls/playlist.m3u8"}
     ],
  rtmp: {
   bufferlength: 3,
@@ -51,9 +51,9 @@
  'androidhls': true,
  'primary': 'html5',
  logo: {
-  file: 'images/images/t9n1f-9rhkg.png', //watermark image path
-  link: 'https://aguacatetv.com/', //link url on watermark image
-  position: 'top-rigth' //position of watermark on player
+  file: '', //watermark image path
+  link: '', //link url on watermark image
+  position: 'bottom-left' //position of watermark on player
   },
  });
 </script>
@@ -67,7 +67,5 @@
 		</div> <!-- end header div 3 -->
 	</div> <!-- end header div 2 -->
 </div> <!-- end header div 1 -->
-
-
 </body>
 </html>

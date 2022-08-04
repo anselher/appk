@@ -1,7 +1,3 @@
- <!-- Here is the <div> for the player -->
-
-<iframe allow="encrypted-media" allow="popups" allow="same-origin" width="630px" height="360px" src='https://telefullenvivo.com/canales/tnt2/' name="iframe" frameborder="0" scrolling="no" allowfullscreen></iframe>
- <!-- Here is the <div> for the player -->
 <!doctype html>
 <html>
 <head>
@@ -10,7 +6,7 @@
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
 <link href="365tv2.22.css" rel="stylesheet">
-<link href="tntplay.css" rel="stylesheet">
+<link href="universalchannelplay3.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function()
@@ -22,14 +18,26 @@ $(window).on('load', function()
    $('#preloader').remove();
 });
 </script>
-<script src="https://kit.fontawesome.com/38f7dffd19.js" crossorigin="anonymous"></script>
+<script src="https://player2.h-cdn.com/hola_player.js?customer=demo"></script>
+
 
 
 
 </head>
 <body>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:630px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<div id="Html1" style="position:absolute;left:0px;top:0px;width:630px;height:360px;z-index:1">
+<video preload="auto" autoplay="1" class="video-js vjs-default-skin" width="630" height="360" controls>
+    <source src="https://cvi.cdn.rcs.net.ar/mnp/universal_hls/playlist.m3u8" type="application/x-mpegurl">
+</video>
 
+<script>
+    (function(){
+        window.hola_player();
+    })();
+</script>
+
+</div>
 <div id="preloader"></div>
 </body>
 </html>

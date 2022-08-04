@@ -6,7 +6,7 @@
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
 <link href="365tv2.22.css" rel="stylesheet">
-<link href="universalchannelplay.css" rel="stylesheet">
+<link href="universalchannelplay4.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function()
@@ -210,7 +210,7 @@ var f;
 var item;
     jwplayer('myElement').setup({
       playlist: [{
-        file: 'https://cvi.cdn.rcs.net.ar/mnp/universal_hls/playlist.m3u8'
+        file: 'https://cetl.cdn.rcs.net.ar/mnp/universal/output.mpd'
       }],
       width:'100%',
       aspectratio: '',

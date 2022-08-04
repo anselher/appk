@@ -11,7 +11,7 @@
 <link href="vh1.css" rel="stylesheet">
 <link href="estilos.css" rel="stylesheet">
 </head>
-<body body onload="window.open('vh1play','InlineFrameScreen');return false;"
+<body body onload="window.open('page9','InlineFrameScreen');return false;"
 >
 <div id="container">
 <div id="wb_EmbeddedPageNtn24" style="position:absolute;left:0px;top:0px;width:872px;height:1160px;z-index:12;">

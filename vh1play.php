@@ -51,8 +51,11 @@ $(window).on('load', function()
 
             var player = new Clappr.Player({
                 parentId: '#player', autoPlay: true,
-                plugins: [DashShakaPlayback, LevelSelector],
+                plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback, Clappr.MediaControl],
                 shakaConfiguration: {
+                manifest: {retryParameters: {maxAttempts: Infinity}},
+                streaming: {retryParameters: {maxAttempts: Infinity}},
+                drm: {retryParameters: {maxAttempts: Infinity}},
                     preferredAudioLanguage: 'es-VE',
                     streaming: {
                         rebufferingGoal: 5

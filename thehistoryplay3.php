@@ -1,4 +1,4 @@
-<div id="maincontainer" class="container-fluid mrt20 mrb20 clearfix maincontainer"> <!-- start header div 1, will end in footer -->
+ <div id="maincontainer" class="container-fluid mrt20 mrb20 clearfix maincontainer"> <!-- start header div 1, will end in footer -->
 	<div id="content" class="container"> <!-- start header div 2, will end in footer -->
 		<div class="row"> <!-- start header div 3, will end in footer -->
 		
@@ -23,8 +23,8 @@
 <script type='text/javascript'>
   jwplayer('MediaPlayerOverview').setup({
  sources: [
-     {file: "https://cvi.cdn.rcs.net.ar/mnp/tntseries_hls/playlist.m3u8"},
-   {file: "https://cvi.cdn.rcs.net.ar/mnp/tntseries_hls/playlist.m3u8"}
+     {file: "https://cvi.cdn.rcs.net.ar/mnp/history_hls/playlist.m3u8"},
+   {file: "https://cvi.cdn.rcs.net.ar/mnp/history_hls/playlist.m3u8"}
     ],
  rtmp: {
   bufferlength: 3,
@@ -62,7 +62,7 @@
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
 <link href="365tv2.22.css" rel="stylesheet">
-<link href="tntseriesplay.css" rel="stylesheet">
+<link href="thehistoryplay3.css" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function()
