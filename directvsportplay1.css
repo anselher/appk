@@ -1,0 +1,43 @@
+body
+{
+   background-color: transparent;
+   color: #000000;
+   font-family: "Barlow Condensed";
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #F2F2F2;
+   text-decoration: none;
+}
+a:visited
+{
+   color: #FFFFFF;
+}
+a:active
+{
+   color: #FFFF00;
+}
+a:hover
+{
+   color: #00FF00;
+   text-decoration: none;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#preloader
+{
+   background: #FFFFFF url("images/windmill.gif") no-repeat center center;
+   bottom: 0;
+   opacity: 0.39;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99999;
+}
