@@ -37,7 +37,7 @@ $(window).on('load', function()
     <script>
       var player = new Clappr.Player(
         {
-          source: 'https://ed7.zorrohd2.nl/live/flowitc91zh.m3u8',
+          source: 'https://dtvott-abc.akamaized.net/dash_live_1057/manifest.mpd',
           parentId: '#player',
           plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback, Clappr.MediaControl],
           events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},},
