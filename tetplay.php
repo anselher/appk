@@ -2,28 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>dwframe</title>
+<title>page21</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <style>
-html, body
-{
-   height: 100%;
-}
-div#space
-{
-   width: 1px;
-   height: 50%;
-   margin-bottom: -301px;
-   float:left
-}
-div#container
-{
-   width: 630px;
-   height: 603px;
-   margin: 0 auto;
-   position: relative;
-   clear: left;
-}
 body
 {
    background-color: transparent;
@@ -68,23 +49,47 @@ input:focus, textarea:focus, select:focus
    z-index: 99999;
 }
 </style>
+<link href="plyr.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
 <link href="365tv3.2.3.css?v=52" rel="stylesheet">
 <style>
+#YouTube1
+{
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   border-width: 0;
+}
+#wb_YouTube1
+{
+   --plyr-color-main: #00B3FF;
+}
 #wb_uid0
 {
    position: absolute;
-   left: 628px;
+   left: 934px;
    top: 0px;
    margin: 0;
    border-width: 0;
    z-index: 250;
 }
+#wb_YouTube1
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 729px;
+   height: 410px;
+   z-index: 0;
+}
 </style>
 <script src="jquery-3.6.0.min.js"></script>
+<script src="plyr.min.js"></script>
 <script>
 $(document).ready(function()
 {
+   const plyrYouTube1 = new Plyr('#wb_YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
 });
 $(window).on('load', function()
@@ -92,24 +97,12 @@ $(window).on('load', function()
    $('#preloader').remove();
 });
 </script>
-<script src="https://player2.h-cdn.com/hola_player.js?customer=demo"></script>
-
-
 </head>
 <body>
-<video preload="auto" autoplay="1" class="video-js vjs-default-skin" width="729" height="410" controls>
-    <source src="https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8" type="application/x-mpegurl">
-</video>
-
-<script>
-    (function(){
-        window.hola_player();
-    })();
-</script>
-<div id="space"><br></div>
-<div id="container">
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<div id="wb_YouTube1">
+<iframe id="YouTube1" src="https://www.youtube.com/embed/tT_7gMxZJgY?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;controls=0&amp;autohide=1subject=theepochtime" loading="lazy"></iframe>
 </div>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
 <div id="preloader"></div>
 </body>
 </html>

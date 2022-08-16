@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>DW en Español</title>
+<title>RT en Español</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <style>
 body
@@ -40,42 +40,31 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=60" rel="stylesheet">
+<link href="365tv3.2.3.css?v=56" rel="stylesheet">
 <style>
 #Html1
 {
    position: absolute;
    left: 0px;
    top: 0px;
-   width: 729px;
-   height: 410px;
+   width: 726px;
+   height: 407px;
    z-index: 1;
 }
 #wb_uid0
 {
    position: absolute;
-   left: 906px;
+   left: 871px;
    top: 0px;
    margin: 0;
    border-width: 0;
    z-index: 250;
 }
 </style>
-<script src="https://player2.h-cdn.com/hola_player.js?customer=demo"></script>
-
 </head>
 <body>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
 <div id="Html1">
-<video preload="auto" autoplay="1" class="video-js vjs-default-skin" width="729" height="410" controls>
-    <source src="https://cdnenmain.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8?PlaylistM3UCL" type="application/x-mpegurl">
-</video>
-
-<script>
-    (function(){
-        window.hola_player();
-    })();
-</script>
-</div>
+<iframe id="odysee-iframe" preload="auto" autoplay="1" width="720" height="400" src="https://odysee.com/$/embed/rt_transmision_en_vivo/e2dda6fa4dd22b6b587268f70a1a618131ae421c?r=B6U7b3BpEzcXm67io9gtqyL1wbxKYNVT" allowfullscreen></iframe></div>
 </body>
 </html>

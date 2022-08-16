@@ -2,39 +2,32 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>365TV | RTVE NOTICIAS</title>
+<title>TEVEVISION | VTV</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-html, body
-{
-   height: 100%;
-}
-div#space
-{
-   width: 1px;
-   height: 50%;
-   margin-bottom: -550px;
-   float:left
-}
 div#container
 {
    width: 1029px;
-   height: 1100px;
-   margin: 0 auto;
    position: relative;
-   clear: left;
+   margin: 0 auto 0 auto;
+   text-align: left;
 }
 body
 {
-   background-color: transparent;
+   background-color: #FFFFFF;
+   background-image: url('images/3876.jpg');
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
    color: #000000;
    font-family: "Barlow Condensed";
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   padding: 0;
+   text-align: center;
 }
 a
 {
@@ -61,7 +54,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=52" rel="stylesheet">
+<link href="365tv3.2.3.css?v=55" rel="stylesheet">
 <style>
 #InlineFrameBannerAds
 {
@@ -956,16 +949,16 @@ input:focus, textarea:focus, select:focus
    font-size: 15px;
    width: 17px;
 }
-#Html3
+#wb_uid3
 {
    position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 49px;
-   height: 42px;
-   z-index: 23;
+   left: 711px;
+   top: 584px;
+   margin: 0;
+   border-width: 0;
+   z-index: 250;
 }
-#wb_uid3
+#wb_uid2
 {
    position: absolute;
    left: 713px;
@@ -974,7 +967,7 @@ input:focus, textarea:focus, select:focus
    border-width: 0;
    z-index: 250;
 }
-#wb_uid2
+#wb_uid1
 {
    position: absolute;
    left: 711px;
@@ -993,7 +986,7 @@ input:focus, textarea:focus, select:focus
    z-index: 14;
    vertical-align: top;
 }
-#wb_uid1
+#wb_uid0
 {
    position: absolute;
    left: 711px;
@@ -1001,18 +994,6 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    border-width: 0;
    z-index: 250;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#wb_status_live_vod
-{
 }
 #wb_logowebtv
 {
@@ -1030,14 +1011,23 @@ input:focus, textarea:focus, select:focus
    height: 1518px;
    z-index: 13;
 }
-#wb_EmbeddedPageTVES
+#wb_EmbeddedPageVtv
 {
    position: absolute;
    left: 0px;
    top: 0px;
-   width: 872px;
-   height: 606px;
-   z-index: 22;
+   width: 1029px;
+   height: 1518px;
+   z-index: 21;
+}
+#venezoladetelevisionHtml1
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 68px;
+   height: 32px;
+   z-index: 23;
 }
 #menuplay1
 {
@@ -1051,14 +1041,11 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="estilos.css" rel="stylesheet">
 </head>
-<body onload="window.open('rtvenoticiasplay','InlineFrameScreen');return false;" 
->
-<div id="space"><br></div>
+<body>
 <div id="container">
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
-<div id="wb_EmbeddedPageTVES">
+<div id="wb_EmbeddedPageVtv">
 <div id="wb_EmbeddedPage1">
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid1" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
 <div id="FlexGrid1">
 <div class="header">
 <div id="wb_logowebtv">
@@ -1136,19 +1123,36 @@ input:focus, textarea:focus, select:focus
 </div>
 
 </div>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid1" width="16" height="16"></a>
+
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid2" width="16" height="16"></a>
-
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid3" width="16" height="16"></a>
 </div>
-<!-- cortesiax -->
-<div id="Html3">
-<img class="logochannel" src="https://yt3.ggpht.com/ytc/AKedOLRCI6q817rqfqgWwRTc41umKpHzkwsvU7MnR6Vp=s48-c-k-c0x00ffffff-no-rj">
-<img class="flagcountry" src="https://images.emojiterra.com/twitter/v14.0/128px/1f1ea-1f1f8.png">
-<div id="wb_status_live_vod">
-<h5 class="status_live">LIVE</h5>
-<h5><p>RTVE NOTICIAS<br>Canal de Noticias<br>ESPAÑA</p></h5>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid3" width="16" height="16"></a>
+<!-- INFOCHANNEL -->
+<div id="venezoladetelevisionHtml1">
+<body onload="window.open('vtvplay','InlineFrameScreen');window.open('info-canal-vtv','InlineFrameInfoChannel');window.open('logo-canal-vtv','InlineFrameLogoChannel');window.open('./images/flags/flag-venezuela','InlineFrameFlags');window.open('./images/status-channel/status-live','InlineFrameStatusLive');document.getElementById('menumasterplayer').style.display='none';document.getElementById('menumasterplayer2').style.display='none';document.getElementById('wb_BreadcrumbMenuCentral').style.display='block';return false;">
 
-<h5><p2>RTVE</p2></h5></div>
+<div id="wb_BreadcrumbMenu1">
+   <ul id="BreadcrumbMenu1">
+      <li><a href="opcion-1" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 1" onclick="window.open('','InlineFrameScreen');return false;">OPCION 1</a></li>
+      <li><a href="opcion-2" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 2" onclick="window.open('','InlineFrameScreen');return false;">OPCION 2</a></li>
+      <li><a href="opcion-3" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 3" onclick="window.open('','InlineFrameScreen');return false;">OPCION 3</a></li>
+   </ul>
+</div>
+<div id="wb_BreadcrumbMenuCentral">
+   <ul id="BreadcrumbMenuCentral">
+      <li><a href="javascript:window.location.reload()" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Reload"><i class="fa fa-refresh">&nbsp;</i></a></li>
+    </ul>
+</div>
+<div id="wb_BreadcrumbMenu2">
+   <ul id="BreadcrumbMenu2">
+      <li><a href="opcion-1" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 1" onclick="window.open('comedycentralplay2','InlineFrameScreen');return false;"><i class="fa fa-thumbs-o-down">&nbsp;</i></a></li>
+      <li><a href="opcion-2" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="opcion 2" onclick="window.open('comedycentralplay2','InlineFrameScreen');return false;"><i class="fa fa-thumbs-o-up">&nbsp;</i></a></li>
+      <li><a href="click para chat y dobleclick para volver" rel="nofollow noopener noreferrer sponsored ugc" onclick="window.open('chatbro','InlineFrameSidebar2');return false;" ondblclick="history.back();return false;"><i class="fa fa-comment">&nbsp;</i></a></li>
+      <li><a href="click para chat y dobleclick para volver" rel="nofollow noopener noreferrer sponsored ugc" onclick="window.open('menu_not','InlineFrameSidebar2');return false;" ondblclick="history.back();return false;"><i class="fa fa-list">&nbsp;</i></a></li>
+   </ul>
+</div>
+</div>
 </div>
 </body>
 </html>

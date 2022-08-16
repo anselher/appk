@@ -40,7 +40,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=60" rel="stylesheet">
+<link href="365tv3.2.3.css?v=52" rel="stylesheet">
 <style>
 #Html1
 {
@@ -49,21 +49,22 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 729px;
    height: 410px;
-   z-index: 1;
+   z-index: 0;
 }
 #wb_uid0
 {
    position: absolute;
-   left: 822px;
+   left: 779px;
    top: 0px;
    margin: 0;
    border-width: 0;
    z-index: 250;
 }
 </style>
+<script src="https://player2.h-cdn.com/hola_player.js?customer=demo"></script>
+
 </head>
 <body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
 <div id="Html1">
 <div id="maincontainer" class="container-fluid mrt20 mrb20 clearfix maincontainer"> <!-- start header div 1, will end in footer -->
 	<div id="content" class="container"> <!-- start header div 2, will end in footer -->
@@ -86,12 +87,13 @@ input:focus, textarea:focus, select:focus
 				
 				
 			<script type='text/javascript' src='https://maindigitalstream.com/jwplayer/jwplayer.js?2.2.3.5'></script>
-<script>jwplayer.key="8gDDWtjPpyFgSWsZPjDk4MV6CVI0wEVf2xp7vS7FZUw=";</script><div id='MediaPlayerOverview'>Loading&#8230;</div>
+<script>jwplayer.key="8gDDWtjPpyFgSWsZPjDk4MV6CVI0wEVf2xp7vS7FZUw=";</script>
+<div id='MediaPlayerOverview'>Loading&#8230;</div>
 <script type='text/javascript'>
   jwplayer('MediaPlayerOverview').setup({
  sources: [
-     {file: "https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8?PlaylistM3UCL"},
-   {file: "https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8?PlaylistM3UCL"}
+     {file: "https://vs1.youmaker.com/assets/5813958c-6ce1-434a-bc2b-4a3d9061a9ba/hls_720p/playlist.m3u8"},
+   {file: "https://vs1.youmaker.com/assets/5813958c-6ce1-434a-bc2b-4a3d9061a9ba/hls_720p/playlist.m3u8"}
     ],
  rtmp: {
   bufferlength: 3,
@@ -104,9 +106,9 @@ input:focus, textarea:focus, select:focus
  'androidhls': true,
  'primary': 'html5',
  logo: {
-  file: '', //watermark image path
+  file: 'images/images/logo-telemarg.png', //watermark image path
   link: '', //link url on watermark image
-  position: 'top-rigth' //position of watermark on player
+  position: 'top-left' //position of watermark on player
   },
  });
 </script>
@@ -119,6 +121,8 @@ input:focus, textarea:focus, select:focus
 </div>	
 		</div> <!-- end header div 3 -->
 	</div> <!-- end header div 2 -->
-</div> <!-- end header div 1 --></div>
+</div> <!-- end header div 1 -->
+</div>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
 </body>
 </html>
