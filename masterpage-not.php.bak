@@ -1,0 +1,411 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>masterpage1</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body
+{
+   background-color: transparent;
+   color: #000000;
+   font-family: "Barlow Condensed";
+   font-weight: 500;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #F2F2F2;
+   text-decoration: none;
+}
+a:visited
+{
+   color: #FFFFFF;
+}
+a:active
+{
+   color: #FFFF00;
+}
+a:hover
+{
+   color: #00FF00;
+   text-decoration: none;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+</style>
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
+<link href="365tv3.2.3.css?v=47" rel="stylesheet">
+<style>
+#FlexGrid1
+{
+   display: grid;
+   height: 1498px;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid rgba(204,204,204,0.00);
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-size: 0px;
+   grid-template-columns: 728px 1px 300px;
+   grid-template-rows: 20px 90px 1px 30px 1px 70px 1px 339px 1px 29px 1px 90px 1px 30px 1px 161px 1px 30px 1px 600px;
+   grid-template-areas:
+      ". . ."
+      "header header header"
+      ". . ."
+      "menu . sidebar1"
+      ". . sidebar1"
+      "Screen . sidebar1"
+      "Screen . ."
+      "Screen . sidebar2"
+      ". . sidebar2"
+      "barControl . sidebar2"
+      ". . sidebar2"
+      "roll . sidebar2"
+      ". . ."
+      "tag1 tag1 tag1"
+      ". . ."
+      "galeryroll galeryroll galeryroll"
+      ". . ."
+      "tag2 tag2 tag2"
+      ". . ."
+      "grandfooter grandfooter grandfooter";
+}
+#FlexGrid1 .header
+{
+   display: flex;
+   grid-area: header;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('images/HEADER.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .menu
+{
+   display: flex;
+   grid-area: menu;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('images/MENU.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .sidebar1
+{
+   display: flex;
+   grid-area: sidebar1;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('images/SIDEBARINFO1.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .Screen
+{
+   display: flex;
+   grid-area: Screen;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('images/SCREENTV.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .sidebar2
+{
+   display: flex;
+   grid-area: sidebar2;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('images/SIDEBARMENU.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .barControl
+{
+   display: flex;
+   grid-area: barControl;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('images/CONTROL_PLAYER.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .roll
+{
+   display: flex;
+   grid-area: roll;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('images/ROLL.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .tag1
+{
+   display: flex;
+   grid-area: tag1;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('images/control%2dblog_1.png');
+   background-repeat: repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .galeryroll
+{
+   display: flex;
+   grid-area: galeryroll;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('images/DOWNROLL.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#FlexGrid1 .tag2
+{
+   display: flex;
+   grid-area: tag2;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('images/control%2dblog_1.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   -webkit-align-items: flex-start;
+   align-items: flex-start;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
+}
+#FlexGrid1 .grandfooter
+{
+   display: flex;
+   grid-area: grandfooter;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('images/FOOTER.png');
+   background-repeat: no-repeat;
+   background-position: left top;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#InlineFrameBannerAds
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 1px 1px 1px 1px;
+   -webkit-animation: animate-fade-in 2000ms linear 0ms 1 normal both;
+   animation: animate-fade-in 2000ms linear 0ms 1 normal both;
+}
+#InlineFrameBannerAds
+{
+   display: block;
+   float: left;
+   width: calc(100% - 2px);
+   height: 88px;
+   vertical-align: top;
+}
+#InlineFrameScreen
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 1px 1px 1px 1px;
+}
+#InlineFrameScreen
+{
+   display: block;
+   float: left;
+   width: calc(100% - 2px);
+   height: 408px;
+   vertical-align: top;
+}
+#wb_uid0
+{
+   position: absolute;
+   left: 712px;
+   top: 584px;
+   margin: 0;
+   border-width: 0;
+   z-index: 250;
+}
+</style>
+<link href="estilos.css" rel="stylesheet">
+
+
+</head>
+<body>
+<div id="FlexGrid1">
+<div class="header">
+</div>
+<div class="menu">
+</div>
+<div class="sidebar1">
+</div>
+<div class="Screen">
+<iframe name="InlineFrameScreen" id="InlineFrameScreen" src="./images/imagenes" scrolling="no"></iframe>
+</div>
+<div class="sidebar2">
+</div>
+<div class="barControl">
+</div>
+<div class="roll">
+<iframe name="InlineFrameBannerAds" id="InlineFrameBannerAds" src="./banner" scrolling="no"></iframe>
+</div>
+<div class="tag1">
+</div>
+<div class="galeryroll">
+</div>
+<div class="tag2">
+</div>
+<div class="grandfooter">
+</div>
+</div>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+</body>
+</html>
