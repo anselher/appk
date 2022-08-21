@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=168" rel="stylesheet">
+<link href="365tv3.2.3.css?v=170" rel="stylesheet">
 <style>
 #logochannelcnnFlexGrid1
 {
@@ -115,7 +115,7 @@ input:focus, textarea:focus, select:focus
 <div id="logochannelcnnFlexGrid1">
 <div class="header">
 <div id="Html1">
-<img src="https://yt3.ggpht.com/aS3CnijPv09vRb35wr6NDe6MiR74FffvIipfi2Fp8c3nO2TCSgBnbX4jfbGWr14pL2zfS31tMC4=s900-c-k-c0x00ffffff-no-rj" class="imgcanal" >
+<img src="https://img2.freepng.es/20180920/tfe/kisspng-nickelodeon-logo-nick-jr-nick-play-nick-com-5ba431b2ca6e71.6685734415374872828292.jpg" class="imgcanal" >
 </div>
 </div>
 </div>

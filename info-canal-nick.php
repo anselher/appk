@@ -40,7 +40,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=167" rel="stylesheet">
+<link href="365tv3.2.3.css?v=169" rel="stylesheet">
 <style>
 #wb_Text1 
 {
@@ -98,7 +98,7 @@ input:focus, textarea:focus, select:focus
 <body>
 <div id="info-channelLayer1" class="h5">
 <div id="wb_Text1">
-<span id="wb_uid0">CARTOON NETWORK<br>SERIES ANIMADAS<br>LATINOAMÉRICA</span></div>
+<span id="wb_uid0">NICK<br>SERIES ANIMADAS<br>LATINOAMÉRICA</span></div>
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid1" width="16" height="16"></a>
 </body>
