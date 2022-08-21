@@ -40,8 +40,17 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=55" rel="stylesheet">
+<link href="365tv3.2.3.css?v=128" rel="stylesheet">
 <style>
+#canales-noticiasHtml1
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 164px;
+   height: 93px;
+   z-index: 1;
+}
 #wb_uid0
 {
    position: absolute;
@@ -55,5 +64,12 @@ input:focus, textarea:focus, select:focus
 </head>
 <body>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<!-- CONTADOR -->
+<div id="canales-noticiasHtml1">
+<div id="contadortotal">
+   <!-- Contador de visitas -->
+<img alt="visitantes" src="https://websmultimedia.com/contador-de-visitas.php?id=4463"></a>
+   <!-- Fin Contador de visitas -->
+</div></div>
 </body>
 </html>

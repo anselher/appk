@@ -7,7 +7,7 @@
 <meta name="keywords" content="WebTV;  tdt; tv en vivo">
 <meta name="author" content="Anselher">
 <meta name="categories" content="television en vivo">
-<meta name="expires" content="Fri, 19 Aug 2022 01:05:23 GMT">
+<meta name="expires" content="Wed, 24 Aug 2022 00:21:40 GMT">
 <meta name="generator" content="WYSIWYG Web Builder 17 - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
@@ -59,7 +59,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=55" rel="stylesheet">
+<link href="365tv3.2.3.css?v=125" rel="stylesheet">
 <style>
 #InlineFrameBannerAds
 {
@@ -696,6 +696,25 @@ input:focus, textarea:focus, select:focus
    height: 161px;
    vertical-align: top;
 }
+#wb_master-page-indexImage1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#master-page-indexImage1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 1030px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
 #BreadcrumbInd
 {
    padding: 2px 15px 2px 15px;
@@ -970,7 +989,7 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 49px;
    height: 25px;
-   z-index: 23;
+   z-index: 24;
 }
 #wb_uid2
 {
@@ -988,7 +1007,7 @@ input:focus, textarea:focus, select:focus
    top: 114px;
    width: 729px;
    height: 30px;
-   z-index: 16;
+   z-index: 17;
    vertical-align: top;
 }
 #wb_uid1
@@ -1045,7 +1064,14 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 1029px;
    height: 1518px;
-   z-index: 15;
+   z-index: 16;
+}
+#wb_master-page-indexImage1
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 13;
 }
 #greeting
 {
@@ -1087,10 +1113,10 @@ input:focus, textarea:focus, select:focus
 <div class="mainmenu">
 </div>
 <div class="logochannel">
-<iframe name="InlineFrameLogoChannel" id="InlineFrameLogoChannel" src="./logo-channel-index" scrolling="no"></iframe>
+<iframe name="InlineFrameLogoChannel" id="InlineFrameLogoChannel" src="" scrolling="no"></iframe>
 </div>
 <div class="info-channel">
-<iframe name="InlineFrameInfoChannel" id="InlineFrame2" src="./info-channel" scrolling="no"></iframe>
+<iframe name="InlineFrameInfoChannel" id="InlineFrame2" src="" scrolling="no"></iframe>
 </div>
 <div class="borde">
 </div>
@@ -1098,7 +1124,7 @@ input:focus, textarea:focus, select:focus
 <iframe name="InlineFrameScreen" id="InlineFrameScreen" src="./images/imagenes" scrolling="no"></iframe>
 </div>
 <div class="live">
-<iframe name="InlineFrameStatusLive" id="master-page-notInlineFrame1" src="./images/status-channel/status-live" scrolling="no"></iframe>
+<iframe name="InlineFrameStatusLive" id="master-page-notInlineFrame1" src="./images/status-channel/status-live-inact" scrolling="no"></iframe>
 </div>
 <div class="vod">
 <iframe name="InlineFrameStatusVod" id="master-page-notInlineFrame2" src="./images/status-channel/status-vod" scrolling="no"></iframe>
@@ -1169,11 +1195,14 @@ else
 <div class="tag1">
 </div>
 <div class="carrousel">
-<iframe name="master-page-indexInlineFrame1" id="master-page-indexInlineFrame1" src="./tag1roll" scrolling="no"></iframe>
+<iframe name="master-page-indexInlineFrame1" id="master-page-indexInlineFrame1" src="./tag2roll" scrolling="no"></iframe>
 </div>
 <div class="tag2">
 </div>
 <div class="prefooter">
+<div id="wb_master-page-indexImage1">
+<img src="images/Recurso%2056.png" id="master-page-indexImage1" alt="" width="1029" height="600">
+</div>
 </div>
 <div class="footer">
 </div>
@@ -1197,7 +1226,7 @@ else
 
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid2" width="16" height="16"></a>
 <div id="Html1">
-<body onload="window.open('ntn24play','InlineFrameScreen');window.open('info-channel','InlineFrameInfoChannel');window.open('logo-channel-index','InlineFrameLogoChannel');window.open('./images/flags/flag-venezuela','InlineFrameFlags');window.open('./images/status-channel/status-live','InlineFrameStatusLive');document.getElementById('menumasterplayer').style.display='none';document.getElementById('menumasterplayer2').style.display='none';document.getElementById('wb_BreadcrumbMenuCentral').style.display='block';return false;">
+<body onload="window.open('intro-play','InlineFrameScreen');return false;">
 <div id="menumasterplayer">
 <div id="wb_BreadcrumbMenu1">
    <ul id="BreadcrumbMenu1">
@@ -1219,9 +1248,7 @@ else
       <li><a href="click para chat y dobleclick para volver" rel="nofollow noopener noreferrer sponsored ugc" onclick="window.open('chatbro','InlineFrameSidebar2');return false;" ondblclick="history.back();return false;"><i class="fa fa-comment">&nbsp;</i></a></li>
       <li><a href="click para chat y dobleclick para volver" rel="nofollow noopener noreferrer sponsored ugc" onclick="window.open('menu_not','InlineFrameSidebar2');return false;" ondblclick="history.back();return false;"><i class="fa fa-list">&nbsp;</i></a></li>
    </ul>
-</div>
-
-</div>
+</div></div>
 </div>
 </body>
 </html>
