@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=217" rel="stylesheet">
+<link href="365tv3.2.3.css?v=219" rel="stylesheet">
 <style>
 #page2FlexGrid1
 {
@@ -300,8 +300,8 @@ $(function(){
       <h5><br><br>CARTOON NETWORK</h5><span></span></a></li>
       <li><a href="canal/nick" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('nick','_top');return false;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Nick.svg/2560px-Nick.svg.png" alt="nick" class="imgcanal" >
       <h5><br><br>NICK</h5><span></span></a></li>
-      <li><a href="canal/tnnoticias" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('tnnoticias','InlineFrameScreen');return false;"><img src="https://i.ytimg.com/vi/wHn1_QVoXGM/hqdefault_live.jpg" alt="" class="imgcanal" >
-      <h5><br><br> TN NOTICIAS</h5><span></span></a></li>
+      <li><a href="canal/sony" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('sony','_top');return false;"><img src="https://www.thedailytelevision.com/sites/default/files/notas/imagenes/interior/sonny_channel_programa_vbig.jpg" alt="canal sony" class="imgcanal" >
+      <h5><br><br>CANAL SONY</h5><span></span></a></li>
       <li><a href="canal/evtv" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('evtv','InlineFrameScreen');return false;"><img src="https://i.ytimg.com/vi/ZAEhwK4szd4/mqdefault.jpg" alt="" class="imgcanal" >
       <h5><br><br> EVTV MIAMI</h5><span></span></a></li>
       <li><a href="canal/theepochtime" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('the-epoch-time','InlineFrameScreen');return false;"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Epochtimeslogo.jpg" alt="" class="imgcanal" >
