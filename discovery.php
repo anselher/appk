@@ -54,7 +54,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=145" rel="stylesheet">
+<link href="365tv3.2.3.css?v=146" rel="stylesheet">
 <style>
 #InlineFrameBannerAds
 {
@@ -1217,7 +1217,8 @@ clock();
    <ul id="BreadcrumbMenu1">
       <li><a href="opcion-1" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 1" onclick="window.open('discoveryplay1','InlineFrameScreen');return false;">OPCION 1</a></li>
       <li><a href="opcion-2" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 2" onclick="window.open('discoveryplay2','InlineFrameScreen');return false;">OPCION 2</a></li>
-      <li><a href="opcion-3" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 3" onclick="window.open('discoverymaxplay1','InlineFrameScreen');return false;">DISCOVERY MAX</a></li>
+      <li><a href="opcion-3" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 3" onclick="window.open('discoverymaxplay1','InlineFrameScreen');return false;">DMAX</a></li>
+      <li><a href="opcion-4" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 4" onclick="window.open('discoveryturboplay1','InlineFrameScreen');return false;">DMAX</a></li>
       
    </ul>
 </div>
