@@ -54,7 +54,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=148" rel="stylesheet">
+<link href="365tv3.2.3.css?v=149" rel="stylesheet">
 <style>
 #InlineFrameBannerAds
 {
@@ -1156,7 +1156,7 @@ clock();
 <div class="options">
 <div id="wb_BreadcrumbMenuOpt">
 <ul id="BreadcrumbMenuOpt">
-<li><a href="./menu_var" target="InlineFrameSidebar2" title="CANALES"><i class="fa fa-gear">&nbsp;</i> </a></li>
+<li><a href="./menu-doc" target="InlineFrameSidebar2" title="CANALES"><i class="fa fa-gear">&nbsp;</i> </a></li>
 </ul>
 
 </div>
@@ -1167,7 +1167,7 @@ clock();
 <div class="info2">
 </div>
 <div class="sidebar3">
-<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" src="./menu_var" scrolling="no"></iframe>
+<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" src="./menu-doc" scrolling="no"></iframe>
 </div>
 <div class="menuplayer">
 </div>
@@ -1191,8 +1191,8 @@ clock();
 <ul id="BreadcrumbNot">
 <li><a href="index" title="INDICE"><i class="fa fa-plus-square-o">&nbsp;</i> </a></li>
 <li><a href="noticias">NOTICIAS</a></li>
-<li class="active" aria-current="page">VARIEDADES</li>
-<li><a href="documentales">DOCUMENTALES</a></li>
+<li><a href="variedades">VARIEDADES</a></li>
+<li class="active" aria-current="page">DOCUMENTALES</li>
 <li><a href="series">SERIES</a></li>
 <li><a href="movies">PELICULAS</a></li>
 </ul>
