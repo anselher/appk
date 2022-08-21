@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=215" rel="stylesheet">
+<link href="365tv3.2.3.css?v=216" rel="stylesheet">
 <style>
 #page2FlexGrid1
 {
@@ -296,8 +296,8 @@ $(function(){
       <h5><br><br> STAR CHANNEL</h5><span></span></a></li>
       <li><a href="canal/tooncast" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('tooncast','_top');return false;"><img src="https://1.bp.blogspot.com/-JKfvFJqmM8A/YJrkaoEkAII/AAAAAAAAQUc/0ziuLKXuWwcJj_WCRwpDoYMUYlZiL15fgCPcBGAYYCw/s0/Tooncast_1.jpg" alt="tooncast" class="imgcanal" >
       <h5><br><br>TOONCAST</h5><span></span></a></li>
-      <li><a href="canal/rtve" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('rtvenoticias','InlineFrameScreen');return false;"><img src="https://i.ytimg.com/vi/xR-4NDFsYNk/hqdefault_live.jpg" alt="" class="imgcanal" >
-      <h5><br><br> RTVE NOTICIAS</h5><span></span></a></li>
+      <li><a href="canal/cartoonnetwork" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('cartoonnetwork','_top');return false;"><img src="https://bolavip.com/__export/1637447079281/sites/bolavip/img/2021/11/20/cartoon_crop1637446533759.jpg_242310155.jpg" alt="cartoon network" class="imgcanal" >
+      <h5><br><br>CARTOON NETWORK</h5><span></span></a></li>
       <li><a href="canal/meganoticias" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('meganoticias','InlineFrameScreen');return false;"><img src="https://i.ytimg.com/vi/WWVwv31dlLg/hqdefault_live.jpg" alt="" class="imgcanal" >
       <h5><br><br> MEGANOTICIAS</h5><span></span></a></li>
       <li><a href="canal/tnnoticias" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('tnnoticias','InlineFrameScreen');return false;"><img src="https://i.ytimg.com/vi/wHn1_QVoXGM/hqdefault_live.jpg" alt="" class="imgcanal" >
