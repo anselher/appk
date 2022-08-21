@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=222" rel="stylesheet">
+<link href="365tv3.2.3.css?v=225" rel="stylesheet">
 <style>
 #page2FlexGrid1
 {
@@ -304,7 +304,7 @@ $(function(){
       <h5><br><br>CANAL SONY</h5><span></span></a></li>
       <li><a href="canal/cinecanal" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('cinecanal','_top');return false;"><img src="https://www.totalmedios.com/img/noticias/2018/09/5b965cd2a443c__838x390.jpg" alt="cinecanal" class="imgcanal" >
       <h5><br><br>CINECANAL</h5><span></span></a></li>
-      <li><a href="canal/cinemax" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('cinemax','InlineFrameScreen');return false;"><img src="https://static.wikia.nocookie.net/doblaje/images/6/69/Cinemax.png" alt="cinemax" class="imgcanal" >
+      <li><a href="canal/cinemax" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('cinemax','_top');return false;"><img src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1568234583/content-items/003/262/595/21-original.jpg?1568234583" alt="cinemax" class="imgcanal" >
       <h5><br><br>CINEMAX</h5><span></span></a></li>
       <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('televenplay','InlineFrameScreen');return false;"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Epochtimeslogo.jpg" alt="" class="imgcanal" >
       <h5><br><br> TLO</h5><span></span></a></li>
