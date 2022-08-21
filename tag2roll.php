@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=214" rel="stylesheet">
+<link href="365tv3.2.3.css?v=215" rel="stylesheet">
 <style>
 #page2FlexGrid1
 {
@@ -294,8 +294,8 @@ $(function(){
       <h5><br><br>DISCOVERY</h5><span></span></a></li>
       <li><a href="canal/star" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('starchannel','_top');return false;"><img src="https://i0.wp.com/television.com.py/wp-content/uploads/2021/02/StarChannelTVPY.jpg?fit=84%2C60&ssl=1" alt="star" class="imgcanal" >
       <h5><br><br> STAR CHANNEL</h5><span></span></a></li>
-      <li><a href="canal/cgtn" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('cgtnenespanol','InlineFrameScreen');return false;"><img src="https://i.ytimg.com/vi/zghho0FINAk/hqdefault.jpg" alt="" class="imgcanal" >
-      <h5><br><br> CGTN EN ESPAÑOL</h5><span></span></a></li>
+      <li><a href="canal/tooncast" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('tooncast','_top');return false;"><img src="https://1.bp.blogspot.com/-JKfvFJqmM8A/YJrkaoEkAII/AAAAAAAAQUc/0ziuLKXuWwcJj_WCRwpDoYMUYlZiL15fgCPcBGAYYCw/s0/Tooncast_1.jpg" alt="tooncast" class="imgcanal" >
+      <h5><br><br>TOONCAST</h5><span></span></a></li>
       <li><a href="canal/rtve" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('rtvenoticias','InlineFrameScreen');return false;"><img src="https://i.ytimg.com/vi/xR-4NDFsYNk/hqdefault_live.jpg" alt="" class="imgcanal" >
       <h5><br><br> RTVE NOTICIAS</h5><span></span></a></li>
       <li><a href="canal/meganoticias" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('meganoticias','InlineFrameScreen');return false;"><img src="https://i.ytimg.com/vi/WWVwv31dlLg/hqdefault_live.jpg" alt="" class="imgcanal" >
