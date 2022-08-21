@@ -40,7 +40,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=159" rel="stylesheet">
+<link href="365tv3.2.3.css?v=163" rel="stylesheet">
 <style>
 #wb_Text1 
 {
@@ -98,7 +98,7 @@ input:focus, textarea:focus, select:focus
 <body>
 <div id="info-channelLayer1" class="h5">
 <div id="wb_Text1">
-<span id="wb_uid0">TBS<br>SERIES RETRO<br>LATINOAMÉRICA</span></div>
+<span id="wb_uid0">HISTORY<br>DOCUMENTALES<br>LATINOAMÉRICA</span></div>
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid1" width="16" height="16"></a>
 </body>
