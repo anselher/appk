@@ -54,7 +54,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=126" rel="stylesheet">
+<link href="365tv3.2.3.css?v=127" rel="stylesheet">
 <style>
 #InlineFrameBannerAds
 {
@@ -1211,7 +1211,7 @@ clock();
 </div>
 <!-- cortesiax -->
 <div id="Html3">
-<body onload="window.open('venevisionplay','InlineFrameScreen');window.open('info-canal-venevision','InlineFrameInfoChannel');window.open('logo-canal-venevision','InlineFrameLogoChannel');window.open('./images/flags/flag-venezuela','InlineFrameFlags');window.open('./images/status-channel/status-live','InlineFrameStatusLive');document.getElementById('menumasterplayer').style.display='block';document.getElementById('menumasterplayer2').style.display='block';document.getElementById('wb_BreadcrumbMenuCentral').style.display='block';return false;">
+<body onload="window.open('venevisionplay2','InlineFrameScreen');window.open('info-canal-venevision','InlineFrameInfoChannel');window.open('logo-canal-venevision','InlineFrameLogoChannel');window.open('./images/flags/flag-venezuela','InlineFrameFlags');window.open('./images/status-channel/status-live','InlineFrameStatusLive');document.getElementById('menumasterplayer').style.display='block';document.getElementById('menumasterplayer2').style.display='block';document.getElementById('wb_BreadcrumbMenuCentral').style.display='block';return false;">
 <div id="menumasterplayer2">
 </div>
 <div id="wb_BreadcrumbMenu1">
