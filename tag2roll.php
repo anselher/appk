@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=209" rel="stylesheet">
+<link href="365tv3.2.3.css?v=214" rel="stylesheet">
 <style>
 #page2FlexGrid1
 {
@@ -292,8 +292,8 @@ $(function(){
       <h5><br><br>HISTORY</h5><span></span></a></li>
       <li><a href="canal/discovery" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('discovery','_top');return false;"><img src="https://i.ytimg.com/vi/A4W3fRjJJTY/maxresdefault.jpg" alt="discovery" class="imgcanal" >
       <h5><br><br>DISCOVERY</h5><span></span></a></li>
-      <li><a href="canal/c5n" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('pageinfo21','InlineFrameScreen');return false;"><img src="https://i.ytimg.com/vi/bCJY83loEr4/hqdefault.jpg" alt="" class="imgcanal" >
-      <h5><br><br> C5N NOTICIAS</h5><span></span></a></li>
+      <li><a href="canal/star" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('starchannel','_top');return false;"><img src="https://i0.wp.com/television.com.py/wp-content/uploads/2021/02/StarChannelTVPY.jpg?fit=84%2C60&ssl=1" alt="star" class="imgcanal" >
+      <h5><br><br> STAR CHANNEL</h5><span></span></a></li>
       <li><a href="canal/cgtn" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('cgtnenespanol','InlineFrameScreen');return false;"><img src="https://i.ytimg.com/vi/zghho0FINAk/hqdefault.jpg" alt="" class="imgcanal" >
       <h5><br><br> CGTN EN ESPAÑOL</h5><span></span></a></li>
       <li><a href="canal/rtve" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('rtvenoticias','InlineFrameScreen');return false;"><img src="https://i.ytimg.com/vi/xR-4NDFsYNk/hqdefault_live.jpg" alt="" class="imgcanal" >
