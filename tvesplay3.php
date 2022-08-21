@@ -2,9 +2,14 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>RT en Español</title>
+<title>Venevision</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <style>
+html, body, #container
+{
+   width: 100%;
+   height: 100%;
+}
 body
 {
    background-color: transparent;
@@ -40,21 +45,21 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=125" rel="stylesheet">
+<link href="365tv3.2.3.css?v=128" rel="stylesheet">
 <style>
 #Html1
 {
    position: absolute;
    left: 0px;
    top: 0px;
-   width: 726px;
-   height: 407px;
-   z-index: 1;
+   width: 729px;
+   height: 409px;
+   z-index: 0;
 }
 #wb_uid0
 {
    position: absolute;
-   left: 871px;
+   left: 786px;
    top: 0px;
    margin: 0;
    border-width: 0;
@@ -63,8 +68,8 @@ input:focus, textarea:focus, select:focus
 </style>
 </head>
 <body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
 <div id="Html1">
-<iframe id="odysee-iframe" preload="auto" autoplay="1" width="720" height="400" src="https://odysee.com/$/embed/rt_transmision_en_vivo/e2dda6fa4dd22b6b587268f70a1a618131ae421c?r=B6U7b3BpEzcXm67io9gtqyL1wbxKYNVT" allowfullscreen></iframe></div>
+<iframe width="729" height="409" src="https://ok.ru/videoembed/3706499047140?nochat=1&autoplay=1" frameborder="0" allow="autoplay" allowfullscreen></iframe></div>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
 </body>
 </html>

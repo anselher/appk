@@ -2,28 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>dwframe</title>
+<title>page19</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <style>
-html, body
-{
-   height: 100%;
-}
-div#space
-{
-   width: 1px;
-   height: 50%;
-   margin-bottom: -301px;
-   float:left
-}
-div#container
-{
-   width: 630px;
-   height: 603px;
-   margin: 0 auto;
-   position: relative;
-   clear: left;
-}
 body
 {
    background-color: transparent;
@@ -69,13 +50,22 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=121" rel="stylesheet">
+<link href="365tv3.2.3.css?v=124" rel="stylesheet">
 <style>
+#Html1
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 729px;
+   height: 410px;
+   z-index: 0;
+}
 #wb_uid0
 {
    position: absolute;
-   left: 628px;
-   top: 0px;
+   left: 777px;
+   top: 2px;
    margin: 0;
    border-width: 0;
    z-index: 250;
@@ -92,24 +82,12 @@ $(window).on('load', function()
    $('#preloader').remove();
 });
 </script>
-<script src="https://player2.h-cdn.com/hola_player.js?customer=demo"></script>
-
-
 </head>
 <body>
-<video preload="auto" autoplay="1" class="video-js vjs-default-skin" width="729" height="410" controls>
-    <source src="https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8" type="application/x-mpegurl">
-</video>
-
-<script>
-    (function(){
-        window.hola_player();
-    })();
-</script>
-<div id="space"><br></div>
-<div id="container">
+<!-- de pruebas -->
+<div id="Html1">
+<iframe src ='https://www.opencaster.com/anselher-100-100' width='729' height='410' frameborder='0' scrolling="no" autoplay="true"target="_blank" allowfullscreen="yes"></iframe></div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
-</div>
 <div id="preloader"></div>
 </body>
 </html>

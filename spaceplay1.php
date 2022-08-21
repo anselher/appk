@@ -50,7 +50,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=142" rel="stylesheet">
+<link href="365tv3.2.3.css?v=152" rel="stylesheet">
 <style>
 #wb_uid0
 {
@@ -99,7 +99,7 @@ $(window).on('load', function()
     <script>
       var player = new Clappr.Player(
         {
-          source: 'https://edge1o.live.opencaster.com/caster/erCkqDzdGzpj.m3u8',
+          source: 'https://wisp.cdn.rcs.net.ar/mnp/space_hls/playlist.m3u8',
           parentId: '#player',
           plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback, Clappr.MediaControl],
           events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},},

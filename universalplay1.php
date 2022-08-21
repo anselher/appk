@@ -50,7 +50,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=142" rel="stylesheet">
+<link href="365tv3.2.3.css?v=143" rel="stylesheet">
 <style>
 #wb_uid0
 {
@@ -94,12 +94,13 @@ $(window).on('load', function()
 </head>
 <body>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<!-- universalchannel -->
 <div id="page2Html1">
 <div id="player"></div>
     <script>
       var player = new Clappr.Player(
         {
-          source: 'https://edge1o.live.opencaster.com/caster/erCkqDzdGzpj.m3u8',
+          source: 'https://cvi.cdn.rcs.net.ar/mnp/universal_hls/playlist.m3u8',
           parentId: '#player',
           plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback, Clappr.MediaControl],
           events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},},

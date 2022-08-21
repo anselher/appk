@@ -2,39 +2,32 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>365TV | RTVE NOTICIAS</title>
+<title>TEVEVISION | RTVE NOTICIAS</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-html, body
-{
-   height: 100%;
-}
-div#space
-{
-   width: 1px;
-   height: 50%;
-   margin-bottom: -550px;
-   float:left
-}
 div#container
 {
    width: 1029px;
-   height: 1100px;
-   margin: 0 auto;
    position: relative;
-   clear: left;
+   margin: 0 auto 0 auto;
+   text-align: left;
 }
 body
 {
-   background-color: transparent;
+   background-color: #FFFFFF;
+   background-image: url('images/3876.jpg');
+   background-attachment: fixed;
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
    color: #000000;
    font-family: "Barlow Condensed";
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   padding: 0;
+   text-align: center;
 }
 a
 {
@@ -61,7 +54,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=52" rel="stylesheet">
+<link href="365tv3.2.3.css?v=122" rel="stylesheet">
 <style>
 #InlineFrameBannerAds
 {
@@ -102,7 +95,7 @@ input:focus, textarea:focus, select:focus
    padding: 0;
    font-size: 0px;
    grid-template-columns: 728px 1px 81px 53px 53px 53px 27px 26px 7px;
-   grid-template-rows: 20px 90px 1px 30px 1px 19px 30px 1px 20px 1px 338px 1px 30px 1px 90px 1px 30px minmax(1px,auto) 161px 1px 30px 1px 600px minmax(20px,auto);
+   grid-template-rows: 20px 90px 1px 30px 1px 19px 30px 1px 20px 1px 338px 1px 30px 1px 90px 1px 30px minmax(1px,auto) minmax(0px,161px) 1px 30px 1px 600px minmax(20px,auto);
    grid-template-areas:
       ". . . . . . . . ."
       "header header header header header header header header header"
@@ -315,7 +308,7 @@ input:focus, textarea:focus, select:focus
    background-position: left top;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   padding: 0;
+   padding: 0px 0px 5px 0px;
    -webkit-flex-direction: row;
    flex-direction: row;
    -webkit-flex-wrap: wrap;
@@ -628,20 +621,6 @@ input:focus, textarea:focus, select:focus
    height: 30px;
    vertical-align: top;
 }
-#InlineFrameOptions
-{
-   border: 0px solid transparent;
-   border-radius: 0px;
-   margin: 0;
-}
-#InlineFrameOptions
-{
-   display: block;
-   float: left;
-   width: 100%;
-   height: 30px;
-   vertical-align: top;
-}
 #InlineFrameSidebar2
 {
    border: 0px solid #C0C0C0;
@@ -692,11 +671,60 @@ input:focus, textarea:focus, select:focus
 }
 #master-page-indexInlineFrame1
 {
-   display: block;
-   float: left;
-   width: 100%;
+   display: inline-block;
+   width: 1029px;
    height: 161px;
    vertical-align: top;
+}
+#BreadcrumbMenuOpt
+{
+   padding: 2px 5px 4px 8px;
+   list-style: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   font-family: "Barlow Condensed";
+   font-weight: 500;
+   font-style: normal;
+   font-size: 0;
+   margin: 0;
+   text-align: left;
+}
+#BreadcrumbMenuOpt > li
+{
+   display: inline-block;
+   font-size: 15px;
+}
+#BreadcrumbMenuOpt a
+{
+   color: #A9A9A9;
+   text-decoration: none;
+}
+#BreadcrumbMenuOpt a:hover
+{
+   color: #CCFF33;
+   text-decoration: none;
+}
+#BreadcrumbMenuOpt > .active
+{
+   color: #CCFF33;
+}
+#BreadcrumbMenuOpt > .active a
+{
+   color: inherit;
+   pointer-events: none;
+}
+#BreadcrumbMenuOpt > li + li:before
+{
+   content: "|";
+   padding: 0 5px;
+   color: #C0C0C0;
+}
+#BreadcrumbMenuOpt li i
+{
+   font-size: 15px;
+   width: 17px;
 }
 #BreadcrumbNot
 {
@@ -961,11 +989,27 @@ input:focus, textarea:focus, select:focus
    position: absolute;
    left: 0px;
    top: 0px;
-   width: 49px;
-   height: 42px;
+   width: 31px;
+   height: 26px;
    z-index: 23;
 }
 #wb_uid3
+{
+   position: absolute;
+   left: 711px;
+   top: 584px;
+   margin: 0;
+   border-width: 0;
+   z-index: 250;
+}
+#wb_BreadcrumbMenuOpt
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 7;
+   vertical-align: top;
+}
+#wb_uid2
 {
    position: absolute;
    left: 713px;
@@ -974,7 +1018,7 @@ input:focus, textarea:focus, select:focus
    border-width: 0;
    z-index: 250;
 }
-#wb_uid2
+#wb_uid1
 {
    position: absolute;
    left: 711px;
@@ -990,10 +1034,16 @@ input:focus, textarea:focus, select:focus
    top: 114px;
    width: 729px;
    height: 30px;
-   z-index: 14;
+   z-index: 15;
    vertical-align: top;
 }
-#wb_uid1
+#wb_script_hora
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 6;
+}
+#wb_uid0
 {
    position: absolute;
    left: 711px;
@@ -1002,17 +1052,15 @@ input:focus, textarea:focus, select:focus
    border-width: 0;
    z-index: 250;
 }
-#wb_uid0
+#basicclock
 {
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#wb_status_live_vod
-{
+   color: #0197FF;
+   font-size: 9.3px;
+   font-family: "Tahoma";
+   font-weight: normal;
+   font-style: normal;
+   text-align: center;
+   text-decoration: none;
 }
 #wb_logowebtv
 {
@@ -1028,7 +1076,7 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 1029px;
    height: 1518px;
-   z-index: 13;
+   z-index: 14;
 }
 #wb_EmbeddedPageTVES
 {
@@ -1046,19 +1094,16 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 73px;
    height: 34px;
-   z-index: 17;
+   z-index: 18;
 }
 </style>
-<link href="estilos.css" rel="stylesheet">
 </head>
 <body onload="window.open('rtvenoticiasplay','InlineFrameScreen');return false;" 
 >
-<div id="space"><br></div>
 <div id="container">
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
 <div id="wb_EmbeddedPageTVES">
 <div id="wb_EmbeddedPage1">
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid1" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
 <div id="FlexGrid1">
 <div class="header">
 <div id="wb_logowebtv">
@@ -1071,7 +1116,7 @@ input:focus, textarea:focus, select:focus
 <iframe name="InlineFrameLogoChannel" id="InlineFrameLogoChannel" src="" scrolling="no"></iframe>
 </div>
 <div class="info-channel">
-<iframe name="InlineFrameInfoChannel" id="InlineFrameInfoChannel" src="./info-channel" scrolling="no"></iframe>
+<iframe name="InlineFrameInfoChannel" id="InlineFrameInfoChannel" src="" scrolling="no"></iframe>
 </div>
 <div class="borde">
 </div>
@@ -1085,9 +1130,36 @@ input:focus, textarea:focus, select:focus
 <iframe name="InlineFrameStatusVod" id="master-page-notInlineFrame2" src="./images/status-channel/status-vod" scrolling="no"></iframe>
 </div>
 <div class="time">
+<div id="wb_script_hora">
+<div id="basicclock"></div>
+<script>
+function clock() 
+{
+   var digital = new Date();
+   var hours = digital.getHours();
+   var minutes = digital.getMinutes();
+   var seconds = digital.getSeconds();
+   if (minutes <= 9) minutes = "0" + minutes;
+   if (seconds <= 9) seconds = "0" + seconds;
+   dispTime = hours + ":" + minutes + ":" + seconds;
+
+   var basicclock = document.getElementById('basicclock');
+   basicclock.innerHTML = dispTime;
+   setTimeout("clock()", 1000);
+}
+clock();
+</script>
+
+
+</div>
 </div>
 <div class="options">
-<iframe name="InlineFrameOption" id="InlineFrameOptions" src="" scrolling="no"></iframe>
+<div id="wb_BreadcrumbMenuOpt">
+<ul id="BreadcrumbMenuOpt">
+<li><a href="./menu_not" target="InlineFrameSidebar2" title="CANALES"><i class="fa fa-gear">&nbsp;</i> </a></li>
+</ul>
+
+</div>
 </div>
 <div class="flag">
 <iframe name="InlineFrameFlags" id="InlineFrameFlags" src="" scrolling="no"></iframe>
@@ -1105,7 +1177,7 @@ input:focus, textarea:focus, select:focus
 <div class="tag1">
 </div>
 <div class="carrousel">
-<iframe name="master-page-indexInlineFrame1" id="master-page-indexInlineFrame1" src="./tag1roll" scrolling="no"></iframe>
+<iframe name="master-page-indexInlineFrame1" id="master-page-indexInlineFrame1" src="./tag2roll" scrolling="no"></iframe>
 </div>
 <div class="tag2">
 </div>
@@ -1129,26 +1201,41 @@ input:focus, textarea:focus, select:focus
 
 <!-- menuplay1 -->
 <div id="menuplay1">
-<div id="contadortotal">
-   <!-- Contador de visitas -->
-<img alt="visitantes" src="https://websmultimedia.com/contador-de-visitas.php?id=4463"></a>
-   <!-- Fin Contador de visitas -->
-</div>
+
 
 </div>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid1" width="16" height="16"></a>
+
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid2" width="16" height="16"></a>
-
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid3" width="16" height="16"></a>
 </div>
 <!-- cortesiax -->
 <div id="Html3">
-<img class="logochannel" src="https://yt3.ggpht.com/ytc/AKedOLRCI6q817rqfqgWwRTc41umKpHzkwsvU7MnR6Vp=s48-c-k-c0x00ffffff-no-rj">
-<img class="flagcountry" src="https://images.emojiterra.com/twitter/v14.0/128px/1f1ea-1f1f8.png">
-<div id="wb_status_live_vod">
-<h5 class="status_live">LIVE</h5>
-<h5><p>RTVE NOTICIAS<br>Canal de Noticias<br>ESPAÑA</p></h5>
+<body onload="window.open('rtvenoticiasplay','InlineFrameScreen');window.open('info-canal-rtvenoticias','InlineFrameInfoChannel');window.open('logo-canal-rtvenoticias','InlineFrameLogoChannel');window.open('./images/flags/flag-espana','InlineFrameFlags');window.open('./images/status-channel/status-live','InlineFrameStatusLive');document.getElementById('menumasterplayer').style.display='none';document.getElementById('menumasterplayer2').style.display='none';document.getElementById('wb_BreadcrumbMenuCentral').style.display='block';return false;">
+<div id="menumasterplayer2">
 
-<h5><p2>RTVE</p2></h5></div>
+<div id="wb_BreadcrumbMenu1">
+   <ul id="BreadcrumbMenu1">
+      <li><a href="opcion-1" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 1" onclick="window.open('cgtnenespanolplay1','InlineFrameScreen');return false;">OPCION 1</a></li>
+      <li><a href="opcion-2" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 2" onclick="window.open('cgtnenespanolplay2','InlineFrameScreen');return false;">OPCION 2</a></li>
+      <li><a href="opcion-3" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 3" onclick="window.open('','InlineFrameScreen');return false;">OPCION 3</a></li>
+   </ul>
+</div>
+</div>
+<div id="wb_BreadcrumbMenuCentral">
+   <ul id="BreadcrumbMenuCentral">
+      <li><a href="javascript:window.location.reload()" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Reload"><i class="fa fa-refresh">&nbsp;</i></a></li>
+    </ul>
+</div>
+<div id="wb_BreadcrumbMenu2">
+   <ul id="BreadcrumbMenu2">
+      <li><a href="opcion-1" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 1" onclick="window.open('','InlineFrameScreen');return false;"><i class="fa fa-thumbs-o-down">&nbsp;</i></a></li>
+      <li><a href="opcion-2" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="opcion 2" onclick="window.open('','InlineFrameScreen');return false;"><i class="fa fa-thumbs-o-up">&nbsp;</i></a></li>
+      <li><a href="click para chat y dobleclick para volver" rel="nofollow noopener noreferrer sponsored ugc" onclick="window.open('chatbro','InlineFrameSidebar2');return false;" ondblclick="history.back();return false;"><i class="fa fa-comment">&nbsp;</i></a></li>
+      <li><a href="click para chat y dobleclick para volver" rel="nofollow noopener noreferrer sponsored ugc" onclick="window.open('menu_not','InlineFrameSidebar2');return false;" ondblclick="history.back();return false;"><i class="fa fa-list">&nbsp;</i></a></li>
+   </ul>
+</div>
+</div>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid3" width="16" height="16"></a>
 </div>
 </body>
 </html>

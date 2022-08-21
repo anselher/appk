@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>TEVEVISION |  TNT</title>
+<title>TEVEVISION |  Studio Universal</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
@@ -54,7 +54,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=136" rel="stylesheet">
+<link href="365tv3.2.3.css?v=140" rel="stylesheet">
 <style>
 #InlineFrameBannerAds
 {
@@ -1210,13 +1210,13 @@ clock();
 </div>
 <!-- cortesiax -->
 <div id="Html3">
-<body onload="window.open('tntplay','InlineFrameScreen');window.open('info-canal-tnt','InlineFrameInfoChannel');window.open('logo-canal-tnt','InlineFrameLogoChannel');window.open('./images/flags/flag-eeuu','InlineFrameFlags');window.open('./images/status-channel/status-live','InlineFrameStatusLive');document.getElementById('menumasterplayer').style.display='block';document.getElementById('menumasterplayer2').style.display='block';document.getElementById('wb_BreadcrumbMenuCentral').style.display='block';return false;">
+<body onload="window.open('studiouniversalplay1','InlineFrameScreen');window.open('info-canal-studiouniversal','InlineFrameInfoChannel');window.open('logo-canal-studiouniversal','InlineFrameLogoChannel');window.open('./images/flags/flag-eeuu','InlineFrameFlags');window.open('./images/status-channel/status-live','InlineFrameStatusLive');document.getElementById('menumasterplayer').style.display='block';document.getElementById('menumasterplayer2').style.display='block';document.getElementById('wb_BreadcrumbMenuCentral').style.display='block';return false;">
 <div id="menumasterplayer2">
 </div>
 <div id="wb_BreadcrumbMenu1">
    <ul id="BreadcrumbMenu1">
-      <li><a href="opcion-1" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 1" onclick="window.open('tntplay','InlineFrameScreen');return false;">TNT</a></li>
-      <li><a href="opcion-2" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 2" onclick="window.open('tntseriesplay','InlineFrameScreen');return false;">TNT SERIES</a></li>
+      <li><a href="opcion-1" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 1" onclick="window.open('studiouniversalplay1','InlineFrameScreen');return false;">OPCION 1</a></li>
+      <li><a href="opcion-2" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 2" onclick="window.open('studiouniversalplay2','InlineFrameScreen');return false;">OPCION 2</a></li>
       
    </ul>
 </div>

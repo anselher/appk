@@ -54,7 +54,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=55" rel="stylesheet">
+<link href="365tv3.2.3.css?v=124" rel="stylesheet">
 <style>
 #InlineFrameBannerAds
 {
@@ -95,7 +95,7 @@ input:focus, textarea:focus, select:focus
    padding: 0;
    font-size: 0px;
    grid-template-columns: 728px 1px 81px 53px 53px 53px 27px 26px 7px;
-   grid-template-rows: 20px 90px 1px 30px 1px 19px 30px 1px 20px 1px 338px 1px 30px 1px 90px 1px 30px minmax(1px,auto) 161px 1px 30px 1px 600px minmax(20px,auto);
+   grid-template-rows: 20px 90px 1px 30px 1px 19px 30px 1px 20px 1px 338px 1px 30px 1px 90px 1px 30px minmax(1px,auto) minmax(0px,161px) 1px 30px 1px 600px minmax(20px,auto);
    grid-template-areas:
       ". . . . . . . . ."
       "header header header header header header header header header"
@@ -308,7 +308,7 @@ input:focus, textarea:focus, select:focus
    background-position: left top;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   padding: 0;
+   padding: 0px 0px 5px 0px;
    -webkit-flex-direction: row;
    flex-direction: row;
    -webkit-flex-wrap: wrap;
@@ -621,20 +621,6 @@ input:focus, textarea:focus, select:focus
    height: 30px;
    vertical-align: top;
 }
-#InlineFrameOptions
-{
-   border: 0px solid transparent;
-   border-radius: 0px;
-   margin: 0;
-}
-#InlineFrameOptions
-{
-   display: block;
-   float: left;
-   width: 100%;
-   height: 30px;
-   vertical-align: top;
-}
 #InlineFrameSidebar2
 {
    border: 0px solid #C0C0C0;
@@ -685,11 +671,60 @@ input:focus, textarea:focus, select:focus
 }
 #master-page-indexInlineFrame1
 {
-   display: block;
-   float: left;
-   width: 100%;
+   display: inline-block;
+   width: 1029px;
    height: 161px;
    vertical-align: top;
+}
+#BreadcrumbMenuOpt
+{
+   padding: 2px 5px 4px 8px;
+   list-style: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   font-family: "Barlow Condensed";
+   font-weight: 500;
+   font-style: normal;
+   font-size: 0;
+   margin: 0;
+   text-align: left;
+}
+#BreadcrumbMenuOpt > li
+{
+   display: inline-block;
+   font-size: 15px;
+}
+#BreadcrumbMenuOpt a
+{
+   color: #A9A9A9;
+   text-decoration: none;
+}
+#BreadcrumbMenuOpt a:hover
+{
+   color: #CCFF33;
+   text-decoration: none;
+}
+#BreadcrumbMenuOpt > .active
+{
+   color: #CCFF33;
+}
+#BreadcrumbMenuOpt > .active a
+{
+   color: inherit;
+   pointer-events: none;
+}
+#BreadcrumbMenuOpt > li + li:before
+{
+   content: "|";
+   padding: 0 5px;
+   color: #C0C0C0;
+}
+#BreadcrumbMenuOpt li i
+{
+   font-size: 15px;
+   width: 17px;
 }
 #BreadcrumbNot
 {
@@ -958,6 +993,13 @@ input:focus, textarea:focus, select:focus
    border-width: 0;
    z-index: 250;
 }
+#wb_BreadcrumbMenuOpt
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 7;
+   vertical-align: top;
+}
 #wb_uid2
 {
    position: absolute;
@@ -983,8 +1025,14 @@ input:focus, textarea:focus, select:focus
    top: 114px;
    width: 729px;
    height: 30px;
-   z-index: 14;
+   z-index: 15;
    vertical-align: top;
+}
+#wb_script_hora
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 6;
 }
 #wb_uid0
 {
@@ -994,6 +1042,16 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    border-width: 0;
    z-index: 250;
+}
+#basicclock
+{
+   color: #0197FF;
+   font-size: 9.3px;
+   font-family: "Tahoma";
+   font-weight: normal;
+   font-style: normal;
+   text-align: center;
+   text-decoration: none;
 }
 #wb_logowebtv
 {
@@ -1009,7 +1067,7 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 1029px;
    height: 1518px;
-   z-index: 13;
+   z-index: 14;
 }
 #wb_EmbeddedPageVtv
 {
@@ -1018,7 +1076,7 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 1029px;
    height: 1518px;
-   z-index: 21;
+   z-index: 22;
 }
 #venezoladetelevisionHtml1
 {
@@ -1027,7 +1085,7 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 68px;
    height: 32px;
-   z-index: 23;
+   z-index: 24;
 }
 #menuplay1
 {
@@ -1036,7 +1094,7 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 73px;
    height: 34px;
-   z-index: 17;
+   z-index: 18;
 }
 </style>
 <link href="estilos.css" rel="stylesheet">
@@ -1058,7 +1116,7 @@ input:focus, textarea:focus, select:focus
 <iframe name="InlineFrameLogoChannel" id="InlineFrameLogoChannel" src="" scrolling="no"></iframe>
 </div>
 <div class="info-channel">
-<iframe name="InlineFrameInfoChannel" id="InlineFrameInfoChannel" src="./info-channel" scrolling="no"></iframe>
+<iframe name="InlineFrameInfoChannel" id="InlineFrameInfoChannel" src="" scrolling="no"></iframe>
 </div>
 <div class="borde">
 </div>
@@ -1072,9 +1130,36 @@ input:focus, textarea:focus, select:focus
 <iframe name="InlineFrameStatusVod" id="master-page-notInlineFrame2" src="./images/status-channel/status-vod" scrolling="no"></iframe>
 </div>
 <div class="time">
+<div id="wb_script_hora">
+<div id="basicclock"></div>
+<script>
+function clock() 
+{
+   var digital = new Date();
+   var hours = digital.getHours();
+   var minutes = digital.getMinutes();
+   var seconds = digital.getSeconds();
+   if (minutes <= 9) minutes = "0" + minutes;
+   if (seconds <= 9) seconds = "0" + seconds;
+   dispTime = hours + ":" + minutes + ":" + seconds;
+
+   var basicclock = document.getElementById('basicclock');
+   basicclock.innerHTML = dispTime;
+   setTimeout("clock()", 1000);
+}
+clock();
+</script>
+
+
+</div>
 </div>
 <div class="options">
-<iframe name="InlineFrameOption" id="InlineFrameOptions" src="" scrolling="no"></iframe>
+<div id="wb_BreadcrumbMenuOpt">
+<ul id="BreadcrumbMenuOpt">
+<li><a href="./menu_not" target="InlineFrameSidebar2" title="CANALES"><i class="fa fa-gear">&nbsp;</i> </a></li>
+</ul>
+
+</div>
 </div>
 <div class="flag">
 <iframe name="InlineFrameFlags" id="InlineFrameFlags" src="" scrolling="no"></iframe>
@@ -1092,7 +1177,7 @@ input:focus, textarea:focus, select:focus
 <div class="tag1">
 </div>
 <div class="carrousel">
-<iframe name="master-page-indexInlineFrame1" id="master-page-indexInlineFrame1" src="./tag1roll" scrolling="no"></iframe>
+<iframe name="master-page-indexInlineFrame1" id="master-page-indexInlineFrame1" src="./tag2roll" scrolling="no"></iframe>
 </div>
 <div class="tag2">
 </div>
@@ -1116,11 +1201,7 @@ input:focus, textarea:focus, select:focus
 
 <!-- menuplay1 -->
 <div id="menuplay1">
-<div id="contadortotal">
-   <!-- Contador de visitas -->
-<img alt="visitantes" src="https://websmultimedia.com/contador-de-visitas.php?id=4463"></a>
-   <!-- Fin Contador de visitas -->
-</div>
+
 
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid1" width="16" height="16"></a>
