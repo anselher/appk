@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=50" rel="stylesheet">
+<link href="365tv3.2.3.css?v=143" rel="stylesheet">
 <style>
 #logochannelcnnFlexGrid1
 {
@@ -115,7 +115,7 @@ input:focus, textarea:focus, select:focus
 <div id="logochannelcnnFlexGrid1">
 <div class="header">
 <div id="Html1">
-<img src="https://s1.dmcdn.net/u/1Z7lm1Xx3Gir23qtg/25x25">
+<img src="https://s1.dmcdn.net/u/1Z7lm1Xx3Gir23qtg/25x25" class="imgcanal" >
 </div>
 </div>
 </div>

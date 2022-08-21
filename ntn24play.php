@@ -51,7 +51,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="plyr.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=62" rel="stylesheet">
+<link href="365tv3.2.3.css?v=138" rel="stylesheet">
 <style>
 #YouTube1
 {
@@ -141,6 +141,7 @@ $(window).on('load', function()
    $('#preloader').remove();
 });
 </script>
+<"body onload="window.open('info-channelntn24','InlineFrameInfoChannel');window.open('logo-canal-ntn24','InlineFrameLogoChannel');window.open('./images/flags/flag-colombia','InlineFrameFlags');window.open('./images/status-channel/status-live','InlineFrameStatusLive');document.getElementById('menumasterplayer').style.display='block';document.getElementById('menumasterplayer2').style.display='block';document.getElementById('wb_BreadcrumbMenuCentral').style.display='block';return false;">
 </head>
 <body>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>

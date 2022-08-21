@@ -42,7 +42,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=39" rel="stylesheet">
+<link href="365tv3.2.3.css?v=110" rel="stylesheet">
 <style>
 #wb_LayoutGrid1
 {
@@ -248,10 +248,11 @@ textarea{font-family:inherit;font-size:inherit;line-height:inherit}a:focus,a:hov
 	font-size: 12px;
 }
 #scroller img {
-   vertical-align:middle;
+   vertical-align:top;
+   aspect-ratio: 4/3;
    padding: 0 0px;
    margin-left: 0px;
-   margin-top: -5px;
+   margin-top: 5px;
    width: 76px;
    height: 48px;
    border-radius: 5px;
@@ -312,7 +313,7 @@ textarea{font-family:inherit;font-size:inherit;line-height:inherit}a:focus,a:hov
                 <li><a href="canal/euronews" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('euronews','_top');return false;"><img src="https://i.ytimg.com/vi/JbKgQhFlMdU/hqdefault_live.jpg"><h5> EURONEWS</h5></a></li>
                 <li><a href="canal/dwenespanol" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('dwenespanol','_top');return false;"><img src="https://i.ytimg.com/vi/RTjbYKBB828/hqdefault_live.jpg"><h5> DW EN ESPAÑOL</h5></a></li>
                 <li><a href="canal/caracol" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('noticiascaracol','_top');return false;"><img src="http://caracol-brightspot.s3.amazonaws.com/70/00/2aae258a4a4985c641a2c6e8d987/noticias-caracol.jpg"><h5> NOTICIAS CARACOL</h5></a></li>
-                <li><a href="canal/c5n" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('pageinfo21','_top');return false;"><img src="https://i.ytimg.com/vi/bCJY83loEr4/hqdefault.jpg"><h5> C5N NOTICIAS</h5></a></li>
+                <li><a href="canal/c5n" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('c5nnoticias','_top');return false;"><img src="https://i.ytimg.com/vi/bCJY83loEr4/hqdefault.jpg"><h5> C5N NOTICIAS</h5></a></li>
                 <li><a href="canal/cgtn" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('cgtnenespanol','_top');return false;"><img src="https://i.ytimg.com/vi/zghho0FINAk/hqdefault.jpg"><h5> CGTN EN ESPAÑOL</h5></a></li>
                 <li><a href="canal/rtve" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('rtvenoticias','_top');return false;"><img src="https://i.ytimg.com/vi/xR-4NDFsYNk/hqdefault_live.jpg"><h5> RTVE NOTICIAS</h5></a></li>
                 <li><a href="canal/meganoticias" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('meganoticias','_top');return false;"><img src="https://i.ytimg.com/vi/WWVwv31dlLg/hqdefault_live.jpg"><h5> MEGANOTICIAS</h5></a></li>

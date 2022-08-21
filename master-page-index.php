@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=53" rel="stylesheet">
+<link href="365tv3.2.3.css?v=123" rel="stylesheet">
 <style>
 #InlineFrameBannerAds
 {
@@ -678,6 +678,25 @@ input:focus, textarea:focus, select:focus
    height: 161px;
    vertical-align: top;
 }
+#wb_master-page-indexImage1
+{
+   margin: 0;
+   vertical-align: top;
+}
+#master-page-indexImage1
+{
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   padding: 0;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 1030px;
+   margin-left: auto;
+   margin-right: auto;
+   vertical-align: top;
+}
 #wb_script_hora
 {
    display: inline-block;
@@ -716,6 +735,13 @@ input:focus, textarea:focus, select:focus
    height: auto;
    z-index: 0;
 }
+#wb_master-page-indexImage1
+{
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   z-index: 13;
+}
 #greeting
 {
    font-family: "Arial";
@@ -739,10 +765,10 @@ input:focus, textarea:focus, select:focus
 <div class="mainmenu">
 </div>
 <div class="logochannel">
-<iframe name="InlineFrameLogoChannel" id="InlineFrameLogoChannel" src="./logo-channel-index" scrolling="no"></iframe>
+<iframe name="InlineFrameLogoChannel" id="InlineFrameLogoChannel" src="" scrolling="no"></iframe>
 </div>
 <div class="info-channel">
-<iframe name="InlineFrameInfoChannel" id="InlineFrame2" src="./info-channel" scrolling="no"></iframe>
+<iframe name="InlineFrameInfoChannel" id="InlineFrame2" src="" scrolling="no"></iframe>
 </div>
 <div class="borde">
 </div>
@@ -750,7 +776,7 @@ input:focus, textarea:focus, select:focus
 <iframe name="InlineFrameScreen" id="InlineFrameScreen" src="./images/imagenes" scrolling="no"></iframe>
 </div>
 <div class="live">
-<iframe name="InlineFrameStatusLive" id="master-page-notInlineFrame1" src="./images/status-channel/status-live" scrolling="no"></iframe>
+<iframe name="InlineFrameStatusLive" id="master-page-notInlineFrame1" src="./images/status-channel/status-live-inact" scrolling="no"></iframe>
 </div>
 <div class="vod">
 <iframe name="InlineFrameStatusVod" id="master-page-notInlineFrame2" src="./images/status-channel/status-vod" scrolling="no"></iframe>
@@ -821,11 +847,14 @@ else
 <div class="tag1">
 </div>
 <div class="carrousel">
-<iframe name="master-page-indexInlineFrame1" id="master-page-indexInlineFrame1" src="./tag1roll" scrolling="no"></iframe>
+<iframe name="master-page-indexInlineFrame1" id="master-page-indexInlineFrame1" src="./tag2roll" scrolling="no"></iframe>
 </div>
 <div class="tag2">
 </div>
 <div class="prefooter">
+<div id="wb_master-page-indexImage1">
+<img src="images/Recurso%2056.png" id="master-page-indexImage1" alt="" width="1029" height="600">
+</div>
 </div>
 <div class="footer">
 </div>

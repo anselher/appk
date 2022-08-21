@@ -40,7 +40,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=52" rel="stylesheet">
+<link href="365tv3.2.3.css?v=145" rel="stylesheet">
 <style>
 #wb_Text1 
 {
@@ -98,7 +98,7 @@ input:focus, textarea:focus, select:focus
 <body>
 <div id="info-channelLayer1" class="h5">
 <div id="wb_Text1">
-<span id="wb_uid0">VENEZOLANA DE TELEVISIÓN<br>CANAL DEL ESTADO<br>VENEZUELA</span></div>
+<span id="wb_uid0">VENEZOLANA DE TELEVISION<br>CANAL DE VARIEDADES<br>VENEZUELA</span></div>
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid1" width="16" height="16"></a>
 </body>
