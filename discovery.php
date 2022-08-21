@@ -54,7 +54,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=147" rel="stylesheet">
+<link href="365tv3.2.3.css?v=148" rel="stylesheet">
 <style>
 #InlineFrameBannerAds
 {
@@ -1219,7 +1219,7 @@ clock();
       <li><a href="opcion-2" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 2" onclick="window.open('discoveryplay2','InlineFrameScreen');return false;">OPCION 2</a></li>
       <li><a href="opcion-3" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 3" onclick="window.open('discoverymaxplay1','InlineFrameScreen');return false;">DMAX</a></li>
       <li><a href="opcion-4" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 4" onclick="window.open('discoveryturboplay1','InlineFrameScreen');return false;">D TURBO</a></li>
-      
+      <li><a href="opcion-5" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 5" onclick="window.open('investigationdiscplay1','InlineFrameScreen');return false;">INVESTIGATION D</a></li>
    </ul>
 </div>
 
