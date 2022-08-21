@@ -1,19 +1,12 @@
 <!doctype html>
-<html lang="es-ve">
+<html>
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta charset="utf-8">
-<title>TEVEVISION | Variedades</title>
-<meta name="generator" content="WYSIWYG Web Builder 17 - https://www.wysiwygwebbuilder.com">
+<title>TEVEVISION | Television Interactiva</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-div#container
-{
-   width: 1029px;
-   position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
-}
 body
 {
    background-color: #DCDCDC;
@@ -28,9 +21,7 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   text-align: center;
-   overflow-x: auto;
-   overflow-y: auto;
+   padding: 0;
 }
 a
 {
@@ -57,7 +48,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=139" rel="stylesheet">
+<link href="365tv3.2.3.css?v=144" rel="stylesheet">
 <style>
 #InlineFrameBannerAds
 {
@@ -994,15 +985,6 @@ input:focus, textarea:focus, select:focus
    z-index: 7;
    vertical-align: top;
 }
-#wb_uid2
-{
-   position: absolute;
-   left: 713px;
-   top: 584px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
 #wb_uid1
 {
    position: absolute;
@@ -1019,7 +1001,6 @@ input:focus, textarea:focus, select:focus
    top: 114px;
    width: 729px;
    height: 30px;
-   z-index: 15;
    vertical-align: top;
 }
 #wb_script_hora
@@ -1061,7 +1042,6 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 1029px;
    height: 1518px;
-   z-index: 14;
 }
 #menuplay1
 {
@@ -1070,7 +1050,6 @@ input:focus, textarea:focus, select:focus
    top: 0px;
    width: 73px;
    height: 34px;
-   z-index: 18;
 }
 </style>
 <script>
@@ -1130,9 +1109,7 @@ function launchFullScreen(element) {
 </script>
 
 </head>
-<body 
->
-<div id="container">
+<body>
 <div id="wb_EmbeddedPage1">
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
 <div id="FlexGrid1">
@@ -1218,16 +1195,16 @@ clock();
 </div>
 </div>
 </div>
-<div id="wb_BreadcrumbNot">
+<nav id="wb_BreadcrumbNot">
 <ul id="BreadcrumbNot">
 <li><a href="index" title="INDICE"><i class="fa fa-plus-square-o">&nbsp;</i> </a></li>
 <li><a href="noticias">NOTICIAS</a></li>
 <li><a href="variedades">VARIEDADES</a></li>
-<li class="active" aria-current="page">DOCUMENTALES</li>
+<li><a href="./documentales">DOCUMENTALES</a></li>
 <li><a href="series">SERIES</a></li>
 <li><a href="movies">PELICULAS</a></li>
 </ul>
-</div>
+</nav>
 
 
 <!-- menuplay1 -->
@@ -1236,9 +1213,6 @@ clock();
 
 </div>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid1" width="16" height="16"></a>
-
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid2" width="16" height="16"></a>
-</div>
 
 </body>
 </html>
