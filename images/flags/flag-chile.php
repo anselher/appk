@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=108" rel="stylesheet">
+<link href="365tv3.2.3.css?v=107" rel="stylesheet">
 <style>
 #logochannelcnnFlexGrid1
 {
@@ -115,7 +115,7 @@ input:focus, textarea:focus, select:focus
 <div id="logochannelcnnFlexGrid1">
 <div class="flex-flag">
 <div id="Html1">
-<img src="https://images.emojiterra.com/twitter/v13.1/512px/1f1eb-1f1f7.png">
+<img src="https://images.emojiterra.com/twitter/v14.0/128px/1f1e8-1f1f1.png">
 </div>
 </div>
 </div>

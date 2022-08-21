@@ -115,7 +115,7 @@ input:focus, textarea:focus, select:focus
 <div id="logochannelcnnFlexGrid1">
 <div class="flex-flag">
 <div id="Html1">
-<img src="https://images.emojiterra.com/twitter/v13.1/512px/1f1eb-1f1f7.png">
+<img src="https://images.emojiterra.com/twitter/v13.1/512px/1f1e9-1f1ea.png">
 </div>
 </div>
 </div>

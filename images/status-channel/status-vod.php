@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=45" rel="stylesheet">
+<link href="365tv3.2.3.css?v=111" rel="stylesheet">
 <style>
 #logochannelcnnFlexGrid1
 {
