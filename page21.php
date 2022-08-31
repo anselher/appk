@@ -11,6 +11,7 @@ body
    background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -52,8 +53,8 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="plyr.css" rel="stylesheet">
 <link href="font-awesome.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=121" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=200" rel="stylesheet">
 <style>
 #FlexGrid1
 {
@@ -215,28 +216,6 @@ input:focus, textarea:focus, select:focus
 {
    --plyr-color-main: #00B3FF;
 }
-#wb_CssMenu1
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 1;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 628px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#wb_YouTube1
-{
-   display: inline-block;
-   width: 628px;
-   height: 358px;
-   z-index: 0;
-}
 </style>
 <script src="jquery-3.6.0.min.js"></script>
 <script src="plyr.min.js"></script>
@@ -253,10 +232,10 @@ $(window).on('load', function()
 </script>
 </head>
 <body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:628px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <div id="FlexGrid1">
 <div class="header">
-<div id="wb_YouTube1">
+<div id="wb_YouTube1" style="display:inline-block;width:628px;height:358px;z-index:0;">
 <iframe id="YouTube1" src="https://www.youtube.com/embed/-vGhSrfKfUQ?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;controls=0&amp;autohide=1" loading="lazy"></iframe>
 
 </div>
@@ -264,7 +243,7 @@ $(window).on('load', function()
 <div class="main">
 </div>
 <div class="footer">
-<div id="wb_CssMenu1">
+<div id="wb_CssMenu1" style="display:inline-block;width:100%;z-index:1;">
 <ul id="CssMenu1" role="menubar" class="nav">
 <li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="javascript:window.location.reload()" target="_self"><i class="fa fa-refresh">&nbsp;</i></a>
 </li>

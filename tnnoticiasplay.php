@@ -15,6 +15,7 @@ body
    background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -45,8 +46,8 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="plyr.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=120" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=199" rel="stylesheet">
 <style>
 #YouTube1
 {
@@ -59,24 +60,6 @@ input:focus, textarea:focus, select:focus
 #wb_YouTube1
 {
    --plyr-color-main: #7FFF00;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 764px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#wb_YouTube1
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 729px;
-   height: 410px;
-   z-index: 0;
 }
 </style>
 <script src="jquery-3.6.0.min.js"></script>
@@ -99,9 +82,9 @@ $(document).ready(function()
 </script>
 </head>
 <body>
-<div id="wb_YouTube1">
+<div id="wb_YouTube1" style="position:absolute;left:0px;top:0px;width:729px;height:410px;z-index:0;">
 <iframe id="YouTube1" src="https://www.youtube.com/embed/wHn1_QVoXGM?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0"></iframe>
 </div>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:764px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 </body>
 </html>

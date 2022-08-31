@@ -52,7 +52,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="plyr.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
-<link href="vrtv.css?v=218" rel="stylesheet">
+<link href="vrtv.css?v=239" rel="stylesheet">
 <style>
 #YouTube1
 {
@@ -124,12 +124,13 @@ $(window).on('load', function()
    $('#preloader').remove();
 });
 </script>
-<"body onload="window.open('info-channelntn24','InlineFrameInfoChannel');window.open('logo-canal-ntn24','InlineFrameLogoChannel');window.open('./images/flags/flag-colombia','InlineFrameFlags');window.open('./images/status-channel/status-live','InlineFrameStatusLive');document.getElementById('menumasterplayer').style.display='block';document.getElementById('menumasterplayer2').style.display='block';document.getElementById('wb_BreadcrumbMenuCentral').style.display='block';return false;">
+<body onload="window.open('info-channel','InlineFrameInfoChannel');window.open('logo-channel-index','InlineFrameLogoChannel');window.open('./images/status-channel/status-vod-activ','InlineFrameStatusVod');window.open('./images/status-channel/status-live-inact','InlineFrameStatusLive');document.getElementById('menumasterplayer').style.display='none';document.getElementById('menumasterplayer2').style.display='none';document.getElementById('wb_BreadcrumbMenuCentral').style.display='block';return false;">
+
 </head>
 <body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:865px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<div id="wb_YouTube1" style="position:absolute;left:0px;top:0px;width:727px;height:408px;z-index:1;">
-<iframe id="YouTube1" src="https://www.youtube.com/embed/NaQLYZ04X9k?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0"></iframe>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:760px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<div id="wb_YouTube1" style="position:absolute;left:0px;top:0px;width:726px;height:407px;z-index:1;">
+<iframe id="YouTube1" src="https://www.youtube.com/embed/KXGZ4I60QXc?rel=0&amp;loop=1&amp;playlist=KXGZ4I60QXc&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0?t=37"></iframe>
 </div>
 <div id="preloader"></div>
 </body>

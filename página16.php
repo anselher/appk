@@ -10,6 +10,7 @@ body
    background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -49,36 +50,8 @@ input:focus, textarea:focus, select:focus
    z-index: 99999;
 }
 </style>
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=120" rel="stylesheet">
-<style>
-#Html1
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 630px;
-   height: 360px;
-   z-index: 1;
-}
-#wb_uid1
-{
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 630px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-</style>
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=199" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function()
@@ -92,8 +65,8 @@ $(window).on('load', function()
 </script>
 </head>
 <body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
-<div id="Html1">
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:630px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<div id="Html1" style="position:absolute;left:0px;top:0px;width:630px;height:360px;z-index:1">
 <head><style class="vjs-styles-defaults">
       .video-js {
         width: 300px;
@@ -225,7 +198,7 @@ $(window).on('load', function()
         </script>   
     </head>
 
-<iframe id="wb_uid1" frameborder="0" scrolling="no" allowfullscreen="" src="https://ott.streann.com/streaming/player.html?U2FsdGVkX18h3z4crjABxhYHo9PGt7gA1nTc+e2CoFsSLdgEYZV7bS1bYqTZUdpHJ/EC4+Nbom5F0RPe+9oTF5Q485SWCTe5bt2JyU6rE9QF8E+GtfnoY4iH/0mlGOOtrMTnd/4CY3iz0B8bMrNOdbjidaU9NKibqMSbZznwfQbRcQNBpY9qT8KLTt51CzMbG+CaZ9GS/KIAysrO697ODSJXRAXr/IfRUhqRi3o0l9gD+1mBqkBUL0PwTVODCYiYTJ2+d91RwSm2jJ5vCASFr7JEKmBCLWr7fLEwcCh7qgdHlLVwc/VJlBuLFtKJIOLxB4pCdAisvIsMwOoz3fEr4g=="></iframe></div>
+<iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%" frameborder="0" scrolling="no" allowfullscreen="" src="https://ott.streann.com/streaming/player.html?U2FsdGVkX18h3z4crjABxhYHo9PGt7gA1nTc+e2CoFsSLdgEYZV7bS1bYqTZUdpHJ/EC4+Nbom5F0RPe+9oTF5Q485SWCTe5bt2JyU6rE9QF8E+GtfnoY4iH/0mlGOOtrMTnd/4CY3iz0B8bMrNOdbjidaU9NKibqMSbZznwfQbRcQNBpY9qT8KLTt51CzMbG+CaZ9GS/KIAysrO697ODSJXRAXr/IfRUhqRi3o0l9gD+1mBqkBUL0PwTVODCYiYTJ2+d91RwSm2jJ5vCASFr7JEKmBCLWr7fLEwcCh7qgdHlLVwc/VJlBuLFtKJIOLxB4pCdAisvIsMwOoz3fEr4g=="></iframe></div>
 <div id="preloader"></div>
 </body>
 </html>

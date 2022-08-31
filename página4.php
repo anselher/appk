@@ -11,6 +11,7 @@ body
    background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -42,8 +43,8 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="plyr.css" rel="stylesheet">
 <link href="font-awesome.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=124" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=203" rel="stylesheet">
 <style>
 #FlexGrid1
 {
@@ -213,30 +214,6 @@ input:focus, textarea:focus, select:focus
    margin-right: 3px;
    width: 15px;
 }
-#wb_CssMenu1
-{
-   position: absolute;
-   left: 0px;
-   top: 361px;
-   width: 628px;
-   height: 28px;
-   z-index: 3;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 630px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#wb_YouTube1
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 0;
-}
 </style>
 <script src="jquery-3.6.0.min.js"></script>
 <script src="plyr.min.js"></script>
@@ -270,7 +247,7 @@ $(document).ready(function()
 <body>
 <div id="FlexGrid1">
 <div class="header">
-<div id="wb_YouTube1">
+<div id="wb_YouTube1" style="display:inline-block;width:100%;z-index:0;">
 <iframe id="YouTube1" src="https://www.dailymotion.com/embed/video/x8arg1d?rel=0&amp;autoplay=1&amp;modestbranding=1&amp;enablejsapi=1&amp;autohide=0"></iframe>
 
 </div>
@@ -280,8 +257,8 @@ $(document).ready(function()
 <div class="footer">
 </div>
 </div>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
-<nav id="wb_CssMenu1">
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:630px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<nav id="wb_CssMenu1" style="position:absolute;left:0px;top:361px;width:628px;height:28px;z-index:3;">
 <ul id="CssMenu1" role="menubar" class="nav">
 <li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="javascript:window.location.reload()" target="_self"><i class="fa fa-refresh">&nbsp;</i></a>
 </li>

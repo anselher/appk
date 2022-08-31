@@ -10,6 +10,7 @@ body
    background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -49,28 +50,8 @@ input:focus, textarea:focus, select:focus
    z-index: 99999;
 }
 </style>
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=123" rel="stylesheet">
-<style>
-#Html1
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 729px;
-   height: 410px;
-   z-index: 0;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 777px;
-   top: 2px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-</style>
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=202" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function()
@@ -85,9 +66,9 @@ $(window).on('load', function()
 </head>
 <body>
 <!-- de pruebas -->
-<div id="Html1">
+<div id="Html1" style="position:absolute;left:0px;top:0px;width:729px;height:410px;z-index:0">
 <iframe src="//www.tubemote.com/anselher" width="729" height="410" frameborder="0" allow="autoplay"></iframe></div>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:777px;top:2px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <div id="preloader"></div>
 </body>
 </html>

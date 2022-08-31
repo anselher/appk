@@ -11,6 +11,7 @@ body
    background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -40,8 +41,8 @@ input:focus, textarea:focus, select:focus
    outline: none;
 }
 </style>
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=153" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=211" rel="stylesheet">
 <style>
 #page2FlexGrid1
 {
@@ -91,38 +92,6 @@ input:focus, textarea:focus, select:focus
 #wb_tag1rollText1 div
 {
    text-align: left;
-}
-#wb_tag1rollText1
-{
-   position: absolute;
-   left: 119px;
-   top: 216px;
-   width: 250px;
-   height: 66px;
-   z-index: 3;
-}
-#wb_uid1
-{
-   color: #000000;
-   font-family: "Barlow Condensed";
-   font-weight: 500;
-   font-size: 13px;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 1038px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#page2Html1
-{
-   display: inline-block;
-   width: 1027px;
-   height: 161px;
-   z-index: 0;
 }
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -260,10 +229,10 @@ $(function(){
 /*]]>*/</script>
 </head>
 <body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:1038px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <div id="page2FlexGrid1">
 <div class="header">
-<div id="page2Html1">
+<div id="page2Html1" style="display:inline-block;width:1027px;height:161px;z-index:0">
 <div class="sc_menud">
 	<ul class="sc_menud">
       <li><a href="canal/ntn24" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('ntn24','InlineFrameScreen');return false;"><img src="https://i.ytimg.com/vi/NljIIqXoTUk/hqdefault_live.jpg" alt="NTN24" >
@@ -308,7 +277,7 @@ $(function(){
 </div></div>
 </div>
 </div>
-<div id="wb_tag1rollText1">
-<span id="wb_uid1">https://ruvic.es/alinear-el-texto-con-imagenes-en-css-arriba-en-el-medio-o-abajo/</span></div>
+<div id="wb_tag1rollText1" style="position:absolute;left:119px;top:216px;width:250px;height:66px;z-index:3;">
+<span style="color:#000000;font-family:'Barlow Condensed';font-weight:500;font-size:13px;">https://ruvic.es/alinear-el-texto-con-imagenes-en-css-arriba-en-el-medio-o-abajo/</span></div>
 </body>
 </html>

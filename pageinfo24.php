@@ -30,6 +30,7 @@ body
    background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -60,38 +61,10 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=120" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=199" rel="stylesheet">
 <style>
-#InlineFrameBannerAds
-{
-   border: 0px solid #C0C0C0;
-   border-radius: 0px;
-   margin: 1px 1px 1px 1px;
-}
-#InlineFrameBannerAds
-{
-   display: block;
-   float: left;
-   width: calc(100% - 2px);
-   height: 88px;
-   vertical-align: top;
-}
-#InlineFrameScreen
-{
-   border: 0px solid #C0C0C0;
-   border-radius: 0px;
-   margin: 1px 1px 1px 1px;
-}
-#InlineFrameScreen
-{
-   display: block;
-   float: left;
-   width: calc(100% - 2px);
-   height: 407px;
-   vertical-align: top;
-}
-#FlexGrid1
+#master-page-notFlexGrid1
 {
    display: grid;
    background-color: transparent;
@@ -101,10 +74,71 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    padding: 0;
    font-size: 0px;
-   grid-template-columns: 728px 1px 81px 53px 53px 53px 27px 26px 7px;
-   grid-template-rows: 20px 90px 1px 30px 1px 19px 30px 1px 20px 1px 338px 1px 30px 1px 90px 1px 30px minmax(1px,auto) minmax(0px,161px) 1px 30px 1px 600px minmax(20px,auto);
+   grid-template-columns: 1fr;
+   grid-template-rows: 20px;
    grid-template-areas:
-      ". . . . . . . . ."
+      "header";
+}
+#master-page-notFlexGrid1 .header
+{
+   display: flex;
+   grid-area: header;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
+#InlineFrameBannerAds
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 0;
+}
+#InlineFrameBannerAds
+{
+   display: block;
+   float: left;
+   width: 100%;
+   height: 88px;
+   vertical-align: top;
+}
+#InlineFrameScreen
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 0;
+}
+#InlineFrameScreen
+{
+   display: block;
+   float: left;
+   width: 100%;
+   height: 407px;
+   vertical-align: top;
+}
+#FlexGrid1
+{
+   display: grid;
+   background-image: linear-gradient(to top, rgba(0,0,0,0.20) 0%, rgba(255,0,0,0.20) 100%);
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-size: 0px;
+   grid-template-columns: 728px 1px 81px 53px 53px 53px 27px 26px 7px;
+   grid-template-rows: 90px 1px 30px 1px 19px 30px 1px 20px 1px 338px 1px 30px 1px 90px 1px 30px minmax(1px,auto) 161px 1px 30px 1px auto auto;
+   grid-template-areas:
       "header header header header header header header header header"
       ". . . . . . . . ."
       "mainmenu . logochannel info-channel info-channel info-channel info-channel info-channel borde"
@@ -134,18 +168,18 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: header;
    background-color: transparent;
-   background-image: url('images/01%2dHEADER.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dnot_FlexGrid1%2dheader_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
    flex-direction: row;
    -webkit-flex-wrap: wrap;
    flex-wrap: wrap;
-   -webkit-justify-content: flex-start;
-   justify-content: flex-start;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
    -webkit-align-items: center;
    align-items: center;
    -webkit-align-content: center;
@@ -156,10 +190,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: mainmenu;
    background-color: transparent;
-   background-image: url('images/02%2dMENU%2d30.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dnot_FlexGrid1%2dmainmenu_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -178,7 +212,7 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: logochannel;
    background-color: transparent;
-   background-image: url('images/06%2dSIDEBAR%2d1.png');
+   background-image: url('images/06%2dSIDEBAR%2d1%2d1%2dLOGO%2dCHANNEL.png');
    background-repeat: no-repeat;
    background-position: left top;
    border: 0px solid #FFFFFF;
@@ -244,10 +278,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: section1;
    background-color: transparent;
-   background-image: url('images/03%2dSCREENTV.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dnot_FlexGrid1%2dsection1_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -315,7 +349,7 @@ input:focus, textarea:focus, select:focus
    background-position: left top;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   padding: 0px 0px 5px 0px;
+   padding: 0;
    -webkit-flex-direction: row;
    flex-direction: row;
    -webkit-flex-wrap: wrap;
@@ -376,10 +410,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: info2;
    background-color: transparent;
-   background-image: url('images/07%2dSIDEBAR%2d2.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dnot_FlexGrid1%2dinfo2_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -398,10 +432,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: sidebar3;
    background-color: transparent;
-   background-image: url('images/08%2dSIDEBAR%2d3.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dnot_FlexGrid1%2dsidebar3_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -420,10 +454,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: menuplayer;
    background-color: transparent;
-   background-image: url('images/02%2dMENU%2d30.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dnot_FlexGrid1%2dmenuplayer_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -442,10 +476,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: banner-roll;
    background-color: transparent;
-   background-image: url('images/05%2dBANNER_ROLL.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dnot_FlexGrid1%2dbanner%2droll_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -464,10 +498,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: tag1;
    background-color: transparent;
-   background-image: url('images/09%2dCONTROL%2dTAG%2d1.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dnot_FlexGrid1%2dtag1_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -486,10 +520,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: carrousel;
    background-color: transparent;
-   background-image: url('images/10%2dGALLERY%2dROLL.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dnot_FlexGrid1%2dcarrousel_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -508,10 +542,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: tag2;
    background-color: transparent;
-   background-image: url('images/09%2dCONTROL%2dTAG%2d1.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dnot_FlexGrid1%2dtag2_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -530,9 +564,7 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: prefooter;
    background-color: transparent;
-   background-image: url('images/12%2dPRE%2dFOOTER.png');
-   background-repeat: no-repeat;
-   background-position: left top;
+   background-image: none;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
    padding: 0;
@@ -540,8 +572,8 @@ input:focus, textarea:focus, select:focus
    flex-direction: row;
    -webkit-flex-wrap: wrap;
    flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
+   -webkit-justify-content: center;
+   justify-content: center;
    -webkit-align-items: center;
    align-items: center;
    -webkit-align-content: center;
@@ -560,8 +592,8 @@ input:focus, textarea:focus, select:focus
    flex-direction: row;
    -webkit-flex-wrap: wrap;
    flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
+   -webkit-justify-content: center;
+   justify-content: center;
    -webkit-align-items: center;
    align-items: center;
    -webkit-align-content: center;
@@ -632,13 +664,13 @@ input:focus, textarea:focus, select:focus
 {
    border: 0px solid #C0C0C0;
    border-radius: 0px;
-   margin: 1px 1px 1px 1px;
+   margin: 0;
 }
 #InlineFrameSidebar2
 {
    display: block;
    float: left;
-   width: calc(100% - 2px);
+   width: 100%;
    height: 458px;
    vertical-align: top;
 }
@@ -680,7 +712,7 @@ input:focus, textarea:focus, select:focus
 {
    display: inline-block;
    width: 1029px;
-   height: 161px;
+   height: 160px;
    vertical-align: top;
 }
 #BreadcrumbMenuOpt
@@ -751,7 +783,7 @@ input:focus, textarea:focus, select:focus
 #BreadcrumbNot > li
 {
    display: inline-block;
-   font-size: 17px;
+   font-size: 19px;
 }
 #BreadcrumbNot a
 {
@@ -780,8 +812,8 @@ input:focus, textarea:focus, select:focus
 }
 #BreadcrumbNot li i
 {
-   font-size: 17px;
-   width: 19px;
+   font-size: 19px;
+   width: 21px;
 }
 #logowebtv
 {
@@ -991,131 +1023,23 @@ input:focus, textarea:focus, select:focus
    font-size: 15px;
    width: 17px;
 }
-#wb_uid3
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#wb_BreadcrumbMenuOpt
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 7;
-   vertical-align: top;
-}
-#wb_uid2
-{
-   position: absolute;
-   left: 713px;
-   top: 584px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#wb_uid1
-{
-   position: absolute;
-   left: 711px;
-   top: 584px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#wb_BreadcrumbNot
-{
-   position: absolute;
-   left: 0px;
-   top: 114px;
-   width: 729px;
-   height: 30px;
-   z-index: 15;
-   vertical-align: top;
-}
-#wb_script_hora
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 6;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 711px;
-   top: 584px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#basicclock
-{
-   color: #0197FF;
-   font-size: 9.3px;
-   font-family: "Tahoma";
-   font-weight: normal;
-   font-style: normal;
-   text-align: center;
-   text-decoration: none;
-}
-#wb_logowebtv
-{
-   display: inline-block;
-   width: 100%;
-   height: auto;
-   z-index: 0;
-}
-#wb_EmbeddedPage1
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 1029px;
-   height: 1518px;
-   z-index: 14;
-}
-#menuplay1
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 73px;
-   height: 34px;
-   z-index: 18;
-}
-#wb_EmbeddedPage1vacant
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 1029px;
-   height: 1498px;
-   z-index: 22;
-}
-#Html2
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 31px;
-   height: 32px;
-   z-index: 24;
-}
 </style>
 <link href="estilos.css" rel="stylesheet">
 </head>
 <body onload="window.open('page24','InlineFrameScreen');return false;">
 <div id="space"><br></div>
 <div id="container">
-<div id="wb_EmbeddedPage1vacant">
-<div id="wb_EmbeddedPage1">
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<div id="wb_EmbeddedPage1vacant" style="position:absolute;left:0px;top:0px;width:1029px;height:1498px;z-index:23;">
+<div id="wb_EmbeddedPage1" style="position:absolute;left:0px;top:0px;width:1029px;height:1018px;z-index:15;">
+<div id="master-page-notFlexGrid1">
+<div class="header">
+</div>
+</div>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:711px;top:584px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <div id="FlexGrid1">
 <div class="header">
-<div id="wb_logowebtv">
-<img src="images/logo.png" id="logowebtv" alt="" width="1029" height="309">
+<div id="wb_logowebtv" style="display:inline-block;width:100%;height:auto;z-index:0;">
+<img src="images/logo.png" id="logowebtv" alt="" width="1027" height="308">
 </div>
 </div>
 <div class="mainmenu">
@@ -1138,8 +1062,8 @@ input:focus, textarea:focus, select:focus
 <iframe name="InlineFrameStatusVod" id="master-page-notInlineFrame2" src="./images/status-channel/status-vod" scrolling="no"></iframe>
 </div>
 <div class="time">
-<div id="wb_script_hora">
-<div id="basicclock"></div>
+<div id="wb_script_hora" style="display:inline-block;width:100%;z-index:6;">
+<div style="color:#0197FF;font-size:9.3px;font-family:Tahoma;font-weight:normal;font-style:normal;text-align:center;text-decoration:none" id="basicclock"></div>
 <script>
 function clock() 
 {
@@ -1162,7 +1086,7 @@ clock();
 </div>
 </div>
 <div class="options">
-<div id="wb_BreadcrumbMenuOpt">
+<div id="wb_BreadcrumbMenuOpt" style="display:inline-block;width:100%;z-index:7;vertical-align:top;">
 <ul id="BreadcrumbMenuOpt">
 <li><a href="./menu_not" target="InlineFrameSidebar2" title="CANALES"><i class="fa fa-gear">&nbsp;</i> </a></li>
 </ul>
@@ -1195,30 +1119,30 @@ clock();
 </div>
 </div>
 </div>
-<div id="wb_BreadcrumbNot">
+<div id="wb_BreadcrumbNot" style="position:absolute;left:0px;top:113px;width:729px;height:25px;z-index:16;vertical-align:top;">
 <ul id="BreadcrumbNot">
 <li><a href="index" title="INDICE"><i class="fa fa-plus-square-o">&nbsp;</i> </a></li>
-<li class="active" aria-current="page">NOTICIAS</li>
-<li><a href="variedades">VARIEDADES</a></li>
-<li><a href="documentales">DOCUMENTALES</a></li>
-<li><a href="series">SERIES</a></li>
-<li><a href="movies">PELICULAS</a></li>
+<li class="active" aria-current="page">INFORMATIVO</li>
+<li><a href="variedades">PROGRAMACION</a></li>
+<li><a href="documentales">PROGRAMAS</a></li>
+<li><a href="series">PAUTA CON NOSOTROS</a></li>
+<li><a href="movies"> </a></li>
 </ul>
 </div>
 
 
 <!-- menuplay1 -->
-<div id="menuplay1">
+<div id="menuplay1" style="position:absolute;left:0px;top:0px;width:73px;height:34px;z-index:19">
 
 
 </div>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid1" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:711px;top:584px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid2" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:711px;top:584px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 </div>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid3" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <!-- INFOCHANNEL -->
-<div id="Html2">
+<div id="Html2" style="position:absolute;left:0px;top:0px;width:31px;height:32px;z-index:25">
 <img src="https://yt3.ggpht.com/ytc/AKedOLQMYMuVjpkU9TAPds4mqKR6jKDS0HQxBARkuG5g=s48-c-k-c0x00ffffff-no-rj" class="logochannel" >
 <img src="https://images.emojiterra.com/twitter/v13.1/512px/1f1fa-1f1f8.png" class="flagcountry" >
 <h5><p>THE EPOCH TIMES<br>Canal de Noticias<br>EEUU</p></h5>

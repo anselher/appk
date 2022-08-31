@@ -23,6 +23,7 @@ body
    background-size: 100% 100%;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -53,34 +54,83 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=139" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=214" rel="stylesheet">
 <style>
+#master-page-indexFlexGrid1
+{
+   display: grid;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-size: 0px;
+   grid-template-columns: 100%;
+   grid-template-rows: 20px;
+   grid-template-areas:
+      "header";
+}
+#master-page-indexFlexGrid1 .header
+{
+   display: flex;
+   grid-area: header;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   padding: 0;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-align-content: center;
+   align-content: center;
+}
 #InlineFrameBannerAds
 {
    border: 0px solid #C0C0C0;
    border-radius: 0px;
-   margin: 1px 1px 1px 1px;
+   margin: 0;
 }
 #InlineFrameBannerAds
 {
    display: block;
    float: left;
-   width: calc(100% - 2px);
+   width: 100%;
    height: 88px;
+   vertical-align: top;
+}
+#InlineFrameSidebar2
+{
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 0;
+}
+#InlineFrameSidebar2
+{
+   display: block;
+   float: left;
+   width: 100%;
+   height: 458px;
    vertical-align: top;
 }
 #InlineFrameScreen
 {
    border: 0px solid #C0C0C0;
    border-radius: 0px;
-   margin: 1px 1px 1px 1px;
+   margin: 0;
 }
 #InlineFrameScreen
 {
    display: block;
    float: left;
-   width: calc(100% - 2px);
+   width: 100%;
    height: 407px;
    vertical-align: top;
 }
@@ -94,10 +144,9 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    padding: 0;
    font-size: 0px;
-   grid-template-columns: 728px 1px 81px 53px 53px 53px 27px 26px 7px;
-   grid-template-rows: 20px 90px 1px 30px 1px 19px 30px 1px 20px 1px 338px 1px 30px 1px 90px 1px 30px minmax(1px,auto) minmax(0px,161px) 1px 30px 1px 600px minmax(20px,auto);
+   grid-template-columns: 728px 1px 80px 59px 58px 57px 29px 31px 6px;
+   grid-template-rows: 90px 1px 30px 1px 19px 30px 1px 20px 1px 338px 1px 30px 1px 90px 1px 30px minmax(1px,auto) 161px 1px 30px;
    grid-template-areas:
-      ". . . . . . . . ."
       "header header header header header header header header header"
       ". . . . . . . . ."
       "mainmenu . logochannel info-channel info-channel info-channel info-channel info-channel borde"
@@ -117,20 +166,17 @@ input:focus, textarea:focus, select:focus
       ". . . . . . . . ."
       "carrousel carrousel carrousel carrousel carrousel carrousel carrousel carrousel carrousel"
       ". . . . . . . . ."
-      "tag2 tag2 tag2 tag2 tag2 tag2 tag2 tag2 tag2"
-      ". . . . . . . . ."
-      "prefooter prefooter prefooter prefooter prefooter prefooter prefooter prefooter prefooter"
-      "footer . . . . . . . .";
+      "tag2 tag2 tag2 tag2 tag2 tag2 tag2 tag2 tag2";
 }
 #FlexGrid1 .header
 {
    display: flex;
    grid-area: header;
    background-color: transparent;
-   background-image: url('images/01%2dHEADER.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dheader_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -149,10 +195,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: mainmenu;
    background-color: transparent;
-   background-image: url('images/02%2dMENU%2d30.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dmainmenu_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -171,7 +217,7 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: logochannel;
    background-color: transparent;
-   background-image: url('images/06%2dSIDEBAR%2d1.png');
+   background-image: url('images/SIDEBAR%2d01%2d01%2dLOGO.png');
    background-repeat: no-repeat;
    background-position: left top;
    border: 0px solid #FFFFFF;
@@ -193,7 +239,7 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: info-channel;
    background-color: transparent;
-   background-image: url('images/06%2dSIDEBAR%2d1%2d2%2dINFO%2dCHANNEL.png');
+   background-image: url('images/SIDEBAR%2d01%2d07%2dINFO.png');
    background-repeat: no-repeat;
    background-position: left top;
    border: 0px solid #FFFFFF;
@@ -215,7 +261,7 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: borde;
    background-color: transparent;
-   background-image: url('images/06%2dSIDEBAR%2d1%2d3%2dBORDEFINAL.png');
+   background-image: url('images/SIDEBAR%2d01%2d08%2dFINAL.png');
    background-repeat: no-repeat;
    background-position: left top;
    border: 0px solid #FFFFFF;
@@ -237,18 +283,18 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: section1;
    background-color: transparent;
-   background-image: url('images/03%2dSCREENTV.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dsection1_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
    flex-direction: row;
    -webkit-flex-wrap: wrap;
    flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
+   -webkit-justify-content: center;
+   justify-content: center;
    -webkit-align-items: center;
    align-items: center;
    -webkit-align-content: center;
@@ -259,7 +305,7 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: live;
    background-color: transparent;
-   background-image: url('images/06%2dSIDEBAR%2d1%2d4%2dLIVE.png');
+   background-image: url('images/SIDEBAR%2d01%2d02%2dLIVE.png');
    background-repeat: no-repeat;
    background-position: left top;
    border: 0px solid #FFFFFF;
@@ -281,7 +327,7 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: vod;
    background-color: transparent;
-   background-image: url('images/SIDEBAR%2d1%2d5%2dVOD.png');
+   background-image: url('images/SIDEBAR%2d01%2d03%2dVOD.png');
    background-repeat: no-repeat;
    background-position: left top;
    border: 0px solid #FFFFFF;
@@ -303,7 +349,7 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: time;
    background-color: transparent;
-   background-image: url('images/SIDEBAR%2d1%2d6%2dTIME.png');
+   background-image: url('images/SIDEBAR%2d01%2d04%2dTIME.png');
    background-repeat: no-repeat;
    background-position: left top;
    border: 0px solid #FFFFFF;
@@ -325,7 +371,7 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: options;
    background-color: transparent;
-   background-image: url('images/SIDEBAR%2d1%2d7%2dOPTION.png');
+   background-image: url('images/SIDEBAR%2d01%2d05%2dMENU.png');
    background-repeat: no-repeat;
    background-position: left top;
    border: 0px solid #FFFFFF;
@@ -347,12 +393,12 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: flag;
    background-color: transparent;
-   background-image: url('images/SIDEBAR%2d1%2d8%2dFLAGS.png');
+   background-image: url('images/SIDEBAR%2d01%2d06%2dCHAT.png');
    background-repeat: no-repeat;
    background-position: left top;
    border: 0px solid #FFFFFF;
    border-radius: 0px;
-   padding: 0;
+   padding: 0px 0px 2px 0px;
    -webkit-flex-direction: row;
    flex-direction: row;
    -webkit-flex-wrap: wrap;
@@ -369,12 +415,12 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: info2;
    background-color: transparent;
-   background-image: url('images/07%2dSIDEBAR%2d2.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dinfo2_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
-   padding: 0;
+   padding: 0px 10px 0px 10px;
    -webkit-flex-direction: row;
    flex-direction: row;
    -webkit-flex-wrap: wrap;
@@ -391,10 +437,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: sidebar3;
    background-color: transparent;
-   background-image: url('images/08%2dSIDEBAR%2d3.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dsidebar3_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -413,10 +459,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: menuplayer;
    background-color: transparent;
-   background-image: url('images/02%2dMENU%2d30.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dmenuplayer_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -435,10 +481,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: banner-roll;
    background-color: transparent;
-   background-image: url('images/05%2dBANNER_ROLL.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dbanner%2droll_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -457,10 +503,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: tag1;
    background-color: transparent;
-   background-image: url('images/09%2dCONTROL%2dTAG%2d1.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dtag1_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -479,10 +525,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: carrousel;
    background-color: transparent;
-   background-image: url('images/10%2dGALLERY%2dROLL.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dcarrousel_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -501,52 +547,10 @@ input:focus, textarea:focus, select:focus
    display: flex;
    grid-area: tag2;
    background-color: transparent;
-   background-image: url('images/09%2dCONTROL%2dTAG%2d1.png');
-   background-repeat: no-repeat;
+   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dtag2_bkgrnd.png');
+   background-repeat: repeat;
    background-position: left top;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .prefooter
-{
-   display: flex;
-   grid-area: prefooter;
-   background-color: transparent;
-   background-image: url('images/12%2dPRE%2dFOOTER.png');
-   background-repeat: no-repeat;
-   background-position: left top;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .footer
-{
-   display: flex;
-   grid-area: footer;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
+   border: 1px solid #7F7F7F;
    border-radius: 0px;
    padding: 0;
    -webkit-flex-direction: row;
@@ -593,13 +597,13 @@ input:focus, textarea:focus, select:focus
    height: 80px;
    vertical-align: top;
 }
-#InlineFrameInfoChannel
+#InlineFrame2
 {
    border: 0px solid #C0C0C0;
    border-radius: 0px;
    margin: 0;
 }
-#InlineFrameInfoChannel
+#InlineFrame2
 {
    display: block;
    float: left;
@@ -607,34 +611,6 @@ input:focus, textarea:focus, select:focus
    height: 50px;
    vertical-align: top;
 }
-#InlineFrameFlags
-{
-   border: 0px solid transparent;
-   border-radius: 0px;
-   margin: 0;
-}
-#InlineFrameFlags
-{
-   display: block;
-   float: left;
-   width: 100%;
-   height: 30px;
-   vertical-align: top;
-}
-#InlineFrameSidebar2
-{
-   border: 0px solid #C0C0C0;
-   border-radius: 0px;
-   margin: 1px 1px 1px 1px;
-}
-#InlineFrameSidebar2
-{
-   display: block;
-   float: left;
-   width: calc(100% - 2px);
-   height: 458px;
-   vertical-align: top;
-}
 #master-page-notInlineFrame1
 {
    border: 0px solid #C0C0C0;
@@ -671,8 +647,9 @@ input:focus, textarea:focus, select:focus
 }
 #master-page-indexInlineFrame1
 {
-   display: inline-block;
-   width: 1029px;
+   display: block;
+   float: left;
+   width: 100%;
    height: 161px;
    vertical-align: top;
 }
@@ -726,7 +703,57 @@ input:focus, textarea:focus, select:focus
    font-size: 15px;
    width: 17px;
 }
-#BreadcrumbNot
+#master-page-indexBreadcrumb1
+{
+   padding: 2px 5px 4px 8px;
+   list-style: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   font-family: "Barlow Condensed";
+   font-weight: 500;
+   font-style: normal;
+   font-size: 0;
+   margin: 0;
+   text-align: left;
+}
+#master-page-indexBreadcrumb1 > li
+{
+   display: inline-block;
+   font-size: 15px;
+}
+#master-page-indexBreadcrumb1 a
+{
+   color: #A9A9A9;
+   text-decoration: none;
+}
+#master-page-indexBreadcrumb1 a:hover
+{
+   color: #CCFF33;
+   text-decoration: none;
+}
+#master-page-indexBreadcrumb1 > .active
+{
+   color: #CCFF33;
+}
+#master-page-indexBreadcrumb1 > .active a
+{
+   color: inherit;
+   pointer-events: none;
+}
+#master-page-indexBreadcrumb1 > li + li:before
+{
+   content: "|";
+   padding: 0 5px;
+   color: #C0C0C0;
+}
+#master-page-indexBreadcrumb1 li i
+{
+   font-size: 15px;
+   width: 17px;
+}
+#BreadcrumbInd
 {
    padding: 2px 15px 2px 15px;
    list-style: none;
@@ -741,40 +768,40 @@ input:focus, textarea:focus, select:focus
    margin: 0;
    text-align: left;
 }
-#BreadcrumbNot > li
+#BreadcrumbInd > li
 {
    display: inline-block;
-   font-size: 17px;
+   font-size: 19px;
 }
-#BreadcrumbNot a
+#BreadcrumbInd a
 {
-   color: #808080;
+   color: #D8D8D8;
    text-decoration: none;
 }
-#BreadcrumbNot a:hover
+#BreadcrumbInd a:hover
 {
-   color: #CCFF33;
+   color: #F7AD3A;
    text-decoration: none;
 }
-#BreadcrumbNot > .active
+#BreadcrumbInd > .active
 {
-   color: #CCFF33;
+   color: #F7AD3A;
 }
-#BreadcrumbNot > .active a
+#BreadcrumbInd > .active a
 {
    color: inherit;
    pointer-events: none;
 }
-#BreadcrumbNot > li + li:before
+#BreadcrumbInd > li + li:before
 {
    content: "|";
    padding: 0 5px;
    color: #C0C0C0;
 }
-#BreadcrumbNot li i
+#BreadcrumbInd li i
 {
-   font-size: 17px;
-   width: 19px;
+   font-size: 19px;
+   width: 21px;
 }
 #logowebtv
 {
@@ -808,15 +835,6 @@ input:focus, textarea:focus, select:focus
    top:0px;
    display: none;
 
-}
-#contadortotal
-{
-   position: absolute;left: 922px;
-   top: 166px;
-   width: 37px;
-   height: 16px;
-   display: block;
-   z-index:4
 }
 
 #BreadcrumbMenu1
@@ -984,130 +1002,21 @@ input:focus, textarea:focus, select:focus
    font-size: 15px;
    width: 17px;
 }
-#Html3
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 30px;
-   height: 31px;
-   z-index: 23;
-}
-#wb_uid3
-{
-   position: absolute;
-   left: 711px;
-   top: 584px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#wb_BreadcrumbMenuOpt
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 7;
-   vertical-align: top;
-}
-#wb_uid2
-{
-   position: absolute;
-   left: 713px;
-   top: 584px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#wb_uid1
-{
-   position: absolute;
-   left: 711px;
-   top: 584px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#wb_BreadcrumbNot
-{
-   position: absolute;
-   left: 0px;
-   top: 114px;
-   width: 729px;
-   height: 30px;
-   z-index: 15;
-   vertical-align: top;
-}
-#wb_script_hora
-{
-   display: inline-block;
-   width: 100%;
-   z-index: 6;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 711px;
-   top: 584px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#basicclock
-{
-   color: #0197FF;
-   font-size: 9.3px;
-   font-family: "Tahoma";
-   font-weight: normal;
-   font-style: normal;
-   text-align: center;
-   text-decoration: none;
-}
-#wb_logowebtv
-{
-   display: inline-block;
-   width: 100%;
-   height: auto;
-   z-index: 0;
-}
-#wb_EmbeddedPage1
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 1029px;
-   height: 1518px;
-   z-index: 14;
-}
-#wb_EmbeddedPageTVES
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 1029px;
-   height: 1518px;
-   z-index: 22;
-}
-#menuplay1
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 73px;
-   height: 34px;
-   z-index: 18;
-}
 </style>
 </head>
 <body 
 >
 <div id="container">
-<div id="wb_EmbeddedPageTVES">
-<div id="wb_EmbeddedPage1">
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<div id="wb_EmbeddedPageTVES" style="position:absolute;left:0px;top:0px;width:1029px;height:1518px;z-index:24;">
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:711px;top:584px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<div id="master-page-indexFlexGrid1">
+<div class="header">
+</div>
+</div>
 <div id="FlexGrid1">
 <div class="header">
-<div id="wb_logowebtv">
-<img src="images/logo.png" id="logowebtv" alt="" width="1029" height="309">
+<div id="wb_logowebtv" style="display:inline-block;width:100%;height:auto;z-index:0;">
+<img src="images/logo.png" id="logowebtv" alt="" width="1047" height="314">
 </div>
 </div>
 <div class="mainmenu">
@@ -1116,12 +1025,12 @@ input:focus, textarea:focus, select:focus
 <iframe name="InlineFrameLogoChannel" id="InlineFrameLogoChannel" src="" scrolling="no"></iframe>
 </div>
 <div class="info-channel">
-<iframe name="InlineFrameInfoChannel" id="InlineFrameInfoChannel" src="" scrolling="no"></iframe>
+<iframe name="InlineFrameInfoChannel" id="InlineFrame2" src="" scrolling="no"></iframe>
 </div>
 <div class="borde">
 </div>
 <div class="section1">
-<iframe name="InlineFrameScreen" id="InlineFrameScreen" src="./images/imagenes" scrolling="no"></iframe>
+<iframe name="InlineFrameScreen" id="InlineFrameScreen" src="./page3" scrolling="no" allowfullscreen></iframe>
 </div>
 <div class="live">
 <iframe name="InlineFrameStatusLive" id="master-page-notInlineFrame1" src="./images/status-channel/status-live-inact" scrolling="no"></iframe>
@@ -1130,8 +1039,8 @@ input:focus, textarea:focus, select:focus
 <iframe name="InlineFrameStatusVod" id="master-page-notInlineFrame2" src="./images/status-channel/status-vod" scrolling="no"></iframe>
 </div>
 <div class="time">
-<div id="wb_script_hora">
-<div id="basicclock"></div>
+<div id="wb_script_hora" style="display:inline-block;width:100%;z-index:6;">
+<div style="color:#F7AD3A;font-size:9.3px;font-family:Tahoma;font-weight:normal;font-style:normal;text-align:center;text-decoration:none" id="basicclock"></div>
 <script>
 function clock() 
 {
@@ -1154,20 +1063,48 @@ clock();
 </div>
 </div>
 <div class="options">
-<div id="wb_BreadcrumbMenuOpt">
-<ul id="BreadcrumbMenuOpt">
-<li><a href="./menu_var" target="InlineFrameSidebar2" title="CANALES"><i class="fa fa-gear">&nbsp;</i> </a></li>
+<div id="wb_master-page-indexBreadcrumb1" style="display:inline-block;width:100%;z-index:7;vertical-align:top;">
+<ul id="master-page-indexBreadcrumb1">
+<li><a href="./menu_not" target="InlineFrameSidebar2" title="CANALES"><i class="fa fa-align-justify">&nbsp;</i> </a></li>
 </ul>
 
 </div>
 </div>
 <div class="flag">
-<iframe name="InlineFrameFlags" id="InlineFrameFlags" src="" scrolling="no"></iframe>
+<div id="wb_BreadcrumbMenuOpt" style="display:inline-block;width:100%;z-index:8;vertical-align:top;">
+<ul id="BreadcrumbMenuOpt">
+<li><a href="./chatbro" target="InlineFrameSidebar2" title="CHAT"><i class="fa fa-commenting">&nbsp;</i> </a></li>
+</ul>
+
+</div>
 </div>
 <div class="info2">
+<div id="wb_script_saludo" style="display:inline-block;width:100%;z-index:9;">
+<div id="greeting" style="font-family:Arial;font-size:9.3px;color:#F7AD3A;font-weight:normal;font-style:normal;text-align:left;text-decoration:none;"></div> 
+<script>
+var datenow = new Date(); 
+var timenow = datenow.getTime(); 
+datenow.setTime(timenow); 
+var hournow = datenow.getHours(); 
+var greeting = document.getElementById('greeting');
+if (hournow >= 18)
+{ 
+   greeting.innerHTML = "Buenas Noches!"; 
+}
+else 
+if (hournow >= 12) 
+{
+   greeting.innerHTML = "Hola Buenas Tardes!"; 
+}
+else 
+{
+   greeting.innerHTML = "Buenos Dias!"; 
+}
+</script>
+</div>
 </div>
 <div class="sidebar3">
-<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" src="./menu_var" scrolling="no"></iframe>
+<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" src="./faceb" scrolling="no"></iframe>
 </div>
 <div class="menuplayer">
 </div>
@@ -1177,39 +1114,32 @@ clock();
 <div class="tag1">
 </div>
 <div class="carrousel">
-<iframe name="master-page-indexInlineFrame1" id="master-page-indexInlineFrame1" src="./tag2roll" scrolling="no"></iframe>
+<iframe name="master-page-indexInlineFrame1" id="master-page-indexInlineFrame1" src="./tag3roll" scrolling="no"></iframe>
 </div>
 <div class="tag2">
 </div>
-<div class="prefooter">
 </div>
-<div class="footer">
-</div>
-</div>
-</div>
-<div id="wb_BreadcrumbNot">
-<ul id="BreadcrumbNot">
-<li><a href="index" title="INDICE"><i class="fa fa-plus-square-o">&nbsp;</i> </a></li>
-<li><a href="noticias">NOTICIAS</a></li>
-<li class="active" aria-current="page">VARIEDADES</li>
-<li><a href="documentales">DOCUMENTALES</a></li>
-<li><a href="series">SERIES</a></li>
-<li><a href="movies">PELICULAS</a></li>
+
+<div id="wb_BreadcrumbInd" style="position:absolute;left:0px;top:113px;width:729px;height:25px;z-index:17;vertical-align:top;">
+<ul id="BreadcrumbInd">
+<li><a href="./index" title="Inicio"><i class="fa fa-plus-square-o">&nbsp;</i> </a></li>
+<li><a href="noticias">INFORMATIVO</a></li>
+<li><a href="variedades">PROGRAMACION</a></li>
+<li><a href="documentales">VIDEOTECA</a></li>
+<li><a href="series">PAUTA CON NOSOTROS</a></li>
+<li><a href="movies"> </a></li>
 </ul>
 </div>
-
-
 <!-- menuplay1 -->
-<div id="menuplay1">
 
 
-</div>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid1" width="16" height="16"></a>
 
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid2" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:711px;top:584px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:713px;top:584px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 </div>
 <!-- cortesiax -->
-<div id="Html3">
+<div id="Html3" style="position:absolute;left:0px;top:0px;width:30px;height:31px;z-index:25">
 <body onload="window.open('spaceplay1','InlineFrameScreen');window.open('info-canal-space','InlineFrameInfoChannel');window.open('logo-canal-space','InlineFrameLogoChannel');window.open('./images/flags/flag-eeuu','InlineFrameFlags');window.open('./images/status-channel/status-live','InlineFrameStatusLive');document.getElementById('menumasterplayer').style.display='block';document.getElementById('menumasterplayer2').style.display='block';document.getElementById('wb_BreadcrumbMenuCentral').style.display='block';return false;">
 <div id="menumasterplayer2">
 </div>
@@ -1236,7 +1166,7 @@ clock();
    </ul>
 </div>
 </div>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid3" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:711px;top:584px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 </div>
 </body>
 </html>

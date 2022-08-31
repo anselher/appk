@@ -11,6 +11,7 @@ body
    background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -40,8 +41,8 @@ input:focus, textarea:focus, select:focus
    outline: none;
 }
 </style>
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=225" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=291" rel="stylesheet">
 <style>
 #page2FlexGrid1
 {
@@ -77,22 +78,6 @@ input:focus, textarea:focus, select:focus
    align-items: center;
    -webkit-align-content: center;
    align-content: center;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 1038px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#page2Html1
-{
-   display: inline-block;
-   width: 1027px;
-   height: 161px;
-   z-index: 0;
 }
 </style>
 <script src="jquery-3.6.0.min.js"></script>
@@ -162,7 +147,7 @@ body {
 	height: 0px;
 	background: #444;
 	padding: 0;
-	border-top: 1px solid #444;
+	border-top: 0px solid #444;
 }
 
 #wrapper {
@@ -170,8 +155,8 @@ body {
 	z-index: 1;
 	top: 1px;
 	bottom: 1px;
-	left: 2;
-	width: 1027px;
+	left: 0;
+	width: 100%;
 	background: transparent;
 	overflow: hidden;
 }
@@ -262,10 +247,10 @@ $(function(){
 /*]]>*/</script>
 </head>
 <body onload="loaded()">
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:1077px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <div id="page2FlexGrid1">
 <div class="header">
-<div id="page2Html1">
+<div id="page2Html1" style="display:inline-block;width:1049px;height:160px;z-index:0">
 <div id="header"></div>
 <div id="wrapper">
 	<div id="scroller">

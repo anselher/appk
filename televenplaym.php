@@ -51,7 +51,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
-<link href="vrtv.css?v=234" rel="stylesheet">
+<link href="vrtv.css?v=223" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function()
@@ -75,17 +75,16 @@ $(window).on('load', function()
 </head>
 <body>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:865px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<div id="page2Html1" style="position:absolute;left:0px;top:0px;width:729px;height:409px;z-index:1">
 <div id="player"></div>
     <script>
       var player = new Clappr.Player(
         {
-          source: 'https://wisp.cdn.rcs.net.ar/mnp/sony_hls/playlist.m3u8',
+          source: 'https://cloud.streamingconnect.tv/hls/televen/televenmoviles.m3u8',
           parentId: '#player',
           plugins: [LevelSelector, ChromecastPlugin, ClapprPip.PipButton, ClapprPip.PipPlugin, DashShakaPlayback, Clappr.MediaControl],
           events: {onReady: function() {var plugin = this.getPlugin('click_to_pause'); plugin && plugin.disable();},},
-          height: 410,
-          width: 729,
+          height: 409,
+          width: 728,
           autoPlay: 'true',
           shakaConfiguration: {
           manifest: {retryParameters: {maxAttempts: Infinity}},
@@ -101,7 +100,7 @@ $(window).on('load', function()
     </script>
     
     
-    </div>
+    
 <div id="preloader"></div>
 </body>
 </html>
