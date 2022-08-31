@@ -11,6 +11,7 @@ body
    background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -40,8 +41,8 @@ input:focus, textarea:focus, select:focus
    outline: none;
 }
 </style>
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=110" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="../../vrtv.css?v=168" rel="stylesheet">
 <style>
 #logochannelcnnFlexGrid1
 {
@@ -99,23 +100,6 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    width: 100%;
 }
-#wb_uid1
-{
-   color: #FF0000;
-   font-family: "Barlow Condensed";
-   font-weight: 500;
-   font-size: 13px;
-   line-height: 18px;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 390px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
 #Html1 img {
    vertical-align:middle;
    padding: 0 0px;
@@ -133,11 +117,11 @@ input:focus, textarea:focus, select:focus
 </style>
 </head>
 <body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="../../images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:390px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <div id="logochannelcnnFlexGrid1">
 <div class="flex-flag">
 <div id="wb_status-liveText1">
-<span id="wb_uid1"><em>LIVE</em></span>
+<span style="color:#FF0000;font-family:'Barlow Condensed';font-weight:500;font-size:13px;line-height:18px;"><em>AL AIRE</em></span>
 </div>
 </div>
 </div>
