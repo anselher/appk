@@ -22,6 +22,7 @@ body
    background-size: 100% 100%;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -51,47 +52,18 @@ input:focus, textarea:focus, select:focus
    outline: none;
 }
 </style>
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=121" rel="stylesheet">
-<style>
-#wb_uid0
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#wb_EmbeddedPageLaRed
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 872px;
-   height: 1160px;
-   z-index: 0;
-}
-#Html2
-{
-   position: absolute;
-   left: 0px;
-   top: 0px;
-   width: 87px;
-   height: 31px;
-   z-index: 2;
-}
-</style>
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=200" rel="stylesheet">
 <link href="estilos.css" rel="stylesheet">
 </head>
 <body onload="window.open('laredplay','InlineFrameScreen');return false;"
 >
 <div id="container">
-<div id="wb_EmbeddedPageLaRed">
+<div id="wb_EmbeddedPageLaRed" style="position:absolute;left:0px;top:0px;width:872px;height:1160px;z-index:0;">
 </div>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <!-- INFOCHANNEL -->
-<div id="Html2">
+<div id="Html2" style="position:absolute;left:0px;top:0px;width:87px;height:31px;z-index:2">
 <img src="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/1013d8e2c7b6f6ac81d9d989d197ca0b.webp" class="logochannel" >
 <img src="https://images.emojiterra.com/twitter/v13.1/512px/1f1e8-1f1f1.png" class="flagcountry" >
 <h5><p>LA RED<br>canal de variedades<br>CHILE</p></h5>

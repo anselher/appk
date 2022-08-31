@@ -12,6 +12,7 @@ body
    background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -41,8 +42,8 @@ input:focus, textarea:focus, select:focus
    outline: none;
 }
 </style>
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=116" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=177" rel="stylesheet">
 <style>
 #wb_LayoutGrid1
 {
@@ -112,22 +113,6 @@ input:focus, textarea:focus, select:focus
    float: none;
    width: 100% !important;
 }
-}
-#Html1
-{
-   display: inline-block;
-   width: 161px;
-   height: 460px;
-   z-index: 1;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 385px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
 }
 </style>
 <script>
@@ -289,30 +274,30 @@ textarea{font-family:inherit;font-size:inherit;line-height:inherit}a:focus,a:hov
 
 </head>
 <body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:385px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <div id="wb_LayoutGrid1">
 <div id="LayoutGrid1">
 <div class="row">
 <div class="col-1">
 
 <!-- menu_variedades -->
-<div id="Html1">
+<div id="Html1" style="display:inline-block;width:161px;height:460px;z-index:1">
 <body onload="loaded()">
     <div id="headermenu"><a href="javascript:myScroll.scrollToElement(document.querySelector('#scroller li:nth-child(1)'), null, null, true)">&#9650;</a></div>
     <div id="wrapper">
         <div id="scroller">
             <ul>
                 <li><a href="canal/tves" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('tves','_top');return false;"><img src="https://www.vtv.gob.ve/wp-content/uploads/2021/05/tvez1-800x445.jpg"><h5> SECCION NO TERMINADA</h5></a></li>
-                <li><a href="javascript:void(0);" onclick="javascript:window.open('', ''); "><img src="https://i.ytimg.com/vi/xvSLuXFWUGQ/hqdefault_live.jpg?w=120&h=60&crop=1"/><h5> </h5></a></li>
-                <li><a href="javascript:void(0);" onclick="javascript:window.open('', ''); "><img src="https://s1.dmcdn.net/v/SZNmq1Ve3YFARIK5d/x240"><h5> </h5></a></li>
-                <li><a href="javascript:void(0);" onclick="javascript:window.open('', ''); "><img src="https://talcualdigital.com/wp-content/uploads/2018/02/2-92.jpg"><h5> <h5></a></li>
-                <li><a href="javascript:void(0);" onclick="javascript:window.open('', ''); "><img src="https://i.ytimg.com/vi/mV2G_CYsDHo/hqdefault.jpg"><h5> <h5></a></li>
-                <li><a href="javascript:void(0);" onclick="javascript:window.open('', ''); "><img src="http://corpoweb.net.ve/promar/images/programas/brujula/img3.jpg"><h5> <h5></a></li>
-                <li><a href="javascript:void(0);" onclick="javascript:window.open('', ''); "><img src="https://i.ytimg.com/vi/zRaaaJsIGog/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDObERo6j-qVvcEB3iyBodLgXxhiw"><h5> TLT LA TELE TUYA TV<h5></a></li>
-                <li><a href="javascript:void(0);" onclick="javascript:window.open('', ''); "><img src="https://i.ytimg.com/vi/jUsG3PzpUtk/mqdefault.jpg"><h5> <h5></a></li>
-                <li><a href="javascript:void(0);" onclick="javascript:window.open('', ''); "><img src="https://vepaco.com/wp-content/uploads/2020/11/vepacotv2.jpg"><h5> <h5></a></li>
-                <li><a href="javascript:void(0);" onclick="javascript:window.open('', ''); "><img src="https://www.televisiongratis.tv/components/com_televisiongratis/images/catatumbo-televisin-1551.jpg"><h5> <h5></a></li>
-                <li><a href="javascript:void(0);" onclick="javascript:window.open('', ''); "><img src="https://tse1.mm.bing.net/th?&id=OVP.dKAZeKyqHgls6uqKmRWe0wHgFo&w=330&h=186&c=7&pid=1.7&rs=1"/><h5> </h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('', 'InlineFrameScreen'); "><img src="https://i.ytimg.com/vi/xvSLuXFWUGQ/hqdefault_live.jpg?w=120&h=60&crop=1"/><h5> </h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('', 'InlineFrameScreen'); "><img src="https://s1.dmcdn.net/v/SZNmq1Ve3YFARIK5d/x240"><h5> </h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('', 'InlineFrameScreen'); "><img src="https://talcualdigital.com/wp-content/uploads/2018/02/2-92.jpg"><h5> <h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('', 'InlineFrameScreen'); "><img src="https://i.ytimg.com/vi/mV2G_CYsDHo/hqdefault.jpg"><h5> <h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('', 'InlineFrameScreen'); "><img src="http://corpoweb.net.ve/promar/images/programas/brujula/img3.jpg"><h5> <h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('', 'InlineFrameScreen'); "><img src="https://i.ytimg.com/vi/zRaaaJsIGog/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDObERo6j-qVvcEB3iyBodLgXxhiw"><h5> TLT LA TELE TUYA TV<h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('', 'InlineFrameScreen'); "><img src="https://i.ytimg.com/vi/jUsG3PzpUtk/mqdefault.jpg"><h5> <h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('', 'InlineFrameScreen'); "><img src="https://vepaco.com/wp-content/uploads/2020/11/vepacotv2.jpg"><h5> <h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('', 'InlineFrameScreen'); "><img src="https://www.televisiongratis.tv/components/com_televisiongratis/images/catatumbo-televisin-1551.jpg"><h5> <h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('', 'InlineFrameScreen'); "><img src="https://tse1.mm.bing.net/th?&id=OVP.dKAZeKyqHgls6uqKmRWe0wHgFo&w=330&h=186&c=7&pid=1.7&rs=1"/><h5> </h5></a></li>
             </ul>
         </div>
     </div>

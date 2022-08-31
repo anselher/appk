@@ -11,6 +11,7 @@ body
    background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -40,8 +41,8 @@ input:focus, textarea:focus, select:focus
    outline: none;
 }
 </style>
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=158" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=233" rel="stylesheet">
 <style>
 #logochannelcnnFlexGrid1
 {
@@ -78,22 +79,6 @@ input:focus, textarea:focus, select:focus
    -webkit-align-content: center;
    align-content: center;
 }
-#Html1
-{
-   display: inline-block;
-   width: 68px;
-   height: 68px;
-   z-index: 0;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 390px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
 #Html1 img {
    vertical-align:middle;
    padding: 1 1px;
@@ -111,10 +96,10 @@ input:focus, textarea:focus, select:focus
 </style>
 </head>
 <body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:390px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <div id="logochannelcnnFlexGrid1">
 <div class="header">
-<div id="Html1">
+<div id="Html1" style="display:inline-block;width:68px;height:68px;z-index:0">
 <img src="https://lh3.googleusercontent.com/SrvjQVWXjBQllMC6WxJ7pC-t2miqW9x3MJHAtSzRcS9s7xZKTpPh-Cpbp-NmIjIok2TNwa3ei1js" class="imgcanal" >
 </div>
 </div>
