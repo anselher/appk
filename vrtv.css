@@ -1,0 +1,119 @@
+@-webkit-keyframes animate-fade-in
+{
+   0% { opacity: 0;  }
+   100% { opacity: 1;  }
+}
+@-moz-keyframes animate-fade-in
+{
+   0% { opacity: 0;  }
+   100% { opacity: 1;  }
+}
+@keyframes animate-fade-in
+{
+   0% { opacity: 0;  }
+   100% { opacity: 1;  }
+}
+h1, .h1
+{
+   font-family: "Barlow Condensed";
+   font-weight: 400;
+   font-size: 27px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h2, .h2
+{
+   font-family: "Barlow Condensed";
+   font-weight: 400;
+   font-weight: normal;
+   font-size: 21px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h3, .h3
+{
+   font-family: "Barlow Condensed";
+   font-weight: 400;
+   font-weight: normal;
+   font-size: 19px;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h4, .h4
+{
+   font-family: "Barlow Condensed";
+   font-weight: 400;
+   font-weight: normal;
+   font-size: 16px;
+   font-style: normal;
+   text-decoration: none;
+   color: #000000;
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h5, .h5
+{
+   font-family: "Barlow Condensed";
+   font-weight: 400;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 22.03px;
+   text-decoration: none;
+   color: #D8D8D8;
+   background-color: transparent;
+   background-clip: text;
+   border-radius: 1px;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h6, .h6
+{
+   font-family: "Barlow Condensed";
+   font-weight: 400;
+   font-weight: 300;
+   font-weight: normal;
+   font-size: 12px;
+   line-height: 17.63px;
+   text-decoration: none;
+   color: #ACACAC;
+   background-color: transparent;
+   background-clip: text;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.CustomStyle
+{
+   font-family: "MS Sans Serif";
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 20.03px;
+   text-decoration: none;
+   color: #4F4F4F;
+   background-color: transparent;
+}
+.style1
+{
+   font-family: "Barlow Condensed";
+   font-weight: 400;
+   font-weight: 300;
+   font-size: 13px;
+   text-decoration: none;
+   color: #D8D8D8;
+   background-color: transparent;
+}

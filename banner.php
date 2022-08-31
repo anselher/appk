@@ -10,6 +10,7 @@ body
    background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -39,8 +40,8 @@ input:focus, textarea:focus, select:focus
    outline: none;
 }
 </style>
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=97" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=167" rel="stylesheet">
 <style>
 #Banner1
 {
@@ -70,33 +71,15 @@ overflow: hidden;
 margin: 0px ;
 padding:0px;
 position: relative;
-width: 729 px;
+width: 728 px;
 height: 90 px;
 }
 #rotator img {
-width: 729 px;
+width: 728 px;
 height: 90 px;
 border: 0;
 margin: 0;
 padding: 0;
-}
-#Banner1
-{
-   position: absolute;
-   left: 649px;
-   top: 0px;
-   width: 80px;
-   height: 16px;
-   z-index: 2;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 713px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
 }
 </style>
 <script>
@@ -181,14 +164,16 @@ document.oncontextmenu=new Function("return false");
 
 </head>
 <body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:712px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <div id="rotator">
-<a href="publicidad/1" rel="nofollow noopener noreferrer sponsored ugc" target="" title="" onclick="window.open('cnnenespanolplay','InlineFrameScreen');return false;"><img src="./images/images/bannerads1.png"></a>
-<a href="publicidad/1" rel="nofollow noopener noreferrer sponsored ugc" target="" title="" onclick="window.open('telemedellin','InlineFrameScreen');return false;"><img src="./images/images/Recurso19xhdpi.jpg"></a>
-<a href="publicidad/1" rel="nofollow noopener noreferrer sponsored ugc" target="" title="" onclick="window.open('universalchannelplay5','InlineFrameScreen');return false;"><img src="./images/images/Recurso20xhdpi.jpg"></a>
-<a href="publicidad/1" rel="nofollow noopener noreferrer sponsored ugc" target="" title="" onclick="window.open('comedycentralplay2','InlineFrameScreen');return false;"><img src="./images/images/iwish.png"></a>
+<a href="publicidad/1" rel="nofollow noopener noreferrer sponsored ugc" target="" title="movistarnegociosmgt" onclick="window.open('https://linktr.ee/movistarnegociosmgt','InlineFrameSidebar2');return false;"><img src="./images/bannermovistar1.gif"></a>
+<a href="publicidad/1" rel="nofollow noopener noreferrer sponsored ugc" target="" title="movistarnegociosmgt" onclick="window.open('linktreevuvb','InlineFrameSidebar2');return false;"><img src="./images/bannervenbra1.gif"></a>
+<a href="publicidad/1" rel="nofollow noopener noreferrer sponsored ugc" target="" title="movistarnegociosmgt" onclick="window.open('https://www.instagram.com/proyexconsca/','');return false;"><img src="./images/banneradsproyexconsca2.gif"></a>
+<a href="publicidad/1" rel="nofollow noopener noreferrer sponsored ugc" target="" title="movistarnegociosmgt" onclick="window.open('https://linktr.ee/movistarnegociosmgt','InlineFrameSidebar2');return false;"><img src="./images/bannermovistar2.gif"></a>
+<a href="publicidad/1" rel="nofollow noopener noreferrer sponsored ugc" target="" title="" onclick="window.open('universalchannelplay5','InlineFrameScreen');return false;"><img src="./images/banneradsgeorgina1.gif"></a>
+<a href="publicidad/1" rel="nofollow noopener noreferrer sponsored ugc" target="" title="" onclick="window.open('comedycentralplay2','InlineFrameScreen');return false;"><img src="./images/banneradsproyexconsca1.gif"></a>
 </div>
-<div id="Banner1"><span>PATROCINANTES:</span></div>
+<div id="Banner1" style="position:absolute;left:649px;top:0px;width:80px;height:16px;z-index:2"><span>PATROCINANTES:</span></div>
 
 
 </body>

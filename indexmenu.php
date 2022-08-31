@@ -10,6 +10,7 @@ body
    background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -40,8 +41,8 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=107" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=209" rel="stylesheet">
 <style>
 #BreadcrumbMenu1
 {
@@ -188,59 +189,6 @@ input:focus, textarea:focus, select:focus
    font-size: 15px;
    width: 17px;
 }
-#463
-{
-   border: 0px solid;
-   display: inline;
-}
-#wb_BreadcrumbMenu2
-{
-   position: absolute;
-   left: 600px;
-   top: 0px;
-   width: 128px;
-   height: 20px;
-   z-index: 3;
-   vertical-align: top;
-}
-#wb_BreadcrumbMenu1
-{
-   position: absolute;
-   left: 5px;
-   top: 0px;
-   width: 239px;
-   height: 20px;
-   z-index: 1;
-   vertical-align: top;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 800px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
-#wb_BreadcrumbMenuCentral
-{
-   position: absolute;
-   left: 305px;
-   top: 0px;
-   width: 117px;
-   height: 20px;
-   z-index: 2;
-   vertical-align: top;
-}
-#Html2
-{
-   position: absolute;
-   left: 269px;
-   top: 0px;
-   width: 37px;
-   height: 16px;
-   z-index: 4;
-}
 </style>
 <script>
 function disableIE() {
@@ -267,19 +215,19 @@ document.oncontextmenu=new Function("return false");
 </script>
 </head>
 <body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
-<nav id="wb_BreadcrumbMenu1">
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:800px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<nav id="wb_BreadcrumbMenu1" style="position:absolute;left:5px;top:0px;width:239px;height:20px;z-index:1;vertical-align:top;">
 <ul id="BreadcrumbMenu1">
 <li><a href="opcion-1" target="InlineFrameScreen" title="Opcion 1">OPCION 1</a></li>
 <li><a href="opcion-2" target="InlineFrameScreen" title="Opcion 2">OPCION 2</a></li>
 </ul>
 </nav>
-<nav id="wb_BreadcrumbMenuCentral">
+<nav id="wb_BreadcrumbMenuCentral" style="position:absolute;left:305px;top:0px;width:117px;height:20px;z-index:2;vertical-align:top;">
 <ul id="BreadcrumbMenuCentral">
 <li><a href="javascript:window.location.reload()" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Reload"><i class="fa fa-refresh">&nbsp;</i></a></li>
 </ul>
 </nav>
-<nav id="wb_BreadcrumbMenu2">
+<nav id="wb_BreadcrumbMenu2" style="position:absolute;left:600px;top:0px;width:128px;height:20px;z-index:3;vertical-align:top;">
 <ul id="BreadcrumbMenu2">
 <li><a href="opcion-1" target="InlineFrameScreen" title="Opcion 1" onclick="window.open('comedycentralplay2','InlineFrameScreen');return false;"><i class="fa fa-thumbs-o-down">&nbsp;</i> </a></li>
 <li><a href="javascript:window.location.reload()" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Reload"><i class="fa fa-thumbs-o-up">&nbsp;</i> </a></li>
@@ -287,9 +235,9 @@ document.oncontextmenu=new Function("return false");
 <li><a href=""><i class="fa fa-list">&nbsp;</i> </a></li>
 </ul>
 </nav>
-<div id="Html2">
+<div id="Html2" style="position:absolute;left:269px;top:0px;width:37px;height:16px;z-index:4">
 <!-- Contador de visitas -->
-<img alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=4463"></a>
+<img style="border: 0px solid; display: inline;" alt="contador de visitas" src="https://websmultimedia.com/contador-de-visitas.php?id=4463"></a>
 <!-- Fin Contador de visitas --></div>
 </body>
 </html>

@@ -10,6 +10,7 @@ body
    background-color: transparent;
    color: #000000;
    font-family: "Barlow Condensed";
+   font-weight: 400;
    font-weight: 500;
    font-size: 13px;
    line-height: 1.1875;
@@ -39,8 +40,8 @@ input:focus, textarea:focus, select:focus
    outline: none;
 }
 </style>
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300&display=swap" rel="stylesheet">
-<link href="365tv3.2.3.css?v=121" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
+<link href="vrtv.css?v=200" rel="stylesheet">
 <style>
 #NavigationBar1 ul.navbar
 {
@@ -87,32 +88,14 @@ input:focus, textarea:focus, select:focus
 {
    visibility: hidden;
 }
-#NavigationBar1
-{
-   position: absolute;
-   left: 5px;
-   top: 2px;
-   width: 122px;
-   height: 24px;
-   z-index: 1;
-}
-#wb_uid0
-{
-   position: absolute;
-   left: 640px;
-   top: 0px;
-   margin: 0;
-   border-width: 0;
-   z-index: 250;
-}
 </style>
 </head>
 <body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
-<nav id="NavigationBar1">
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:640px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<nav id="NavigationBar1" style="position:absolute;left:5px;top:2px;width:122px;height:24px;z-index:1;">
 <ul class="navbar">
-<li id="NavigationBar1_item0"><a href="" target="InlineFrameScreen" onclick="window.open('dwenespanolplay','InlineFrameScreen');return false;"><img src="images/img0020_over.png" class="hover"><span><img src="images/img0020.png"></span></a></li>
-<li id="NavigationBar1_item1"><a href="" target="InlineFrameScreen" onclick="window.open('dwenespanolplay2','InlineFrameScreen');return false;"><img src="images/img0021_over.png" class="hover"><span><img src="images/img0021.png"></span></a></li>
+<li id="NavigationBar1_item0"><a href="" target="InlineFrameScreen" onclick="window.open('dwenespanolplay','InlineFrameScreen');return false;"><img src="images/dwenespanolmenu_0020_over.png" class="hover"><span><img src="images/dwenespanolmenu_0020.png"></span></a></li>
+<li id="NavigationBar1_item1"><a href="" target="InlineFrameScreen" onclick="window.open('dwenespanolplay2','InlineFrameScreen');return false;"><img src="images/dwenespanolmenu_0021_over.png" class="hover"><span><img src="images/dwenespanolmenu_0021.png"></span></a></li>
 </ul>
 </nav>
 </body>
