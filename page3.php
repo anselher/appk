@@ -2,16 +2,15 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>DW en Español</title>
+<title>Untitled Page</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <style>
 body
 {
-   background-color: transparent;
+   background-color: #FFFFFF;
    color: #000000;
-   font-family: "Barlow Condensed";
-   font-weight: 400;
-   font-weight: 500;
+   font-family: Arial;
+   font-weight: normal;
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
@@ -19,67 +18,47 @@ body
 }
 a
 {
-   color: #F2F2F2;
-   text-decoration: none;
+   color: #0000FF;
+   text-decoration: underline;
 }
 a:visited
 {
-   color: #FFFFFF;
+   color: #800080;
 }
 a:active
 {
-   color: #FFFF00;
+   color: #FF0000;
 }
 a:hover
 {
-   color: #00FF00;
-   text-decoration: none;
+   color: #0000FF;
+   text-decoration: underline;
 }
 input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
 </style>
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
-<link href="vrtv.css?v=221" rel="stylesheet">
+<link href="testcompleta.css?v=7" rel="stylesheet">
 </head>
 <body>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:822px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<div id="maincontainer" class="container-fluid mrt20 mrb20 clearfix maincontainer"> <!-- start header div 1, will end in footer -->
-	<div id="content" class="container"> <!-- start header div 2, will end in footer -->
-		<div class="row"> <!-- start header div 3, will end in footer -->
-		
-
-<div class="col-md-12">
-	<div class="left-content sngl-pg" >
-	<div id="post-165" class="clearfix single-posst post-165 page type-page status-publish hentry" itemscope itemtype="http://schema.org/CreativeWork">
-	<div class="content-first">
-				
-					<div class="content-second">
-				<h1 class="the-title entry-title" itemprop="headline"></h1>
-			</div>
-						
-		<div class="content-third" itemprop="text">
-					
-			<div class="entry-content">
-
-				
-				
-			<script type='text/javascript' src='https://maindigitalstream.com/jwplayer/jwplayer.js?2.2.3.5'></script>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<div id="page1Html1" style="position:absolute;left:0px;top:0px;width:100%;height:325px;z-index:1">
+<script type='text/javascript' src='https://maindigitalstream.com/jwplayer/jwplayer.js?2.2.3.5'></script>
 <script>jwplayer.key="8gDDWtjPpyFgSWsZPjDk4MV6CVI0wEVf2xp7vS7FZUw=";</script><div id='MediaPlayerOverview'>Loading&#8230;</div>
 <script type='text/javascript'>
   jwplayer('MediaPlayerOverview').setup({
  sources: [
-     {file: "https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8?PlaylistM3UCL"},
-   {file: "https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8?PlaylistM3UCL"}
+     {file: "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cinereallatam-ono/playlist.m3u8"},
+   {file: "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01024-olympusat-cinereallatam-ono/playlist.m3u8"}
     ],
  rtmp: {
   bufferlength: 3,
  },
  'autostart': 'true',
  'aspectratio': '16:9',
- 'height': '409px',
- 'width': '100%',
+ 'height': '409',
+ 'width': '728',
  'fallback': false,
  'androidhls': true,
  'primary': 'html5',
@@ -90,15 +69,6 @@ input:focus, textarea:focus, select:focus
   },
  });
 </script>
-<!--CusAds0-->
-			</div>						
-		</div>					
-	</div>
 </div>
-	</div>
-</div>	
-		</div> <!-- end header div 3 -->
-	</div> <!-- end header div 2 -->
-</div> <!-- end header div 1 -->
 </body>
 </html>

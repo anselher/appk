@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>TEVEVISION | MULTIVISION TV</title>
+<title>TEVEVISION | HISTORY 2</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 - https://www.wysiwygwebbuilder.com">
 <style>
 body
@@ -270,8 +270,8 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isP
 <script type='text/javascript'>
   jwplayer('MediaPlayerOverview').setup({
  sources: [
-     {file: "https://panel.dattalive.com/8250/8250/playlist.m3u8"},
-   {file: "https://panel.dattalive.com/8250/8250/playlist.m3u8"}
+     {file: "https://wisp.cdn.rcs.net.ar/mnp/h2_hls/playlist.m3u8"},
+   {file: "https://gow.cdn.rcs.net.ar/mnp/h2/output.mpd"}
     ],
  rtmp: {
   bufferlength: 3,

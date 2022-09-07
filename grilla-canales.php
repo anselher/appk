@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>TEVEVISION | MULTIVISION TV</title>
-<meta name="generator" content="WYSIWYG Web Builder 17 - https://www.wysiwygwebbuilder.com">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <style>
 body
 {
@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
-<link href="fullscreen2.css?v=371" rel="stylesheet">
+<link href="fullscreen2.css?v=373" rel="stylesheet">
 <style>
 *{-webkit-box-sizing:border-box;
 -moz-box-sizing:border-box;
@@ -260,36 +260,5 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isP
 </body>
 
 
-
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<!-- InlineframeScreen -->
-<div id="InlineframeScreen" style="position:absolute;left:0px;top:0px;width:100%;height:4px;z-index:6">
-<script type='text/javascript' src='https://maindigitalstream.com/jwplayer/jwplayer.js?2.2.3.5'></script>
-<script>jwplayer.key="8gDDWtjPpyFgSWsZPjDk4MV6CVI0wEVf2xp7vS7FZUw=";</script>
-<div id='MediaPlayerOverview'>Loading&#8230;</div>
-<script type='text/javascript'>
-  jwplayer('MediaPlayerOverview').setup({
- sources: [
-     {file: "https://panel.dattalive.com/8250/8250/playlist.m3u8"},
-   {file: "https://panel.dattalive.com/8250/8250/playlist.m3u8"}
-    ],
- rtmp: {
-  bufferlength: 3,
- },
- 'autostart': 'true',
- 'aspectratio': '3:2',
- 'width': '100%',
- 'height': '100%',
- 'fallback': false,
- 'androidhls': true,
- 'primary': 'html5',
- logo: {
-  file: '', //watermark image path
-  link: '', //link url on watermark image
-  position: 'top-left' //position of watermark on player
-  },
- });
-</script>
-</div>
 </body>
 </html>

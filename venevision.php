@@ -2,50 +2,37 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>TEVEVISION | Venevision</title>
-<meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TEVEVISION | VENEVISION</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 - https://www.wysiwygwebbuilder.com">
 <style>
-div#container
-{
-   width: 1029px;
-   position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
-}
 body
 {
-   background-color: #FFFFFF;
-   background-image: url('images/3876.jpg');
-   background-attachment: fixed;
-   background-position: center top;
-   background-repeat: no-repeat;
-   background-size: 100% 100%;
-   color: #000000;
+   background-color: #000000;
+   color: #F2F2F2;
    font-family: "Barlow Condensed";
    font-weight: 400;
-   font-weight: 500;
+   font-weight: 400;
    font-size: 13px;
-   line-height: 1.1875;
+   line-height: 1.1;
    margin: 0;
-   text-align: center;
+   padding: 0;
 }
 a
 {
-   color: #F2F2F2;
+   color: #0000FF;
    text-decoration: none;
 }
 a:visited
 {
-   color: #FFFFFF;
+   color: #800080;
 }
 a:active
 {
-   color: #FFFF00;
+   color: #FF0000;
 }
 a:hover
 {
-   color: #00FF00;
+   color: #0000FF;
    text-decoration: none;
 }
 input:focus, textarea:focus, select:focus
@@ -53,1121 +40,259 @@ input:focus, textarea:focus, select:focus
    outline: none;
 }
 </style>
-<link href="font-awesome.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
-<link href="vrtv.css?v=202" rel="stylesheet">
-<style>
-#master-page-indexFlexGrid1
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
+<link href="fullscreen2.css?v=368" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/level-selector@latest/dist/level-selector.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clappr-chromecast-plugin@latest/dist/clappr-chromecast-plugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clappr-pip@latest/dist/clappr-pip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dash-shaka-playback@latest/dist/dash-shaka-playback.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clappr-playback-rate-plugin@latest/dist/clappr-playback-rate-plugin.min.js"></script><style>
+*{-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box}:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+#InlineframeScreen
 {
-   display: grid;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   font-size: 0px;
-   grid-template-columns: 100%;
-   grid-template-rows: 20px;
-   grid-template-areas:
-      "header";
-}
-#master-page-indexFlexGrid1 .header
-{
+   display: -webkit-flex;
    display: flex;
-   grid-area: header;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#InlineFrameBannerAds
-{
-   border: 0px solid #C0C0C0;
-   border-radius: 0px;
-   margin: 0;
-}
-#InlineFrameBannerAds
-{
-   display: block;
-   float: left;
-   width: 100%;
-   height: 88px;
-   vertical-align: top;
-}
-#InlineFrameSidebar2
-{
-   border: 0px solid #C0C0C0;
-   border-radius: 0px;
-   margin: 0;
-}
-#InlineFrameSidebar2
-{
-   display: block;
-   float: left;
-   width: 100%;
-   height: 458px;
-   vertical-align: top;
-}
-#InlineFrameScreen
-{
-   border: 0px solid #C0C0C0;
-   border-radius: 0px;
-   margin: 0;
-}
-#InlineFrameScreen
-{
-   display: block;
-   float: left;
-   width: 100%;
-   height: 407px;
-   vertical-align: top;
-}
-#FlexGrid1
-{
-   display: grid;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #CCCCCC;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
-   font-size: 0px;
-   grid-template-columns: 728px 1px 80px 59px 58px 57px 29px 31px 6px;
-   grid-template-rows: 90px 1px 30px 1px 19px 30px 1px 20px 1px 338px 1px 30px 1px 90px 1px 30px minmax(1px,auto) 161px 1px 30px;
-   grid-template-areas:
-      "header header header header header header header header header"
-      ". . . . . . . . ."
-      "mainmenu . logochannel info-channel info-channel info-channel info-channel info-channel borde"
-      ". . logochannel info-channel info-channel info-channel info-channel info-channel borde"
-      "section1 . logochannel info-channel info-channel info-channel info-channel info-channel borde"
-      "section1 . logochannel live vod time options flag borde"
-      "section1 . . . . . . . ."
-      "section1 . info2 info2 info2 info2 info2 info2 info2"
-      "section1 . . . . . . . ."
-      "section1 . sidebar3 sidebar3 sidebar3 sidebar3 sidebar3 sidebar3 sidebar3"
-      ". . sidebar3 sidebar3 sidebar3 sidebar3 sidebar3 sidebar3 sidebar3"
-      "menuplayer . sidebar3 sidebar3 sidebar3 sidebar3 sidebar3 sidebar3 sidebar3"
-      ". . sidebar3 sidebar3 sidebar3 sidebar3 sidebar3 sidebar3 sidebar3"
-      "banner-roll . sidebar3 sidebar3 sidebar3 sidebar3 sidebar3 sidebar3 sidebar3"
-      ". . . . . . . . ."
-      "tag1 tag1 tag1 tag1 tag1 tag1 tag1 tag1 tag1"
-      ". . . . . . . . ."
-      "carrousel carrousel carrousel carrousel carrousel carrousel carrousel carrousel carrousel"
-      ". . . . . . . . ."
-      "tag2 tag2 tag2 tag2 tag2 tag2 tag2 tag2 tag2";
-}
-#FlexGrid1 .header
-{
-   display: flex;
-   grid-area: header;
-   background-color: transparent;
-   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dheader_bkgrnd.png');
-   background-repeat: repeat;
-   background-position: left top;
-   border: 1px solid #7F7F7F;
-   border-radius: 0px;
-   padding: 0;
+   position: relative;
+   height: 100%;
+   padding: 1px 1px 1px 321px;
    -webkit-flex-direction: row;
    flex-direction: row;
    -webkit-flex-wrap: wrap;
    flex-wrap: wrap;
    -webkit-justify-content: flex-start;
    justify-content: flex-start;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .mainmenu
-{
-   display: flex;
-   grid-area: mainmenu;
-   background-color: transparent;
-   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dmainmenu_bkgrnd.png');
-   background-repeat: repeat;
-   background-position: left top;
-   border: 1px solid #7F7F7F;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .logochannel
-{
-   display: flex;
-   grid-area: logochannel;
-   background-color: transparent;
-   background-image: url('images/SIDEBAR%2d01%2d01%2dLOGO.png');
-   background-repeat: no-repeat;
-   background-position: left top;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .info-channel
-{
-   display: flex;
-   grid-area: info-channel;
-   background-color: transparent;
-   background-image: url('images/SIDEBAR%2d01%2d07%2dINFO.png');
-   background-repeat: no-repeat;
-   background-position: left top;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .borde
-{
-   display: flex;
-   grid-area: borde;
-   background-color: transparent;
-   background-image: url('images/SIDEBAR%2d01%2d08%2dFINAL.png');
-   background-repeat: no-repeat;
-   background-position: left top;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .section1
-{
-   display: flex;
-   grid-area: section1;
-   background-color: transparent;
-   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dsection1_bkgrnd.png');
-   background-repeat: repeat;
-   background-position: left top;
-   border: 1px solid #7F7F7F;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: center;
-   justify-content: center;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .live
-{
-   display: flex;
-   grid-area: live;
-   background-color: transparent;
-   background-image: url('images/SIDEBAR%2d01%2d02%2dLIVE.png');
-   background-repeat: no-repeat;
-   background-position: left top;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .vod
-{
-   display: flex;
-   grid-area: vod;
-   background-color: transparent;
-   background-image: url('images/SIDEBAR%2d01%2d03%2dVOD.png');
-   background-repeat: no-repeat;
-   background-position: left top;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .time
-{
-   display: flex;
-   grid-area: time;
-   background-color: transparent;
-   background-image: url('images/SIDEBAR%2d01%2d04%2dTIME.png');
-   background-repeat: no-repeat;
-   background-position: left top;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0px 0px 5px 0px;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .options
-{
-   display: flex;
-   grid-area: options;
-   background-color: transparent;
-   background-image: url('images/SIDEBAR%2d01%2d05%2dMENU.png');
-   background-repeat: no-repeat;
-   background-position: left top;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .flag
-{
-   display: flex;
-   grid-area: flag;
-   background-color: transparent;
-   background-image: url('images/SIDEBAR%2d01%2d06%2dCHAT.png');
-   background-repeat: no-repeat;
-   background-position: left top;
-   border: 0px solid #FFFFFF;
-   border-radius: 0px;
-   padding: 0px 0px 2px 0px;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .info2
-{
-   display: flex;
-   grid-area: info2;
-   background-color: transparent;
-   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dinfo2_bkgrnd.png');
-   background-repeat: repeat;
-   background-position: left top;
-   border: 1px solid #7F7F7F;
-   border-radius: 0px;
-   padding: 0px 10px 0px 10px;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .sidebar3
-{
-   display: flex;
-   grid-area: sidebar3;
-   background-color: transparent;
-   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dsidebar3_bkgrnd.png');
-   background-repeat: repeat;
-   background-position: left top;
-   border: 1px solid #7F7F7F;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .menuplayer
-{
-   display: flex;
-   grid-area: menuplayer;
-   background-color: transparent;
-   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dmenuplayer_bkgrnd.png');
-   background-repeat: repeat;
-   background-position: left top;
-   border: 1px solid #7F7F7F;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .banner-roll
-{
-   display: flex;
-   grid-area: banner-roll;
-   background-color: transparent;
-   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dbanner%2droll_bkgrnd.png');
-   background-repeat: repeat;
-   background-position: left top;
-   border: 1px solid #7F7F7F;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .tag1
-{
-   display: flex;
-   grid-area: tag1;
-   background-color: transparent;
-   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dtag1_bkgrnd.png');
-   background-repeat: repeat;
-   background-position: left top;
-   border: 1px solid #7F7F7F;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .carrousel
-{
-   display: flex;
-   grid-area: carrousel;
-   background-color: transparent;
-   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dcarrousel_bkgrnd.png');
-   background-repeat: repeat;
-   background-position: left top;
-   border: 1px solid #7F7F7F;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#FlexGrid1 .tag2
-{
-   display: flex;
-   grid-area: tag2;
-   background-color: transparent;
-   background-image: url('images/master%2dpage%2dindex_FlexGrid1%2dtag2_bkgrnd.png');
-   background-repeat: repeat;
-   background-position: left top;
-   border: 1px solid #7F7F7F;
-   border-radius: 0px;
-   padding: 0;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   -webkit-flex-wrap: wrap;
-   flex-wrap: wrap;
-   -webkit-justify-content: space-around;
-   justify-content: space-around;
-   -webkit-align-items: center;
-   align-items: center;
-   -webkit-align-content: center;
-   align-content: center;
-}
-#wb_logowebtv
-{
+   -webkit-align-items: flex-start;
+   align-items: flex-start;
+   -webkit-align-content: flex-start;
+   align-content: flex-start;
    margin: 0;
-   vertical-align: top;
-}
-#logowebtv
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
    box-sizing: border-box;
-   padding: 0;
-   display: block;
-   width: 100%;
-   height: auto;
-   max-width: 300px;
-   margin-left: auto;
-   margin-right: auto;
-   vertical-align: top;
+   font-size: 0px;
 }
-#InlineFrameLogoChannel
+#InlineframeScreen
 {
-   border: 0px solid transparent;
-   border-radius: 0px;
-   margin: 0;
-}
-#InlineFrameLogoChannel
-{
-   display: block;
-   float: left;
-   width: 100%;
-   height: 80px;
-   vertical-align: top;
-}
-#InlineFrame2
-{
-   border: 0px solid #C0C0C0;
-   border-radius: 0px;
-   margin: 0;
-}
-#InlineFrame2
-{
-   display: block;
-   float: left;
-   width: 100%;
-   height: 50px;
-   vertical-align: top;
-}
-#master-page-notInlineFrame1
-{
-   border: 0px solid #C0C0C0;
-   border-radius: 0px;
-   margin: 0;
-}
-#master-page-notInlineFrame1
-{
-   display: block;
-   float: left;
-   width: 100%;
-   height: 30px;
-   vertical-align: top;
-}
-#master-page-notInlineFrame2
-{
-   border: 0px solid #C0C0C0;
-   border-radius: 0px;
-   margin: 0;
-}
-#master-page-notInlineFrame2
-{
-   display: block;
-   float: left;
-   width: 100%;
-   height: 30px;
-   vertical-align: top;
-}
-#master-page-indexInlineFrame1
-{
-   border: 0px solid #C0C0C0;
-   border-radius: 0px;
-   margin: 0;
-}
-#master-page-indexInlineFrame1
-{
-   display: block;
-   float: left;
-   width: 100%;
-   height: 161px;
-   vertical-align: top;
-}
-#BreadcrumbMenuOpt
-{
-   padding: 2px 5px 4px 8px;
-   list-style: none;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid transparent;
-   border-radius: 0px;
-   font-family: "Barlow Condensed";
-   font-weight: 500;
-   font-style: normal;
-   font-size: 0;
-   margin: 0;
-   text-align: left;
-}
-#BreadcrumbMenuOpt > li
-{
-   display: inline-block;
-   font-size: 15px;
-}
-#BreadcrumbMenuOpt a
-{
-   color: #A9A9A9;
-   text-decoration: none;
-}
-#BreadcrumbMenuOpt a:hover
-{
-   color: #CCFF33;
-   text-decoration: none;
-}
-#BreadcrumbMenuOpt > .active
-{
-   color: #CCFF33;
-}
-#BreadcrumbMenuOpt > .active a
-{
-   color: inherit;
-   pointer-events: none;
-}
-#BreadcrumbMenuOpt > li + li:before
-{
-   content: "|";
-   padding: 0 5px;
-   color: #C0C0C0;
-}
-#BreadcrumbMenuOpt li i
-{
-   font-size: 15px;
-   width: 17px;
-}
-#master-page-indexBreadcrumb1
-{
-   padding: 2px 5px 4px 8px;
-   list-style: none;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid transparent;
-   border-radius: 0px;
-   font-family: "Barlow Condensed";
-   font-weight: 500;
-   font-style: normal;
-   font-size: 0;
-   margin: 0;
-   text-align: left;
-}
-#master-page-indexBreadcrumb1 > li
-{
-   display: inline-block;
-   font-size: 15px;
-}
-#master-page-indexBreadcrumb1 a
-{
-   color: #A9A9A9;
-   text-decoration: none;
-}
-#master-page-indexBreadcrumb1 a:hover
-{
-   color: #CCFF33;
-   text-decoration: none;
-}
-#master-page-indexBreadcrumb1 > .active
-{
-   color: #CCFF33;
-}
-#master-page-indexBreadcrumb1 > .active a
-{
-   color: inherit;
-   pointer-events: none;
-}
-#master-page-indexBreadcrumb1 > li + li:before
-{
-   content: "|";
-   padding: 0 5px;
-   color: #C0C0C0;
-}
-#master-page-indexBreadcrumb1 li i
-{
-   font-size: 15px;
-   width: 17px;
-}
-#BreadcrumbInd
-{
-   padding: 2px 15px 2px 15px;
-   list-style: none;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid transparent;
-   border-radius: 0px;
-   font-family: "Barlow Condensed";
-   font-weight: 500;
-   font-style: normal;
-   font-size: 0;
-   margin: 0;
-   text-align: left;
-}
-#BreadcrumbInd > li
-{
-   display: inline-block;
-   font-size: 19px;
-}
-#BreadcrumbInd a
-{
-   color: #D8D8D8;
-   text-decoration: none;
-}
-#BreadcrumbInd a:hover
-{
-   color: #F7AD3A;
-   text-decoration: none;
-}
-#BreadcrumbInd > .active
-{
-   color: #F7AD3A;
-}
-#BreadcrumbInd > .active a
-{
-   color: inherit;
-   pointer-events: none;
-}
-#BreadcrumbInd > li + li:before
-{
-   content: "|";
-   padding: 0 5px;
-   color: #C0C0C0;
-}
-#BreadcrumbInd li i
-{
-   font-size: 19px;
-   width: 21px;
-}
-#logowebtv
-{
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   padding: 0;
-   display: block;
-   width: 100%;
-   height: auto;
-   max-width: 300px;
-   margin-left: 10px;
-   margin-right: auto;
-   vertical-align: top;
-}
-input:focus, textarea:focus, select:focus
-{
-   outline: none;
+   -webkit-flex-grow: 0;
+   flex-grow: 0;
+   -webkit-flex-shrink: 0;
+   flex-shrink: 0;
+   -webkit-align-self: auto;
+   align-self: auto;
 }
 
-#menumasterplayer
-{
 
-   position:absolute;left:0px;
-   top:0px;
-   display: none;
+textarea{font-family:inherit;font-size:inherit;line-height:inherit}a:focus,a:hover{color:#23527c;text-decoration:none}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
+
+
+.no-select {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
-#menumasterplayer2
-{
-   position:absolute;left:0px;
-   top:0px;
-   display: none;
+#headermenu {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 320px;
+	height: 20px;
+	line-height: 20px;
+	background: #444;
+	padding: 0;
+	color: #eee;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+}
+#wrapper {
+	position: absolute;
+	top: 20px;
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+	background: transparent;
+	overflow: hidden;
+    z-index: 1;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 320px;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+#scroller ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
 
 }
-
-#BreadcrumbMenu1
-{
-   position:absolute;left:5px;
-   top:558px;
-   width:280px;
-   height:20px;
+.imgmenu {
+   float:left;
    vertical-align:top;
-   padding: 2px 5px 2px 5px;
-   list-style: none;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid transparent;
-   border-radius: 0px;
-   font-family: "Barlow Condensed";
-   font-weight: 500;
-   font-style: normal;
-   font-size: 0;
-   margin: 0;
-   text-align: left;
-   z-index:1;
+   aspect-ratio: 4/3;
+   padding: 0 0px;
+   margin-left: 5px;
+   margin-top: 5px;
+   margin-right: 10px;
+   width: 76px;
+   height: 48px;
+   border-radius: 5px;
+   border-bottom: 1px solid #ccc;
+   border-top: 1px solid #4d4d4d;
+   border-left: 1px solid #808080;
+   border-right: 1px solid #808080;
+   object-fit: cover;
 }
-#BreadcrumbMenu1 > li
-{
-   display: inline-block;
-   font-size: 13px;
+#scroller li {
+	padding: 0 0px;
+	vertical-align:middle;
+	height: 60px;
+	margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+	line-height: 10px;
+	text-align: left;
+	font-size: 10px;
+	border-bottom: 1px solid #808080;
+	border-top: 1px solid #494948;
+	background: linear-gradient(to bottom, #30302f 0%, #2a2a29 100%);
 }
-#BreadcrumbMenu1 a
-{
-   color: #A9A9A9;
-   text-decoration: none;
-}
-#BreadcrumbMenu1 a:hover
-{
-   color: #CCFF33;
-   text-decoration: none;
-}
-#BreadcrumbMenu1 > .active
-{
-   color: #CCFF33;
-}
-#BreadcrumbMenu1 > .active a
-{
-   color: inherit;
-   pointer-events: none;
-}
-#BreadcrumbMenu1 > li + li:before
-{
-   content: "|";
-   padding: 0 5px;
-   color: #C0C0C0;
-}
-#BreadcrumbMenuCentral
-{
-   position:absolute;
-   left:290px;
-   top:556px;
-   width:117px;
-   vertical-align:top;
-   height:20px;
-   padding: 2px 15px 3px 15px;
-   list-style: none;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid transparent;
-   border-radius: 0px;
-   font-family: "Barlow Condensed";
-   font-weight: 500;
-   font-style: normal;
-   font-size: 0;
-   margin: 0;
-   text-align: center;
-   z-index:2;
-}
-#BreadcrumbMenuCentral > li
-{
-   display: inline-block;
-   font-size: 15px;
-}
-#BreadcrumbMenuCentral a
-{
-   color: #A9A9A9;
-   text-decoration: none;
-}
-#BreadcrumbMenuCentral a:hover
-{
-   color: #CCFF33;
-   text-decoration: none;
-}
-#BreadcrumbMenuCentral > .active
-{
-   color: #CCFF33;
-}
-#BreadcrumbMenuCentral > .active a
-{
-   color: inherit;
-   pointer-events: none;
-}
-#BreadcrumbMenuCentral > li + li:before
-{
-   content: "|";
-   padding: 0 5px;
-   color: #C0C0C0;
-}
-#BreadcrumbMenuCentral li i
-{
-   font-size: 15px;
-   width: 17px;
-}
-#BreadcrumbMenu2
-{
-   position:absolute;
-   left:595px;
-   top:558px;
-   width:120px;
-   height:20px;
-   vertical-align:top;
-   padding: 2px 5px 3px 5px;
-   list-style: none;
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid transparent;
-   border-radius: 0px;
-   font-family: "Barlow Condensed";
-   font-weight: 500;
-   font-style: normal;
-   font-size: 0;
-   margin: 0;
-   text-align: right;
-   z-index:3;
-}
-#BreadcrumbMenu2 > li
-{
-   display: inline-block;
-   font-size: 15px;
-}
-#BreadcrumbMenu2 a
-{
-   color: #A9A9A9;
-   text-decoration: none;
-}
-#BreadcrumbMenu2 a:hover
-{
-   color: #CCFF33;
-   text-decoration: none;
-}
-#BreadcrumbMenu2 > .active
-{
-   color: #CCFF33;
-}
-#BreadcrumbMenu2 > .active a
-{
-   color: inherit;
-   pointer-events: none;
-}
-#BreadcrumbMenu2 > li + li:before
-{
-   content: "|";
-   padding: 0 5px;
-   color: #C0C0C0;
-}
-#BreadcrumbMenu2 li i
-{
-   font-size: 15px;
-   width: 17px;
+
+#footermenu {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 0;
+	width: 320px;
+	height: 20px;
+	background: #444;
+	padding: 0;
+	border-top: 1px solid #444;
+	font-size: 16px;
+	font-color: #fff;
+	text-align: center;
+	font-weight: bold;
 }
 </style>
-<link href="estilos.css" rel="stylesheet">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="./build/iscroll.js"></script>
+<script src="./src/demoUtils.js"></script>
+
+<script>
+var myScroll;
+function loaded () {
+	myScroll = new IScroll('#wrapper', { keyBindings: false, mouseWheel: false, scrollbars: false, scrollX: false, scrollY: true,});
+}
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isPassive() ? {
+	capture: false,
+	passive: false
+} : false);
+</script>
+
+
 </head>
-<body 
->
-<div id="container">
-<div id="wb_EmbeddedPageTVES" style="position:absolute;left:0px;top:0px;width:1029px;height:1518px;z-index:24;">
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:711px;top:584px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<div id="master-page-indexFlexGrid1">
-<div class="header">
-</div>
-</div>
-<div id="FlexGrid1">
-<div class="header">
-<div id="wb_logowebtv" style="display:inline-block;width:100%;height:auto;z-index:0;">
-<img src="images/logo.png" id="logowebtv" alt="" width="1047" height="314">
-</div>
-</div>
-<div class="mainmenu">
-</div>
-<div class="logochannel">
-<iframe name="InlineFrameLogoChannel" id="InlineFrameLogoChannel" src="" scrolling="no"></iframe>
-</div>
-<div class="info-channel">
-<iframe name="InlineFrameInfoChannel" id="InlineFrame2" src="" scrolling="no"></iframe>
-</div>
-<div class="borde">
-</div>
-<div class="section1">
-<iframe name="InlineFrameScreen" id="InlineFrameScreen" src="./page3" scrolling="no" allowfullscreen></iframe>
-</div>
-<div class="live">
-<iframe name="InlineFrameStatusLive" id="master-page-notInlineFrame1" src="./images/status-channel/status-live-inact" scrolling="no"></iframe>
-</div>
-<div class="vod">
-<iframe name="InlineFrameStatusVod" id="master-page-notInlineFrame2" src="./images/status-channel/status-vod" scrolling="no"></iframe>
-</div>
-<div class="time">
-<div id="wb_script_hora" style="display:inline-block;width:100%;z-index:6;">
-<div style="color:#F7AD3A;font-size:9.3px;font-family:Tahoma;font-weight:normal;font-style:normal;text-align:center;text-decoration:none" id="basicclock"></div>
-<script>
-function clock() 
-{
-   var digital = new Date();
-   var hours = digital.getHours();
-   var minutes = digital.getMinutes();
-   var seconds = digital.getSeconds();
-   if (minutes <= 9) minutes = "0" + minutes;
-   if (seconds <= 9) seconds = "0" + seconds;
-   dispTime = hours + ":" + minutes + ":" + seconds;
-
-   var basicclock = document.getElementById('basicclock');
-   basicclock.innerHTML = dispTime;
-   setTimeout("clock()", 1000);
-}
-clock();
-</script>
-
-
-</div>
-</div>
-<div class="options">
-<div id="wb_master-page-indexBreadcrumb1" style="display:inline-block;width:100%;z-index:7;vertical-align:top;">
-<ul id="master-page-indexBreadcrumb1">
-<li><a href="./menu_not" target="InlineFrameSidebar2" title="CANALES"><i class="fa fa-align-justify">&nbsp;</i> </a></li>
-</ul>
-
-</div>
-</div>
-<div class="flag">
-<div id="wb_BreadcrumbMenuOpt" style="display:inline-block;width:100%;z-index:8;vertical-align:top;">
-<ul id="BreadcrumbMenuOpt">
-<li><a href="./chatbro" target="InlineFrameSidebar2" title="CHAT"><i class="fa fa-commenting">&nbsp;</i> </a></li>
-</ul>
-
-</div>
-</div>
-<div class="info2">
-<div id="wb_script_saludo" style="display:inline-block;width:100%;z-index:9;">
-<div id="greeting" style="font-family:Arial;font-size:9.3px;color:#F7AD3A;font-weight:normal;font-style:normal;text-align:left;text-decoration:none;"></div> 
-<script>
-var datenow = new Date(); 
-var timenow = datenow.getTime(); 
-datenow.setTime(timenow); 
-var hournow = datenow.getHours(); 
-var greeting = document.getElementById('greeting');
-if (hournow >= 18)
-{ 
-   greeting.innerHTML = "Buenas Noches!"; 
-}
-else 
-if (hournow >= 12) 
-{
-   greeting.innerHTML = "Hola Buenas Tardes!"; 
-}
-else 
-{
-   greeting.innerHTML = "Buenos Dias!"; 
-}
-</script>
-</div>
-</div>
-<div class="sidebar3">
-<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" src="./faceb" scrolling="no"></iframe>
-</div>
-<div class="menuplayer">
-</div>
-<div class="banner-roll">
-<iframe name="InlineFrameBannerRoll" id="InlineFrameBannerAds" src="./banner" scrolling="no"></iframe>
-</div>
-<div class="tag1">
-</div>
-<div class="carrousel">
-<iframe name="master-page-indexInlineFrame1" id="master-page-indexInlineFrame1" src="./tag3roll" scrolling="no"></iframe>
-</div>
-<div class="tag2">
-</div>
-</div>
-
-<div id="wb_BreadcrumbInd" style="position:absolute;left:0px;top:113px;width:729px;height:25px;z-index:17;vertical-align:top;">
-<ul id="BreadcrumbInd">
-<li><a href="./index" title="Inicio"><i class="fa fa-plus-square-o">&nbsp;</i> </a></li>
-<li><a href="noticias">INFORMATIVO</a></li>
-<li><a href="variedades">PROGRAMACION</a></li>
-<li><a href="documentales">VIDEOTECA</a></li>
-<li><a href="series">PAUTA CON NOSOTROS</a></li>
-<li><a href="movies"> </a></li>
-</ul>
-</div>
-<!-- menuplay1 -->
+<body>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<!-- grid -->
+<body onload="loaded()">
+    <div id="headermenu"><a href="javascript:myScroll.scrollToElement(document.querySelector('#scroller li:nth-child(1)'), null, null, true)">&#9650;</a></div>
+    <div id="wrapper">
+        <div id="scroller">
+            <ul>
+                <li><a href="canal/tves" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('tves','_top');return false;"><img src="https://www.vtv.gob.ve/wp-content/uploads/2021/05/tvez1-800x445.jpg" class="imgmenu"><br><h5>TVES</h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('venevision','_top'); "><img src="https://i.ytimg.com/vi/xvSLuXFWUGQ/hqdefault_live.jpg?w=120&h=60&crop=1"class="imgmenu"><br><h5>VENEVISIÓN</h5></a></li>
+                <li><a href="canal/france24" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('vtv', '_top');return false;"><img src="https://s1.dmcdn.net/v/SZNmq1Ve3YFARIK5d/x240" class="imgmenu"><br><h5>VTV</h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('televen','_top'); "><img src="https://talcualdigital.com/wp-content/uploads/2018/02/2-92.jpg" class="imgmenu"><br><h5>TELEVEN</h5></a></li>
+                <li><a href="" rel="nofollow noopener noreferrer sponsored ugc" target="" title="" onclick="window.open('canali','_top');return false;"><img src="https://i.ytimg.com/vi/mV2G_CYsDHo/hqdefault.jpg" class="imgmenu"><br><h5>CANAL I</h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('promartv', '_top'); "><img src="http://corpoweb.net.ve/promar/images/programas/brujula/img3.jpg" class="imgmenu"><br><h5>PROMAR TV<h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('tlt', '_top'); "><img src="https://i.ytimg.com/vi/zRaaaJsIGog/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDObERo6j-qVvcEB3iyBodLgXxhiw" class="imgmenu"><br><h5>TLT LA TELE TUYA TV</h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('tvo', '_top'); "><img src="https://i.ytimg.com/vi/jUsG3PzpUtk/mqdefault.jpg" class="imgmenu"><br><h5>TVO</h5></a></li>
+                <li><a href="canal/vepaco" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('vepacotv','_top');return false;"><img src="https://vepaco.com/wp-content/uploads/2020/11/vepacotv2.jpg" class="imgmenu"><br><h5>VEPACO TV</h5></a></li>
+                <li><a href="canal/catatumbo" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('catatumbotv','_top');return false;"><img src="https://www.televisiongratis.tv/components/com_televisiongratis/images/catatumbo-televisin-1551.jpg" class="imgmenu"><br><h5>CATATUMBO TV</h5></a></li>
+                <li><a href="javascript:void(0);" onclick="javascript:window.open('multivision', '_top'); "><img src="https://tse1.mm.bing.net/th?&id=OVP.dKAZeKyqHgls6uqKmRWe0wHgFo&w=330&h=186&c=7&pid=1.7&rs=1" class="imgmenu"><br><h5>MULTIVISION FEDERAL</h5></a></li>
+                <li><a href="canal/france24" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('france24','_top');return false;"><img src="https://i.ytimg.com/vi/lU8u1hEW8Ms/hqdefault.jpg" class="imgmenu"><br><h5>FRANCE 24</h5></a></li>
+                <li><a href="canal/euronews" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('euronews','_top');return false;"><img src="https://i.ytimg.com/vi/JbKgQhFlMdU/hqdefault_live.jpg" class="imgmenu"><br><h5>EURONEWS</h5></a></li>
+                <li><a href="canal/dwenespanol" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('dw','_top');return false;"><img src="https://i.ytimg.com/vi/RTjbYKBB828/hqdefault_live.jpg" class="imgmenu"><br><h5>DW EN ESPAÑOL</h5></a></li>
+                <li><a href="canal/caracol" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('noticiascaracol','_top');return false;"><img src="http://caracol-brightspot.s3.amazonaws.com/70/00/2aae258a4a4985c641a2c6e8d987/noticias-caracol.jpg" class="imgmenu"><br><h5>NOTICIAS CARACOL</h5><br><h6>Noticias</h6></a></li>
+                <li><a href="canal/c5n" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('c5nnoticias','_top');return false;"><img src="https://i.ytimg.com/vi/bCJY83loEr4/hqdefault.jpg" class="imgmenu"><br><h5>C5N NOTICIAS</h5></a></li>
+                <li><a href="canal/cgtn" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('cgtnenespanol','_top');return false;"><img src="https://i.ytimg.com/vi/zghho0FINAk/hqdefault.jpg" class="imgmenu"><br><h5>CGTN EN ESPAÑOL</h5></a></li>
+                <li><a href="canal/rtve" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('rtvenoticias','_top');return false;"><img src="https://i.ytimg.com/vi/xR-4NDFsYNk/hqdefault_live.jpg" class="imgmenu"><br><h5>RTVE NOTICIAS</h5></a></li>
+                <li><a href="canal/meganoticias" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('meganoticias','_top');return false;"><img src="https://i.ytimg.com/vi/WWVwv31dlLg/hqdefault_live.jpg" class="imgmenu"><br><h5>MEGANOTICIAS</h5></a></li>
+                  <li><a href="canal/rtnoticias" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('rtnoticias','_top');return false;"><img src="./images/rtespanol.gif" class="imgmenu"><br><h5>RT EN ESPAÑOL</h5><br><h6>Noticias</h6></a></li>
+                <li><a href="canal/tnnoticias" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('tnnoticias','_top');return false;"><img src="https://i.ytimg.com/vi/wHn1_QVoXGM/hqdefault_live.jpg" class="imgmenu"><br><h5>TN NOTICIAS</h5></a></li>
+                <li><a href="canal/evtv" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('evtv','_top');return false;"><img src="https://i.ytimg.com/vi/ZAEhwK4szd4/mqdefault.jpg" class="imgmenu"><br><h5>EVTV MIAMI</h5></a></li>
+                <li><a href="canal/theepochtime" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('the-epoch-time','_top');return false;"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Epochtimeslogo.jpg" class="imgmenu"><br><h5>THE EPOCH TIMES</h5></a></li>
+                <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('cnn-en-espanol','_top');return false;"><img src="./images/cnn.gif" class="imgmenu"><br><h5>CNN EN ESPAÑOL</h5></a></li>
+               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('universaltv','_top');return false;"><img src="https://th.bing.com/th/id/OIP.CB3xtPURm1dVKXFv3hpIlwAAAA?pid=ImgDet&w=180&h=180&rs=1" class="imgmenu"><br><h5>UNIVERSAL TV</h5><br><h6>Series</h6></a></li>
+               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('comedycentral','_top');return false;"><img src="./images/ccentral.gif" class="imgmenu"><br><h5>COMEDY CENTRAL</h5><br><h6>Stand Up Comedy</h6></a></li>
+               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('warnerchannel','_top');return false;"><img src="./images/warner.gif" class="imgmenu"><br><h5>WARNER CHANNEL</h5><br><h6>Series</h6></a></li>
+               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('tnt','_top');return false;"><img src="./images/tnt.gif" class="imgmenu"><br><h5>TNT</h5><br><h6>Cine</h6></a></li>
+               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('tntseries','_top');return false;"><img src="./images/tntseries.gif" class="imgmenu"><br><h5>TNT</h5><br><h6>Series</h6></a></li>
+               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('axn','_top');return false;"><img src="./images/axn.gif" class="imgmenu"><br><h5>AXN</h5><br><h6>Series</h6></a></li>
+               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('tbs','_top');return false;"><img src="./images/tbs.gif" class="imgmenu"><br><h5>TBS</h5><br><h6>Series</h6></a></li>
+               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('history','_top');return false;"><img src="./images/history.gif" class="imgmenu"><br><h5>HISTORY</h5><br><h6>Documentales</h6></a></li>
+               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('history2','_top');return false;"><img src="./images/history2.gif" class="imgmenu"><br><h5>HISTORY 2</h5><br><h6>Documentales</h6></a></li>
+               
+            </ul>
+        </div>
+    </div>
+    <div id="footermenu"><a href="javascript:myScroll.scrollToElement(document.querySelector('#scroller li:nth-child(19)'), null, null, true)">&#9660;</a></div>
+</body>
 
 
 
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:711px;top:584px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:713px;top:584px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-</div>
-<!-- cortesiax -->
-<div id="Html3" style="position:absolute;left:0px;top:0px;width:30px;height:31px;z-index:25">
-<body onload="window.open('venevisionplay2','InlineFrameScreen');window.open('info-canal-venevision','InlineFrameInfoChannel');window.open('logo-canal-venevision','InlineFrameLogoChannel');window.open('./images/flags/flag-venezuela','InlineFrameFlags');window.open('./images/status-channel/status-live','InlineFrameStatusLive');document.getElementById('menumasterplayer').style.display='block';document.getElementById('menumasterplayer2').style.display='block';document.getElementById('wb_BreadcrumbMenuCentral').style.display='block';return false;">
-<div id="menumasterplayer2">
-</div>
-<div id="wb_BreadcrumbMenu1">
-   <ul id="BreadcrumbMenu1">
-      <li><a href="opcion-1" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 1" onclick="window.open('venevisionplay','InlineFrameScreen');return false;">OPCION 1</a></li>
-      <li><a href="opcion-2" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 2" onclick="window.open('venevisionplay2','InlineFrameScreen');return false;">OPCION 2</a></li>
-
-   </ul>
-</div>
-
-<div id="wb_BreadcrumbMenuCentral">
-   <ul id="BreadcrumbMenuCentral">
-      <li><a href="javascript:window.location.reload()" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Reload"><i class="fa fa-refresh">&nbsp;</i></a></li>
-    </ul>
-</div>
-
-<div id="wb_BreadcrumbMenu2">
-   <ul id="BreadcrumbMenu2">
-      <li><a href="opcion-1" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="Opcion 1" onclick="window.open('','InlineFrameScreen');return false;"><i class="fa fa-thumbs-o-down">&nbsp;</i></a></li>
-      <li><a href="opcion-2" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="opcion 2" onclick="window.open('','InlineFrameScreen');return false;"><i class="fa fa-thumbs-o-up">&nbsp;</i></a></li>
-      <li><a href="click para chat y dobleclick para volver" rel="nofollow noopener noreferrer sponsored ugc" onclick="window.open('chatbro','InlineFrameSidebar2');return false;" ondblclick="history.back();return false;"><i class="fa fa-comment">&nbsp;</i></a></li>
-      <li><a href="click para chat y dobleclick para volver" rel="nofollow noopener noreferrer sponsored ugc" onclick="window.open('menu_not','InlineFrameSidebar2');return false;" ondblclick="history.back();return false;"><i class="fa fa-list">&nbsp;</i></a></li>
-   </ul>
-</div>
-</div>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:711px;top:584px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-</div>
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:0px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
+<!-- InlineframeScreen -->
+<div id="InlineframeScreen" style="position:absolute;left:0px;top:0px;width:100%;height:5px;z-index:6">
+    <script type='text/javascript' src='https://maindigitalstream.com/jwplayer/jwplayer.js?2.2.3.5'></script>
+<script>jwplayer.key="8gDDWtjPpyFgSWsZPjDk4MV6CVI0wEVf2xp7vS7FZUw=";</script><div id='MediaPlayerOverview'>Loading&#8230;</div>
+<script type='text/javascript'>
+  jwplayer('MediaPlayerOverview').setup({
+ sources: [
+     {file: "http://wwz.cisneros.tv/ch-estudio4/myStream/playlist.m3u8"},
+   {file: "http://wwz.cisneros.tv/ch-estudio4/myStream/playlist.m3u8"}
+    ],
+ rtmp: {
+  bufferlength: 3,
+ },
+ 'autostart': 'true',
+ 'aspectratio': '3:2',
+ 'width': '100%',
+ 'height': '100%',
+ 'fallback': false,
+ 'androidhls': true,
+ 'primary': 'html5',
+ logo: {
+  file: './logo.png', //watermark image path
+  link: '', //link url on watermark image
+  position: 'top-left' //position of watermark on player
+  },
+ });
+</script></div>
 </body>
 </html>

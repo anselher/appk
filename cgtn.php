@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>TEVEVISION | MULTIVISION TV</title>
+<title>TEVEVISION | CATATUMBO TV</title>
 <meta name="generator" content="WYSIWYG Web Builder 17 - https://www.wysiwygwebbuilder.com">
 <style>
 body
@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
-<link href="fullscreen2.css?v=371" rel="stylesheet">
+<link href="fullscreen2.css?v=355" rel="stylesheet">
 <style>
 *{-webkit-box-sizing:border-box;
 -moz-box-sizing:border-box;
@@ -238,21 +238,13 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isP
                 <li><a href="canal/cgtn" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('cgtnenespanol','_top');return false;"><img src="https://i.ytimg.com/vi/zghho0FINAk/hqdefault.jpg" class="imgmenu"><br><h5>CGTN EN ESPAÑOL</h5></a></li>
                 <li><a href="canal/rtve" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('rtvenoticias','_top');return false;"><img src="https://i.ytimg.com/vi/xR-4NDFsYNk/hqdefault_live.jpg" class="imgmenu"><br><h5>RTVE NOTICIAS</h5></a></li>
                 <li><a href="canal/meganoticias" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('meganoticias','_top');return false;"><img src="https://i.ytimg.com/vi/WWVwv31dlLg/hqdefault_live.jpg" class="imgmenu"><br><h5>MEGANOTICIAS</h5></a></li>
-                  <li><a href="canal/rtnoticias" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('rtnoticias','_top');return false;"><img src="./images/rtespanol.gif" class="imgmenu"><br><h5>RT EN ESPAÑOL</h5><br><h6>Noticias</h6></a></li>
+                  <li><a href="canal/rtnoticias" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('rtnoticias','_top');return false;"><img src="./images/cine.gif" class="imgmenu"><br><h5>RT EN ESPAÑOL</h5><br><h6>Noticias</h6></a></li>
                 <li><a href="canal/tnnoticias" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('tnnoticias','_top');return false;"><img src="https://i.ytimg.com/vi/wHn1_QVoXGM/hqdefault_live.jpg" class="imgmenu"><br><h5>TN NOTICIAS</h5></a></li>
                 <li><a href="canal/evtv" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('evtv','_top');return false;"><img src="https://i.ytimg.com/vi/ZAEhwK4szd4/mqdefault.jpg" class="imgmenu"><br><h5>EVTV MIAMI</h5></a></li>
                 <li><a href="canal/theepochtime" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('the-epoch-time','_top');return false;"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Epochtimeslogo.jpg" class="imgmenu"><br><h5>THE EPOCH TIMES</h5></a></li>
-                <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('cnn-en-espanol','_top');return false;"><img src="./images/cnn.gif" class="imgmenu"><br><h5>CNN EN ESPAÑOL</h5></a></li>
-               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('universaltv','_top');return false;"><img src="https://th.bing.com/th/id/OIP.CB3xtPURm1dVKXFv3hpIlwAAAA?pid=ImgDet&w=180&h=180&rs=1" class="imgmenu"><br><h5>UNIVERSAL TV</h5><br><h6>Series</h6></a></li>
-               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('comedycentral','_top');return false;"><img src="./images/ccentral.gif" class="imgmenu"><br><h5>COMEDY CENTRAL</h5><br><h6>Stand Up Comedy</h6></a></li>
-               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('warnerchannel','_top');return false;"><img src="./images/warner.gif" class="imgmenu"><br><h5>WARNER CHANNEL</h5><br><h6>Series</h6></a></li>
-               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('tnt','_top');return false;"><img src="./images/tnt.gif" class="imgmenu"><br><h5>TNT</h5><br><h6>Cine</h6></a></li>
-               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('tntseries','_top');return false;"><img src="./images/tntseries.gif" class="imgmenu"><br><h5>TNT</h5><br><h6>Series</h6></a></li>
-               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('axn','_top');return false;"><img src="./images/axn.gif" class="imgmenu"><br><h5>AXN</h5><br><h6>Series</h6></a></li>
-               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('tbs','_top');return false;"><img src="./images/tbs.gif" class="imgmenu"><br><h5>TBS</h5><br><h6>Series</h6></a></li>
-               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('history','_top');return false;"><img src="./images/history.gif" class="imgmenu"><br><h5>HISTORY</h5><br><h6>Documentales</h6></a></li>
-               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('history2','_top');return false;"><img src="./images/history2.gif" class="imgmenu"><br><h5>HISTORY 2</h5><br><h6>Documentales</h6></a></li>
-               
+                <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('televenplay','InlineFrameScreen');return false;"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Epochtimeslogo.jpg" class="imgmenu"><br><h5>TLO</h5></a></li>
+               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('universaltv','_top');return false;"><img src="https://th.bing.com/th/id/OIP.CB3xtPURm1dVKXFv3hpIlwAAAA?pid=ImgDet&w=180&h=180&rs=1" class="imgmenu"><br><h5>UNIVERSAL TV</h5><br><h6>Stand Up Comedy</h6></a></li>
+               <li><a href="canal/promocional" rel="nofollow noopener noreferrer sponsored ugc" target="InlineFrameScreen" title="" onclick="window.open('comedycentral','_top');return false;"><img src="./images/ccentral.gif" class="imgmenu"><br><h5>COMEDY CENTRAL</h5><br><h6>Series</h6></a></li>
             </ul>
         </div>
     </div>
@@ -270,8 +262,8 @@ document.addEventListener('touchmove', function (e) { e.preventDefault(); }, isP
 <script type='text/javascript'>
   jwplayer('MediaPlayerOverview').setup({
  sources: [
-     {file: "https://panel.dattalive.com/8250/8250/playlist.m3u8"},
-   {file: "https://panel.dattalive.com/8250/8250/playlist.m3u8"}
+     {file: "https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8"},
+   {file: "https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8"}
     ],
  rtmp: {
   bufferlength: 3,

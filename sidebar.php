@@ -39,31 +39,8 @@ input:focus, textarea:focus, select:focus
    outline: none;
 }
 </style>
-<link href="plyr.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
 <link href="fullscreen2.css?v=363" rel="stylesheet">
-<style>
-#page1YouTube1
-{
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   border-width: 0;
-}
-#wb_page1YouTube1
-{
-   --plyr-color-main: #ED7D31;
-}
-</style>
-<script src="jquery-3.6.0.min.js"></script>
-<script src="plyr.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   const plyrpage1YouTube1 = new Plyr('#wb_page1YouTube1', {loadSprite: false, iconUrl: 'plyr.svg'});
-});
-</script>
 <title>iScroll demo: key bindings</title>
 <script src="./build/iscroll.js"></script>
 <script src="./build/iscroll-infinite.js"></script>
@@ -244,8 +221,5 @@ textarea{font-family:inherit;font-size:inherit;line-height:inherit}a:focus,a:hov
     <div id="footermenu"><a href="javascript:myScroll.scrollToElement(document.querySelector('#scroller li:nth-child(12)'), null, null, true)">&#9660;</a></div>
 </body>
 
-<div id="wb_page1YouTube1" style="position:absolute;left:0px;top:454px;width:646px;height:363px;z-index:3;">
-<iframe id="page1YouTube1" src="https://www.youtube.com/embed/8QF489Q6ks0?rel=1&amp;autoplay=1&amp;modestbranding=1&amp;autohide=0&amp;fs=1" allowfullscreen></iframe>
-</div>
 </body>
 </html>
