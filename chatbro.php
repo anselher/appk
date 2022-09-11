@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
-<link href="vrtv.css?v=159" rel="stylesheet">
+<link href="vrtv.css?v=161" rel="stylesheet">
 <script id="chatBroEmbedCode">
     /* Chatbro Widget Embed Code Start */
     function ChatbroLoader(chats, async) {

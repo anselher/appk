@@ -58,7 +58,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
-<link href="vrtv.css?v=213" rel="stylesheet">
+<link href="vrtv.css?v=217" rel="stylesheet">
 <style>
 #InlineFrameBannerAds
 {
