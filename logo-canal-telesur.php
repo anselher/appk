@@ -42,7 +42,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
-<link href="vrtv.css?v=206" rel="stylesheet">
+<link href="vrtv.css?v=210" rel="stylesheet">
 <style>
 #logochannelcnnFlexGrid1
 {

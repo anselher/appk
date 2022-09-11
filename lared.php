@@ -53,7 +53,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
-<link href="vrtv.css?v=200" rel="stylesheet">
+<link href="vrtv.css?v=204" rel="stylesheet">
 <link href="estilos.css" rel="stylesheet">
 </head>
 <body onload="window.open('laredplay','InlineFrameScreen');return false;"

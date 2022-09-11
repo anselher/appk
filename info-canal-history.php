@@ -41,7 +41,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
-<link href="vrtv.css?v=234" rel="stylesheet">
+<link href="vrtv.css?v=238" rel="stylesheet">
 <style>
 #wb_Text1 
 {
