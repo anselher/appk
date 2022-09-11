@@ -51,7 +51,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
-<link href="vrtv.css?v=216" rel="stylesheet">
+<link href="vrtv.css?v=220" rel="stylesheet">
 <script src="jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function()
@@ -76,7 +76,7 @@ $(window).on('load', function()
 <body>
 <a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:865px;top:0px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
 <div id="page2Html1" style="position:absolute;left:0px;top:0px;width:729px;height:409px;z-index:1">
-<div id="player"></div>
+<div id="player">
     <script>
       var player = new Clappr.Player(
         {
@@ -99,7 +99,7 @@ $(window).on('load', function()
           parentId: '#player'
         });
     </script>
-    
+</div>
     
     </div>
 <div id="preloader"></div>

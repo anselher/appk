@@ -44,7 +44,7 @@ input:focus, textarea:focus, select:focus
 <link href="plyr.css" rel="stylesheet">
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
-<link href="vrtv.css?v=203" rel="stylesheet">
+<link href="vrtv.css?v=207" rel="stylesheet">
 <style>
 #FlexGrid1
 {

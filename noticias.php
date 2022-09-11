@@ -58,7 +58,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
-<link href="vrtv.css?v=219" rel="stylesheet">
+<link href="vrtv.css?v=223" rel="stylesheet">
 <style>
 #master-page-notFlexGrid1
 {

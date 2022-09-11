@@ -47,7 +47,7 @@ input:focus, textarea:focus, select:focus
 }
 </style>
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
-<link href="vrtv.css?v=257" rel="stylesheet">
+<link href="vrtv.css?v=259" rel="stylesheet">
 <style>
 #sidebar-asisinintroFlexGrid1
 {

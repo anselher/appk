@@ -55,7 +55,7 @@ input:focus, textarea:focus, select:focus
 </style>
 <link href="font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,300,400&display=swap" rel="stylesheet">
-<link href="vrtv.css?v=219" rel="stylesheet">
+<link href="vrtv.css?v=223" rel="stylesheet">
 <style>
 #master-page-indexFlexGrid1
 {
@@ -1030,7 +1030,7 @@ input:focus, textarea:focus, select:focus
 <div class="borde">
 </div>
 <div class="section1">
-<iframe name="InlineFrameScreen" id="InlineFrameScreen" src="./page3" scrolling="no" allowfullscreen></iframe>
+<iframe name="InlineFrameScreen" id="InlineFrameScreen" src="./chivacoatv" scrolling="no" allowfullscreen></iframe>
 </div>
 <div class="live">
 <iframe name="InlineFrameStatusLive" id="master-page-notInlineFrame1" src="./images/status-channel/status-live-inact" scrolling="no"></iframe>
@@ -1104,12 +1104,12 @@ else
 </div>
 </div>
 <div class="sidebar3">
-<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" src="./faceb" scrolling="no"></iframe>
+<iframe name="InlineFrameSidebar2" id="InlineFrameSidebar2" class="h6" src="./cartelera" scrolling="no"></iframe>
 </div>
 <div class="menuplayer">
 </div>
 <div class="banner-roll">
-<iframe name="InlineFrameBannerRoll" id="InlineFrameBannerAds" src="./banner" scrolling="no"></iframe>
+<iframe name="InlineFrameBannerRoll" id="InlineFrameBannerAds" src="./slideroll" scrolling="no"></iframe>
 </div>
 <div class="tag1">
 </div>
